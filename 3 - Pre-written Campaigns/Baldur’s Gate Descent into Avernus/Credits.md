@@ -1,0 +1,32 @@
+# Credits
+
+- **Story Creators.** Adam Lee (lead), James Introcaso, Ari Levitch, Mike Mearls, Lysa Penrose, Christopher Perkins, Ben Petrisor, Matthew Sernett, Kate Welch, Richard Whitters, Shawn Wood
+- **Story Consultants.** Joe Manganiello, Jim Zub
+- **Writers.** Bill Benham, M.T. Black, Dan Dillon, Justin Donie, James J. Haeck, James Introcaso, Adam Lee, Chris Lindsay, Liane Mersiel, Shawn Merwin, Lysa Penrose, Christopher Perkins, F. Wesley Schneider, Amber Scott, James Sutter
+- **Developers.** Jeremy Crawford, Dan Dillon, Ben Petrisor, Kate Welch
+- **Editors.** Michele Carter, Scott Fitzgerald Gray, Hannah Rose, F. Wesley Schneider
+- **Managing Editor.** Christopher Perkins
+- **Art Director.** Kate Irwin
+- **Graphic Designers.** Emi Tanji, Trish Yochum
+- **Concept Art Director.** Richard Whitters
+- **Creative Art Director.** Shauna Narciso
+- **Cover Illustrators.** Tyler Jacobson, Hydro74
+- **Interior Illustrators.** Victor Adame Minguez, Even Amundsen, Alexey Aparin, Mark Behm, Michael Berube, Zoltan Boros, Aleksi Briclot, Christopher Burdett, Sam Burley, Wesley Burt, Clint Cearley, Sidharth Chaturvedi, Daarken, Olga Drebas, Steve Ellis, Nils Hamm, Leesha Hannigan, Ralph Horsley, Lake Hurwitz, Tyler Jacobson, Sam Keiser, Julian Kok, Daniel Landerman, Larian Studios, Titus Lunter, Brynn Metheney, Scott Murphy, Claudio Pozas, Vincent Proce, Chris Rallis, Mike Schley, Ilya Shkipin, David Sladek, Zack Stella, Matt Stewart, Cory Trego-Erdner, Beth Trott, Unit Image, Richard Whitters, Shawn Wood, Ben Wootten
+- **Concept Illustrators.** Aleksi Briclot, Daarken, Max Dunbar, Titus Lunter, Vince Proce, Richard Whitters, Shawn Wood
+- **Infernal Font Designer.** Daniel Reeve
+- **Interior Cartographers.** Dyson Logos, Mike Schley
+- **Poster Map Cartographer.** Jared Blando
+- **Producers.** Dan Tovar,Bill Benham
+- **Product Engineer.** Cynda Callaway
+- **Imaging Technicians.** Sven Bolen, Carmen Cheung, Kevin Yee
+- **Art Administration.** David Gershman
+- **Prepress Specialist.** Jefferson Dunlap
+- **Franchise & Global Brand Strategy.** Nathan Stewart
+- **Director Licensing & Publishing.** Liz Schuh
+- **Licensing Manager.** Hilary Ross
+- **Marketing and Communications.** Bart Carroll, Pelham Greene,Greg Tito, Anna Vo
+- **Brand Manager.** Shelly Mazzanoble
+- **Playtest Coordinator.** Bill Benham
+- **The following D&D books provided material and inspiration.** Greenwood, Ed, Matt Sernett, Alexander Winter, and Steve Winter. Murder in Baldur's Gate. 2013. Greenwood, Ed, and others. Lords of Darkness. 1988. Kenson, Steve, and others. Sword Coast Adventurer's Guide. 2015. Mearls, Mike, Jeremy Crawford, and others. Mordenkainen's Tome of Foes. 2018. Volo's Guide to Monsters. 2016. Perkins, Christopher, Will Doyle, and Steve Winter. Tomb of Annihilation. 2017.
+- Vanthampur Villa was inspired by a building design by Dean Turner
+- **Thanks to Our Playtesters.** Trisha Arozqueta, Cory Bennett, Khrys Bennett, Cody Bowen, Jean-Luc Caron, Trevor Clare, Drake Delgado, Mikayla "Irish" Ebel, Christian "Shiny" Eckert, Zach "Static" Eckert, Andrew Evans, Nathan Fisher, Jesse Foltz, Thomas Freed, David Hanson, Maris Hanson, Brenna Holkins, Jerry Holkins, Danny Hyun, Joshua Kiper, Shayne Li, Jonathan Christopher Marquiss, Zack Merritt, Emmanuel John Mitsinikos, Blake Morrison, David Park, Nancy Rexford, Leonardo Rivera, Luke Sargent, Brandon Smith, Rob Spieldenner, Rebecca Stein, Nevin Vorfeld, Andrew White

@@ -1,0 +1,210 @@
+ID,Name,Ward,Latitude,Longitude,Z_Axis,Street_Precise_Location,Sewer_Access_Notes
+CW-1,Mirt's Mansion,Castle Ward,49.960,-0.994,0,"On the opposite end of the mountain, close to the Naval Harbor","A sewer passage parallels the docks north of Sail Street and branches near Mirt's Mansion."
+CW-2,Crommor's Warehouse,Castle Ward,49.963,-0.992,0,"Lackpurse Lane, The Reach",
+CW-3,The Sailors' Own,Castle Ward,49.963,-0.985,0,"None found.",
+CW-4,The Yawning Portal,Castle Ward,49.970,-0.982,0,"Southern Castle Ward. Built on the ruins of Halaster Blackcloak's old tower. The old tower was on ""the Street of Bells, near the middle of the block between Selduth Street and Buckle Alley"".","The Yawning Portal is a direct entrance to the Undermountain dungeon complex, which has numerous connections to the sewers."
+CW-5,The Red-Eyed Owl,Castle Ward,49.970,-0.979,0,"Located in the Castle Ward of Waterdeep",
+CW-6,The Sleepy Sylph,Castle Ward,49.968,-0.979,0,"None found.",
+CW-7,Barracks of the Guard,Castle Ward,49.975,-0.985,0,"Southern Castle Ward",
+CW-8,Smithy of the Guard,Castle Ward,49.975,-0.982,0,"None found, only ""Smithy for City Guard""",
+CW-9,Bell Tower,Castle Ward,49.975,-0.979,0,"None found.",
+CW-10,House of Naneatha Lhaurilstar,Castle Ward,49.978,-0.979,0,"None found.",
+CW-11,Olmhazan's Jewels,Castle Ward,49.978,-0.976,0,"High Road (west side), just across from the mouth of Spendthrift Alley",
+CW-12,Mother Tathlorn's House of Pleasure,Castle Ward,49.980,-0.979,0,"Located in the Castle Ward of Waterdeep",
+CW-13,House of Loene the Fighter,Castle Ward,49.980,-0.976,0,"None found.",
+CW-14,House of Shyrrhr, Lady of the Court,Castle Ward,49.980,-0.973,0,"None found.",
+CW-15,The Map House,Castle Ward,49.983,-0.973,0,"None found.",
+CW-16,Fellowship Hall,Castle Ward,49.983,-0.976,0,"None found.",
+CW-17,Palace Warehouse,Castle Ward,49.983,-0.982,0,"None found.",
+CW-18,Palace Stables,Castle Ward,49.983,-0.985,0,"None found.",
+CW-19,Palace Paddocks,Castle Ward,49.983,-0.988,0,"Adjoining Fetlock Court",
+CW-20,The Dragon's Head Tavern,Castle Ward,49.980,-0.988,0,"None found.",
+CW-21,The Blue Jack,Castle Ward,49.980,-0.985,0,"High Road (west side), just north of its intersection with Waterdeep Way",
+CW-22,The Golden Key,Castle Ward,49.980,-0.982,0,"Southern Street of the Sword",
+CW-23,The Crawling Spider Tavern,Castle Ward,49.978,-0.988,0,"North end of Zeldan's Alley, connecting with the Street of the Sword along its south wall. Bounded by the Street of the Sword, Waterdeep Way, Warriors' Way, and Buckle Alley",
+CW-24,The Elfstone Tavern,Castle Ward,49.978,-0.985,0,"None found, only located in Castle Ward",
+CW-25,House of Velstrode the Venturer,Castle Ward,49.978,-0.982,0,"None found.",
+CW-26,Halambar Lutes & Harps,Castle Ward,49.985,-0.982,0,"Southern Street of the Sword",
+CW-27,Hilmer Warehouse,Castle Ward,49.985,-0.985,0,"Southern Street of the Sword",
+CW-28,The Halls of Hilmer,Castle Ward,49.985,-0.988,0,"Southern Street of the Sword",
+CW-29,The Master Armorer,Castle Ward,49.985,-0.991,0,"Southern Street of the Sword",
+CW-30,Tower of the Order,Castle Ward,49.988,-0.991,0,"Street of Bells",
+CW-31,The Pampered Traveler,Castle Ward,49.988,-0.988,0,"None found.",
+CW-32,Blackstaff Tower,Castle Ward,49.988,-0.985,0,"Northern Swords Street","A surface shaft (SF24) is located at the base of a rocky cliff-face, just behind Blackstaff Tower."
+CW-33,Phalantar's Philtres & Components,Castle Ward,49.988,-0.982,0,"Street of Bells (east side), just north of Waterdeep Way","In 1357 DR, escaped tanystropheus eggs from the shop entered the sewers via a garbage chute."
+CW-34,Guildhall of the Order,Castle Ward,49.988,-0.979,0,"None found.",
+CW-35,The Jade Jug,Castle Ward,49.988,-0.976,0,"None found.",
+CW-36,The Blue Jack,Castle Ward,49.988,-0.973,0,"High Road (west side), Waterdeep Way intersection",
+CW-37,Pewterers' and Casters' Guildhall,Castle Ward,49.985,-0.973,0,"None found.",
+CW-38,Olmhazan's Jewels,Castle Ward,49.985,-0.970,0,"High Road (west side), Spendthrift Alley",
+CW-39,House of the Fine Carvers,Castle Ward,49.983,-0.970,0,"High Road, easily found by its frieze of carved animals and people","Surface Shaft (SF38) is located beneath the House of the Fine Carvers, leading into a junction room."
+CW-40,The Market Hall,Castle Ward,49.980,-0.970,0,"None found, described as ""the largest open space in the city""",
+CW-41,The Singing Sword,Castle Ward,49.978,-0.970,0,"None found.",
+CW-42,The Spires of the Morning,Castle Ward,49.975,-0.973,0,"Northern Swords Street",
+CW-44,Walking Statue of Waterdeep,Castle Ward,49.975,-0.992,0,"Gull Leap cliff at the western end of Julthoon Street",
+CW-45,Fair Winds,Castle Ward,49.973,-0.992,0,"None found.",
+CW-46,Marblehearth,Castle Ward,49.973,-0.989,0,"None found.",
+CW-47,Stormwatch,Castle Ward,49.973,-0.987,0,"None found.",
+CW-48,Heroes' Rest,Castle Ward,49.973,-0.985,0,"None found.",
+CW-70,Piergeiron's Palace,Castle Ward,,,0,,"A locked surface shaft (SF70) is within the cellar, guarded at all times by five City Guard and an armar."
+--,God Catcher,Castle Ward,,,0,,"After 1385 DR, this sunken Walking Statue had its leg hollowed out to create an access point to the sewers."
+SF24,Surface Shaft,Castle Ward,,, -1,"At the base of a rocky cliff-face, just behind Blackstaff Tower.",
+SF25,Surface Shaft,Castle Ward,,, -1,"Near the top of the rocky slope of Mount Waterdeep, at a point due southwest of Turnback Court.",
+SF26,Surface Shaft,Castle Ward,,, -1,"Located in Turnback Court.","Opens into a junction room."
+SF27,Surface Shaft,Castle Ward,,, -1,"In the southwest corner of an alleyway that opened south off of Cymbril's Walk, at the intersection of Street of Silver and Warriors' Way.",
+SF28,Surface Shaft,Castle Ward,,, -1,"In the southwest corner of a dead-end alley, in the block bounded by Lamp Street, the Street of Bells, Cymbril's Walk, and the Street of the Sword.","Opens into a junction room."
+SF29,Surface Shaft,Castle Ward,,, -1,"At a northwestern junction of alleyways, in the block bounded by the High Road, Lamp Street, Selduth Street, and the Street of Bells.",
+SF30,Surface Shaft,Castle Ward,,, -1,"At the southeastern corner of an alleyway, opening off the High Road and to the west of Andamaar's Street.",
+SF31,Junction Room,Castle Ward,,, -1,"Located beneath the Grinning Lion tavern.","No surface entrance. A secret passage connects this junction room to the stairs beneath the tavern's midden."
+SF32,Surface Shaft,Castle Ward,,, -1,"At the northwestern corner of an alleyway, opening off of Golden Serpent Street and Nindabar Street.",
+SF33,Surface Shaft,Castle Ward,,, -1,"Located at the halfway point of Belzound Street.",
+SF34,Surface Shaft,Castle Ward,,, -1,"At the northern mouth of an alleyway that opened south off of Sevenlamps Cut.",
+SF35,Surface Shaft,Castle Ward,,, -1,"Located at the intersection of Shadows Alley and Lemontree Alley.",
+SF36,Surface Shaft,Castle Ward,,, -1,"In the alleyway just north of the Pampered Traveler Inn (CW-31).",
+SF37,Surface Shaft,Castle Ward,,, -1,"Located in the wide alleyway between the High Road and the Street of Bells.",
+SF38,Surface Shaft,Castle Ward,,, -1,"Beneath the House of the Fine Carvers.","Leads into a junction room."
+SF72,Xanathar's Lair,Castle Ward,,, -1,"Located directly beneath the Philosopher's Court.","This is the main lair of the Xanathar."
+SF73,Northern Citadel Entrance,Castle Ward,,, -1,"Connects the secondary passage west of SF53 with the once-secret northern entrance of the Citadel of the Bloody Hand.","Guard station here."
+SF74,Southern Citadel Entrance,Castle Ward,,, -1,"Connects the secondary passages running north and west of SF48 with the once-secret southern entrance of the Citadel of the Bloody Hand.",
+**Sea Ward**,,,,,,,
+SW-51,Blue Alley,Sea Ward,49.990,-0.988,0,"Ivory Street (entrance opens here)",
+SW-58,House of Heroes,Sea Ward,49.993,-0.985,0,"Field of Triumph frontage",
+SW-59,The Broken Lance,Sea Ward,49.993,-0.982,0,"None found.",
+SW-60,Selchoun's Sundries Shop,Sea Ward,49.993,-0.979,0,"None found, ""nestled in the bustling Sea Ward""",
+SW-61,The Ship's Wheel,Sea Ward,49.993,-0.976,0,"None found.",
+SW-63,Melvar's Chapbooks and Folios,Sea Ward,49.993,-0.973,0,"None found.",
+SW-64,Velatha's Delights,Sea Ward,49.993,-0.970,0,"Northern Seawatch Street",
+SW-65,Tammerbund's Glasswares,Sea Ward,49.995,-0.970,0,"None found.",
+SW-66,Mystra's House of Wonder,Sea Ward,49.995,-0.973,0,"Diamond Street, Delzorin Street",
+SW-67,Shrines of Nature,Sea Ward,,,0,"near Tower of Luck","A surface shaft (SF1) is underneath trees in the interior of the block west (and slightly north) of the Seatrees Shrine."
+SW-70,Heroes' Garden,Sea Ward,49.998,-0.982,0,"Adjacent to northern Sea Ward","A surface shaft (SF5) is in the central stand of trees in the southern end of Heroes' Garden. A secret entrance in this shaft leads to the Catacombs of Yintros."
+SW-72,West Gate,Sea Ward,49.998,-0.992,0,"None found.",
+SW-73,Seawatch Tower,Sea Ward,49.998,-0.989,0,"Northern Seawatch Street",
+SW-74,North Tower (""The Trolltower""),Sea Ward,49.998,-0.987,0,"None found.",
+SW-75,Armory,Sea Ward,49.998,-0.985,0,"None found.",
+SW-76,High Flagon Gambling House,Sea Ward,49.995,-0.982,0,"None found.",
+SW-77,Field of Triumph,Sea Ward,49.995,-0.979,0,"Lion Gate frontage",
+SW-78,Myrna Cassalanter's residence,Sea Ward,49.995,-0.976,0,"North Diamond Street",
+SW-79,Trollfort,Sea Ward,49.998,-0.973,0,"None found.",
+--,Dragon Tower,Sea Ward,,,0,,"A secret entrance to the sewers is hidden in its first floor kitchen."
+SF1,Surface Shaft,Sea Ward,,, -1,"Underneath trees in the interior of the block northwest of the shrine to Silvanus within the Shrines of Nature.",
+SF5,Surface Shaft,Sea Ward,,, -1,"In the central stand of trees in the southern end of Heroes' Garden.","A secret entrance in this shaft leads to the Catacombs of Yintros."
+SF6,Surface Shaft,Sea Ward,,, -1,"Under a lone tree in the alleyway west of the Eltorchul Villa, south of Ivory Street and north of Pharra's Alley.",
+SF7,Surface Shaft,Sea Ward,,, -1,"In the mouth of the alleyway that opens north off Chasso’s Trot, just west of Sul Street.",
+SF8,Surface Shaft,Sea Ward,,, -1,"In a cul-de-sac due south of Jhansczil Villa.",
+SF9,Surface Shaft,Sea Ward,,, -1,"Underneath a tree, in an alleyway just south of Brossfeather Villa.",
+SF16,Surface Shaft,Sea Ward,,, -1,"At the intersection of Sharra's Flight and the Street of Whispers.",
+SF18,Surface Shaft,Sea Ward,,, -1,"In a cul-de-sac opening northeast off of Toalar's Lane.",
+SF19,Surface Shaft,Sea Ward,,, -1,"At the intersection of Calamastyr Lane and Gothal Street.","Opens into a junction room."
+SF20,Surface Shaft,Sea Ward,,, -1,"At the southwestern corner of Runer's Alley.",
+SF21,Junction Room,Sea Ward,,, -1,"Located under the southern mouth of Cloaksweep Alley.","No surface entrance."
+**North Ward**,,,,,,,
+NW-81,Cliffwatch Ruins,North Ward,49.995,-0.982,0,"None found.",
+NW-82,Upper Towers,North Ward,49.995,-0.979,0,"None found.",
+NW-94,Sulmest's Splendid Shoes & Boots,North Ward,49.995,-0.976,0,"None found.",
+NW-94a,Hriiat Fine Pastries,North Ward,49.995,-0.976,0,"None found.",
+NW-94b,Maerados Fine Furs,North Ward,49.995,-0.976,0,"None found.",
+NW-104,The House of Crystal,North Ward,49.995,-0.973,0,"None found.",
+NW-105,House of Crystal Warehouse,North Ward,49.995,-0.970,0,"None found.",
+NW-106,Adarbrent family villa,North Ward,49.998,-0.970,0,"South Copper Street, North Ward, Waterdeep",
+NW-107,Agundar family villa,North Ward,50.000,-0.973,0,"None found.",
+NW-108,Kothont family villa,North Ward,50.000,-0.976,0,"None found.",
+NW-109,Sultlue family villa,North Ward,50.000,-0.979,0,"None found.",
+NW-110,The Galloping Minotaur,North Ward,50.000,-0.982,0,"None found.",
+NW-111,Sulmest's Splendid Shoes & Boots,North Ward,50.000,-0.985,0,"None found.",
+NW-112,Meraedos Fine Furs,North Ward,50.000,-0.988,0,"None found.",
+NW-113,Phylund family villa,North Ward,50.000,-0.991,0,"Copper Street near the corner of Julthoon Street",
+NW-114,The Gentle Mermaid,North Ward,50.000,-0.994,0,"None found.",
+NW-115,Maernos family villa,North Ward,50.000,-0.996,0,"None found.",
+NW-116,"Cragsmere family villa / Court of the White Bull area",North Ward,50.000,-0.999,0,"None found.",
+NW-117,The House of Healing,North Ward,50.000,-1.001,0,"None found.",
+NW-155,The Misty Beard,North Ward,49.998,-1.001,0,"None found.",
+SF2,Surface Shaft,North Ward,,, -1,"In the northernmost corner of Sabbar's Alley.",
+SF3,Surface Shaft,North Ward,,, -1,"In the center of Shank Alley.",
+SF4,Surface Shaft,North Ward,,, -1,"Just south of the tree in Sniff Alley, south off the Street of Glances.",
+SF10,Surface Shaft,North Ward,,, -1,"Just south of the Ilitul Villa, at the northern end of a dead alley opening off Grimwald’s Way.",
+SF11,Surface Shaft,North Ward,,, -1,"Just west off Mendever Street, in the easternmost cul-de-sac that opens off the alleyway bounding Nesher Villa.",
+SF12,Surface Shaft,North Ward,,, -1,"In an alleyway just west of the gates of Manthar Villa, off Delzorin Street, between Sul Street and Shield Street.","Opens into a junction room."
+SF13,Surface Shaft,North Ward,,, -1,"In the alleyway within the block surrounded by Copper Street, Delzorin Street, the High road, and Vordil Street.",
+SF14,Surface Shaft,North Ward,,, -1,"In Trollskull Alley, southwestern corner, near the intersection of Delzorin Stret and Whaelgund Way.","The ladder of this shaft was a 20 ft (6.1 m) descent."
+SF15,Surface Shaft,North Ward,,, -1,"In a cul-de-sac opening north off Horn Street, between Tower March and Whaelgund Way.",
+SF22,Surface Shaft,North Ward,,, -1,"In a copse of trees at the center of a block bounded by Copper Street, Hassantyr's Street, the High Road, and Julthoon Street.",
+**Trades Ward**,,,,,,,
+TW-105,Plinth (Temple),Trades Ward,49.978,-0.973,0,"None found.",
+TW-107,Zoarstar,Trades Ward,49.975,-0.970,0,"None found.",
+TW-108,"The Bowels of the Earth",Trades Ward,49.973,-0.970,0,"southeast corner of Snail Street and Simples Street, just West of the Virgin's Square",
+TW-111,The Inn of the Dripping Dagger,Trades Ward,49.970,-0.973,0,"None found.",
+TW-116,Court of the White Bull,Trades Ward,49.968,-0.976,0,"None found.",
+TW-119,Riautar's Weaponry,Trades Ward,49.965,-0.973,0,"None found, easily found by a low building with a petrified harpy on the roof",
+TW-123,Saern's Fine Swords,Trades Ward,49.965,-0.973,0,"None found.",
+TW-125,Felzoun's Folly,Trades Ward,49.960,-0.970,0,"Salabar Street, Trades Ward",
+TW-107a,Riven Shield Shop,Trades Ward,49.965,-0.973,0,"None found.",
+TW-108a,Virgin's Square,Trades Ward,49.968,-0.976,0,"None found.",
+SF23,Surface Shaft,Trades Ward,,, -1,"At the western end of Marlar's Lane.",
+SF39,Surface Shaft,Trades Ward,,, -1,"Located on Spindle Street.",
+SF40,Surface Shaft,Trades Ward,,, -1,"Located on the lane that paralleled Irimar's Walk.",
+SF41,Surface Shaft,Trades Ward,,, -1,"In an alleyway that opened west off of Wall Way, just south of Andamaar's Street.",
+SF42,Surface Shaft,Trades Ward,,, -1,"In an alleyway that opened west off of Wall Way, just north of Ironpost Street.",
+SF43,Surface Shaft,Trades Ward,,, -1,"Within a copse of trees, in a dead-end alleyway just north of the Costumers' Hall.",
+SF44,Surface Shaft,Trades Ward,,, -1,"At the mouth of a dead-end alleyway that opened east off of the Street of the Tusks.",
+SF45,Junction Room,Trades Ward,,, -1,"Beneath an alleyway that opened south off of Spendthrift Alley.","No surface entrance."
+SF46,Surface Shaft,Trades Ward,,, -1,"Located within the cellar of the Unicorn's Horn inn.",
+SF47,Surface Shaft,Trades Ward,,, -1,"In the alleyway behind Olmhazan's Jewels.",
+SF48,Surface Shaft,Trades Ward,,, -1,"Located at the end of a dead-end alleyway, which opened south off of Nelnuk's Walk.",
+SF49,Surface Shaft,Trades Ward,,, -1,"In the southwestern corner of a dead-end alleyway, which opened off of Shesstra's Street.",
+SF50,Junction Room,Trades Ward,,, -1,"Located under the westernmost section of alleyways that opened off of Snail Street.","No surface entrance."
+SF51,Surface Shaft,Trades Ward,,, -1,"In a cul-de-sac that opened off of Belnimbra's Street.",
+SF52,Surface Shaft,Trades Ward,,, -1,"Located in the westernmost dead-end of Quaff Alley.","Opens into a junction room."
+**Southern Ward**,,,,,,,
+SD-138,Kappiyan Flurmastyr's House,Southern Ward,49.960,-0.973,0,"None found.",
+SD-142,The Moon Sphere,Southern Ward,49.958,-0.976,0,"None found.",
+SD-146,The Old Monster Shop,Southern Ward,49.955,-0.979,0,"None found.",
+SD-152,The House of Good Spirits,Southern Ward,49.953,-0.982,0,"None found.",
+SD-155,The Jade Dancer,Southern Ward,49.950,-0.985,0,"Northwest Waymoot, South Ward",
+SD-159,"Spouting Fish",Southern Ward,49.948,-0.988,0,"The Way of the Dragon, corner building on the north/east side of the street, right where it angles down southeast to Waymoot","A surface shaft (SF68) is located in the cellar of the tavern."
+SD-159a,Pelauvir's Counter,Southern Ward,49.948,-0.988,0,"Northwest Waymoot",
+SD-160,The Red Gauntlet,Southern Ward,49.945,-0.991,0,"Northwest Waymoot",
+SD-163,"Alleys of Southern Ward",Southern Ward,,,0,"Multiple alleys; e.g., Ilisar's Alley",
+--,Safehaven Inn,Southern Ward,,,0,,Cellar contains a hidden ladder leading down to the sewers.
+SF53,Surface Shaft,Southern Ward,,, -1,"Located on Soldier's Street, just east of the Bell Tower.",
+SF54,Surface Shaft,Southern Ward,,, -1,"Located at the intersection of alleyways north of the Three Pearls Nightclub.",
+SF55,Junction Room,Southern Ward,,, -1,"Located under the wide part of Candle Lane.","No surface shaft."
+SF56,Surface Shaft,Southern Ward,,, -1,"At the westernmost end of a dead-end alley that opened south off of Simples Street.","Opens into a junction room."
+SF57,Surface Shaft,Southern Ward,,, -1,"At the intersection of Burdag Lane and Tsarnen Alley.",
+SF58,Surface Shaft,Southern Ward,,, -1,"At the mouth of a dead-end alley, where it joined Quilley Alley between Nethpranter's Street and the Wide Way.",
+SF59,Surface Shaft,Southern Ward,,, -1,"At the western end of a dead-end forked alley, which opened east off of Rivon Street.",
+SF60,Surface Shaft,Southern Ward,,, -1,"In a cul-de-sac opening, east off the northern end of Drovers' Street.",
+SF61,Surface Shaft,Southern Ward,,, -1,"At the halfway point of Beacon Street.",
+SF62,Junction Room,Southern Ward,,, -1,"Under the intersection of Grocer's Lane and Snake Alley.","No surface entrance."
+SF63,Surface Shaft,Southern Ward,,, -1,"In Rednose Alley.",
+SF64,Surface Shaft,Southern Ward,,, -1,"In a cul-de-sac opening off the Rising Ride, between Caravan Court and Juth Alley.",
+SF65,Surface Shaft,Southern Ward,,, -1,"In the widest part of the alley that opened south off of Olaim's Cut.",
+SF66,Surface Shaft,Southern Ward,,, -1,"In the wide alley north of Coach Street and west of the High Road.",
+SF67,Surface Shaft,Southern Ward,,, -1,"East of Carter's Way and south of Coachlamp Lane.",
+SF68,Surface Shaft,Southern Ward,,, -1,"Located in the cellar of the Spouting Fish tavern.",
+**Dock Ward**,,,,,,,
+DW-171,The Hanging Lantern,Dock Ward,49.953,-0.988,0,"None found.",
+DW-173,Helmstar Warehouse,Dock Ward,49.950,-0.991,0,"Dock Street, Dock Ward",
+DW-176,The Old Xoblob Shop,Dock Ward,49.948,-0.994,0,"None found.",
+DW-180,Serpentil Books & Folios,Dock Ward,49.945,-0.996,0,"Book Street, Dock Ward",
+DW-184,Three Pearls Nightclub,Dock Ward,49.943,-0.999,0,"None found.",
+DW-187,The Thirsty Sailor,Dock Ward,49.945,-1.001,0,"eastern corner of the cramped intersection of Fish Street and Ship Street, across from the Ship's Prow / North Ship Street & South Snail Street","Has an entrance into the ""Smugglers' Run"" section of the sewers in its back alley."
+DW-190,The Ship's Prow,Dock Ward,49.948,-1.001,0,"juts into Fish Street and Ship Street",
+DW-193,The Blushing Mermaid,Dock Ward,49.950,-1.001,0,"Southeast Dock Street",
+DW-197,The Copper Cup,Dock Ward,49.953,-1.001,0,"None found.",
+DW-199,"Dock Ward Shops/Inns/Festhalls/Alleys",Dock Ward,,,0,"Multiple entries; extract individually from the Other Places of Interest in Dock Ward",
+--,Golden Hammer Inn,Dock Ward,,,0,,A trapdoor opens into the sewers.
+--,Lightning Targe,Dock Ward,,,0,,"A newer adventuring club that had a rather mildewy tunnel connection to the sewers."
+SF69,Surface Shaft,Dock Ward,,, -1,"On the second alleyway north of Bellister's House.",
+**City of the Dead**,,,,,,,
+CD-1,City of the Dead Entrance,City of the Dead & Surrounding Areas,,,0,,
+YI-115,Catacombs of Yintros Entrance,City of the Dead & Surrounding Areas,,, -1,"Beneath statue of Lhestyn in Heroes' Garden / in the sewers, through a secret door halfway down passage SF5.","Accessible from sewer shaft SF5 in Heroes' Garden."
+**Environs**,,,,,,,
+ENV-RM,The Rat's Maw,Southern Coast (Rat Hills),,,-1,"Within the Rat Hills","The temple of Talona is located within the Rat Hills. Spells bound into the sewers by Ahghairon teleport waste directly to the Rat Hills."
+**Subterranean**,,,,,,,
+--,"Sewers - Primary Passage",All Wards,,, -1,"Beneath the city","20 feet across with 3-foot-wide ledges on both sides. More common in the northern parts of the city."
+--,"Sewers - Secondary Passage",All Wards,,, -1,"Beneath the city","12 feet across with a single 3-foot-wide ledge. Prevalent beneath the Dock Ward."
+--,Dungeon of the Crypt,,,,, -2,,Connected to the sewers.
+--,Undermountain,Castle Ward,,, -2 to -X,"Beneath Castle Ward","The sewer network features several connections to Undermountain. For example, a hidden door in the sewer passage beneath Slide Alley leads to the Dungeon Level."
+--,"Citadel of the Bloody Hand",,,,, -2,,"Has a northern and southern entrance connected to the sewers. The northern entrance is west of SF53, and the southern entrance is north and west of SF48."
+--,"Savants of the Dark Tide Lair",,,,, -2,,"Located in a collapsed section of the sewer floor and a flooded merchant's vault."
