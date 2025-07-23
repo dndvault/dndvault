@@ -622,7 +622,7 @@
             ],
             "popup": {
                 "title": "Watch Citadel",
-                "description": "Also known as '''Stormkeep''', the headquarters of [[the Watch]] in [[Baldur's Gate]] that served as a staging area, training grounds, and a temporary holding area, when needed.",
+                "description": "Also known as '''Stormkeep''', the headquarters of [[Campaigns/The Dock Workers' Campaign/06. Factions/The Watch]] in [[Baldur's Gate]] that served as a staging area, training grounds, and a temporary holding area, when needed.",
                 "link": {
                     "url": "Watch Citadel",
                     "label": "Watch Citadel"

@@ -1,0 +1,3 @@
+# Scavenger Crew
+
+The Mad Mage captured a spacefaring pirate ship called the *Scavenger*, stole the magic device that propels it, and left the derelict vessel and its crew to rot in the Caverns of Ooze. The ship's mind flayer captain (see "Captain N'ghathrod") was forced to eat the brains of several shipmates to survive. The remainder of the crew fled into the caverns and have taken refuge in the ooze-filled caverns around the ship. Now the illithid waits for new humanoid brains to deliver themselves into its waiting tentacles.

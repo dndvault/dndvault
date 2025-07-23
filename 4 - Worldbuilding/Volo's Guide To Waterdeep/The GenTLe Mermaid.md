@@ -1,4 +1,4 @@
-# The GenTLe Mermaid
+# The Gentle Mermaid
 
 Tavern, Gambling House, E Festhall
 

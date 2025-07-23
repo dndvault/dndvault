@@ -396,3 +396,294 @@ To further augment the RPM assistance bot's capabilities and user experience, se
 The detailed indexing of Waterdeep locations and the comprehensive analysis of its travel network represent a significant enhancement to the foundational data available for an RPM assistance bot. This robust, multi-layered data structure directly addresses the user's requirement for a "more detailed and accurate index." By meticulously compiling location attributes, identifying unique identifiers, and dissecting the nuances of inter- and intra-ward travel, the report provides the RPM bot with the foundational intelligence necessary for sophisticated location-based and navigational queries.
 
 The analysis highlights that the bot's potential extends beyond mere directions. Through the integration of qualitative data on ward characteristics, traffic patterns, and time-dependent restrictions, the bot can offer contextual awareness, proactive safety advisories, and dynamic travel insights. This positions the RPM assistance bot as an indispensable tool for navigating the intricate city of Waterdeep, capable of providing not just routes but also a comprehensive understanding of the journey. Furthermore, the framework established is scalable and extensible, allowing for seamless integration of future data and the expansion of bot functionality to meet evolving user needs.
+
+
+
+### Detailed Sewer Entry Location Entries by Ward
+
+The following table provides a comprehensive listing of Waterdeep locations, incorporating all available details including unique identifiers, names, associated wards, fictional coordinates, and precise location descriptions.
+
+|ID|Name|Ward|Fictional Latitude|Fictional Longitude|Street(s)/Precise Location Details|Sewer Access Notes|
+|---|---|---|---|---|---|---|
+|CW-1|Mirt's Mansion|Castle Ward|49.960|-0.994|On the opposite end of the mountain, close to the Naval Harbor|A sewer passage parallels the docks north of Sail Street and branches near Mirt's Mansion. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|CW-2|Crommor's Warehouse|Castle Ward|49.963|-0.992|Lackpurse Lane, The Reach||
+|CW-3|The Sailors' Own|Castle Ward|49.963|-0.985|None found.||
+|CW-4|The Yawning Portal|Castle Ward|49.970|-0.982|Southern Castle Ward. Built on the ruins of Halaster Blackcloak's old tower. The old tower was on "the Street of Bells, near the middle of the block between Selduth Street and Buckle Alley".|Direct entrance to Undermountain, which has numerous connections to the sewers. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|CW-5|The Red-Eyed Owl|Castle Ward|49.970|-0.979|Located in the Castle Ward of Waterdeep||
+|CW-6|The Sleepy Sylph|Castle Ward|49.968|-0.979|None found.||
+|CW-7|Barracks of the Guard|Castle Ward|49.975|-0.985|Southern Castle Ward||
+|CW-8|Smithy of the Guard|Castle Ward|49.975|-0.982|None found, only "Smithy for City Guard"||
+|CW-9|Bell Tower|Castle Ward|49.975|-0.979|None found.||
+|CW-10|House of Naneatha Lhaurilstar|Castle Ward|49.978|-0.979|None found.||
+|CW-11|Olmhazan's Jewels|Castle Ward|49.978|-0.976|High Road (west side), just across from the mouth of Spendthrift Alley||
+|CW-12|Mother Tathlorn's House of Pleasure|Castle Ward|49.980|-0.979|Located in the Castle Ward of Waterdeep||
+|CW-13|House of Loene the Fighter|Castle Ward|49.980|-0.976|None found.||
+|CW-14|House of Shyrrhr, Lady of the Court|Castle Ward|49.980|-0.973|None found.||
+|CW-15|The Map House|Castle Ward|49.983|-0.973|None found.||
+|CW-16|Fellowship Hall|Castle Ward|49.983|-0.976|None found.||
+|CW-17|Palace Warehouse|Castle Ward|49.983|-0.982|None found.||
+|CW-18|Palace Stables|Castle Ward|49.983|-0.985|None found.||
+|CW-19|Palace Paddocks|Castle Ward|49.983|-0.988|Adjoining Fetlock Court||
+|CW-20|The Dragon's Head Tavern|Castle Ward|49.980|-0.988|None found.||
+|CW-21|The Blue Jack|Castle Ward|49.980|-0.985|High Road (west side), just north of its intersection with Waterdeep Way||
+|CW-22|The Golden Key|Castle Ward|49.980|-0.982|Southern Street of the Sword||
+|CW-23|The Crawling Spider Tavern|Castle Ward|49.978|-0.988|North end of Zeldan's Alley, connecting with the Street of the Sword along its south wall. Bounded by the Street of the Sword, Waterdeep Way, Warriors' Way, and Buckle Alley||
+|CW-24|The Elfstone Tavern|Castle Ward|49.978|-0.985|None found, only located in Castle Ward||
+|CW-25|House of Velstrode the Venturer|Castle Ward|49.978|-0.982|None found.||
+|CW-26|Halambar Lutes & Harps|Castle Ward|49.985|-0.982|Southern Street of the Sword||
+|CW-27|Hilmer Warehouse|Castle Ward|49.985|-0.985|Southern Street of the Sword||
+|CW-28|The Halls of Hilmer|Castle Ward|49.985|-0.988|Southern Street of the Sword||
+|CW-29|Master Armorer, The|Castle Ward|49.985|-0.991|Southern Street of the Sword||
+|CW-30|Tower of the Order|Castle Ward|49.988|-0.991|Street of Bells||
+|CW-31|The Pampered Traveler|Castle Ward|49.988|-0.988|None found.||
+|CW-32|Blackstaff Tower|Castle Ward|49.988|-0.985|Northern Swords Street|A surface shaft (SF24) is located at the base of a rocky cliff-face, just behind Blackstaff Tower. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|CW-33|Phalantar's Philtres & Components|Castle Ward|49.988|-0.982|Street of Bells (east side), just north of Waterdeep Way|In 1357 DR, escaped tanystropheus eggs from the shop entered the sewers via a garbage chute. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|CW-34|Guildhall of the Order|Castle Ward|49.988|-0.979|None found.||
+|CW-35|The Jade Jug|Castle Ward|49.988|-0.976|None found.||
+|CW-36|The Blue Jack|Castle Ward|49.988|-0.973|High Road (west side), Waterdeep Way intersection||
+|CW-37|Pewterers' and Casters' Guildhall|Castle Ward|49.985|-0.973|None found.||
+|CW-38|Olmhazan's Jewels|Castle Ward|49.985|-0.970|High Road (west side), Spendthrift Alley||
+|CW-39|House of the Fine Carvers|Castle Ward|49.983|-0.970|High Road, easily found by its frieze of carved animals and people|Surface Shaft (SF38) is located beneath the House of the Fine Carvers, leading into a junction room. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|CW-40|The Market Hall|Castle Ward|49.980|-0.970|None found, described as "the largest open space in the city"||
+|CW-41|The Singing Sword|Castle Ward|49.978|-0.970|None found.||
+|CW-42|The Spires of the Morning|Castle Ward|49.975|-0.973|Northern Swords Street||
+|CW-43|Blackstaff Tower|Castle Ward|49.975|-0.976|Northern Swords Street||
+|CW-44|Walking Statue of Waterdeep|Castle Ward|49.975|-0.992|Gull Leap cliff at the western end of Julthoon Street||
+|CW-45|Fair Winds|Castle Ward|49.973|-0.992|None found.||
+|CW-46|Marblehearth|Castle Ward|49.973|-0.989|None found.||
+|CW-47|Stormwatch|Castle Ward|49.973|-0.987|None found.||
+|CW-48|Heroes' Rest|Castle Ward|49.973|-0.985|None found.||
+|CW-70|Piergeiron's Palace|Castle Ward|49.970|-0.985|Main seat of the Lords of Waterdeep.|A locked surface shaft (SF70) is within the cellar, guarded at all times by five City Guard and an armar. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|CW-99|God Catcher (Walking Statue)|Castle Ward|None|None|A walking statue that after 1385 DR, had its leg hollowed out to create an access point to the sewers. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|SW-51|Blue Alley|Sea Ward|49.990|-0.988|Ivory Street (entrance opens here)||
+|SW-58|House of Heroes|Sea Ward|49.993|-0.985|Field of Triumph frontage||
+|SW-59|The Broken Lance|Sea Ward|49.993|-0.982|None found.||
+|SW-60|Selchoun's Sundries Shop|Sea Ward|49.993|-0.979|None found, "nestled in the bustling Sea Ward"||
+|SW-61|The Ship's Wheel|Sea Ward|49.993|-0.976|None found.||
+|SW-63|Melvar's Chapbooks and Folios|Sea Ward|49.993|-0.973|None found.||
+|SW-64|Velatha's Delights|Sea Ward|49.993|-0.970|Northern Seawatch Street||
+|SW-65|Tammerbund's Glasswares|Sea Ward|49.995|-0.970|None found.||
+|SW-66|Mystra's House of Wonder|Sea Ward|49.995|-0.973|Diamond Street, Delzorin Street||
+|SW-67|Shrines of Nature|Sea Ward|None|None|near Tower of Luck|A surface shaft (SF1) is underneath trees in the interior of the block west (and slightly north) of the Seatrees Shrine. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|SW-70|Heroes' Garden|Sea Ward|49.998|-0.982|Adjacent to northern Sea Ward|A surface shaft (SF5) is in the central stand of trees in the southern end of Heroes' Garden. A secret entrance in this shaft leads to the Catacombs of Yintros. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|SW-72|West Gate|Sea Ward|49.998|-0.992|None found.||
+|SW-73|Seawatch Tower|Sea Ward|49.998|-0.989|Northern Seawatch Street||
+|SW-74|North Tower ("The Trolltower")|Sea Ward|49.998|-0.987|None found.||
+|SW-75|Armory|Sea Ward|49.998|-0.985|None found.||
+|SW-76|High Flagon Gambling House|Sea Ward|49.995|-0.982|None found.||
+|SW-77|Field of Triumph|Sea Ward|49.995|-0.979|Lion Gate frontage||
+|SW-78|Myrna Cassalanter's residence|Sea Ward|49.995|-0.976|North Diamond Street||
+|SW-79|Trollfort|Sea Ward|49.998|-0.973|None found.||
+|SW-99|Dragon Tower|Sea Ward|None|None|None found.|A secret entrance to the sewers is hidden in its first floor kitchen. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|NW-81|Cliffwatch Ruins|North Ward|49.995|-0.982|None found.||
+|NW-82|Upper Towers|North Ward|49.995|-0.979|None found.||
+|NW-94|Sulmest's Splendid Shoes & Boots|North Ward|49.995|-0.976|None found.||
+|NW-94a|Hriiat Fine Pastries|North Ward|49.995|-0.976|None found.||
+|NW-94b|Maerados Fine Furs|North Ward|49.995|-0.976|None found.||
+|NW-104|The House of Crystal|North Ward|49.995|-0.973|None found.||
+|NW-105|House of Crystal Warehouse|North Ward|49.995|-0.970|None found.||
+|NW-106|Adarbrent family villa|North Ward|49.998|-0.970|South Copper Street, North Ward, Waterdeep||
+|NW-107|Agundar family villa|North Ward|50.000|-0.973|None found.||
+|NW-108|Kothont family villa|North Ward|50.000|-0.976|None found.||
+|NW-109|Sultlue family villa|North Ward|50.000|-0.979|None found.||
+|NW-110|The Galloping Minotaur|North Ward|50.000|-0.982|None found.||
+|NW-111|Sulmest's Splendid Shoes & Boots|North Ward|50.000|-0.985|None found.||
+|NW-112|Meraedos Fine Furs|North Ward|50.000|-0.988|None found.||
+|NW-113|Phylund family villa|North Ward|50.000|-0.991|Copper Street near the corner of Julthoon Street||
+|NW-114|The Gentle Mermaid|North Ward|50.000|-0.994|None found.||
+|NW-115|Maernos family villa|North Ward|50.000|-0.996|None found.||
+|NW-116|Cragsmere family villa / Court of the White Bull area|North Ward|50.000|-0.999|None found.||
+|NW-117|The House of Healing|North Ward|50.000|-1.001|None found.||
+|NW-155|The Misty Beard|North Ward|49.998|-1.001|None found.||
+|TW-105|Plinth (Temple)|Trades Ward|49.978|-0.973|None found.||
+|TW-107|Zoarstar|Trades Ward|49.975|-0.970|None found.||
+|TW-108|The Bowels of the Earth|Trades Ward|49.973|-0.970|southeast corner of Snail Street and Simples Street, just West of the Virgin's Square||
+|TW-111|The Inn of the Dripping Dagger|Trades Ward|49.970|-0.973|None found.||
+|TW-116|Court of the White Bull|Trades Ward|49.968|-0.976|None found.||
+|TW-119|Riautar's Weaponry|Trades Ward|49.965|-0.973|None found, easily found by a low building with a petrified harpy on the roof||
+|TW-123|Saern's Fine Swords|Trades Ward|49.965|-0.973|None found.||
+|TW-125|Felzoun's Folly|Trades Ward|49.960|-0.970|Salabar Street, Trades Ward||
+|TW-107a|Riven Shield Shop|Trades Ward|49.965|-0.973|None found.||
+|TW-108a|Virgin's Square|Trades Ward|49.968|-0.976|None found.||
+|SD-138|Kappiyan Flurmastyr's House|Southern Ward|49.960|-0.973|None found.||
+|SD-142|The Moon Sphere|Southern Ward|49.958|-0.976|None found.||
+|SD-146|The Old Monster Shop|Southern Ward|49.955|-0.979|None found.||
+|SD-152|The House of Good Spirits|Southern Ward|49.953|-0.982|None found.||
+|SD-155|The Jade Dancer|Southern Ward|49.950|-0.985|Northwest Waymoot, South Ward||
+|SD-159|Spouting Fish|Southern Ward|49.948|-0.988|The Way of the Dragon, corner building on the north/east side of the street, right where it angles down southeast to Waymoot|A surface shaft (SF68) is located in the cellar of the tavern. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|SD-159a|Pelauvir's Counter|Southern Ward|49.948|-0.988|Northwest Waymoot||
+|SD-160|The Red Gauntlet|Southern Ward|49.945|-0.991|Northwest Waymoot||
+|SD-163|Alleys of Southern Ward|Southern Ward|None|None|Multiple alleys; e.g., Ilisar's Alley||
+|SD-99|Safehaven Inn|Southern Ward|None|None|None found.|Its cellar contains a hidden ladder leading down to the sewers. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|DW-171|The Hanging Lantern|Dock Ward|49.953|-0.988|None found.||
+|DW-173|Helmstar Warehouse|Dock Ward|49.950|-0.991|Dock Street, Dock Ward||
+|DW-176|The Old Xoblob Shop|Dock Ward|49.948|-0.994|None found.||
+|DW-180|Serpentil Books & Folios|Dock Ward|49.945|-0.996|Book Street, Dock Ward||
+|DW-184|Three Pearls Nightclub|Dock Ward|49.943|-0.999|None found.||
+|DW-187|The Thirsty Sailor|Dock Ward|49.945|-1.001|eastern corner of the cramped intersection of Fish Street and Ship Street, across from the Ship's Prow / North Ship Street & South Snail Street|Has an entrance into the "Smugglers' Run" section of the sewers in its back alley. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|DW-190|The Ship's Prow|Dock Ward|49.948|-1.001|juts into Fish Street and Ship Street||
+|DW-193|The Blushing Mermaid|Dock Ward|49.950|-1.001|Southeast Dock Street||
+|DW-197|The Copper Cup|Dock Ward|49.953|-1.001|None found.||
+|DW-199|Dock Ward Shops/Inns/Festhalls/Alleys|Dock Ward|None|None|Multiple entries; extract individually from the Other Places of Interest in Dock Ward||
+|DW-99|Golden Hammer Inn|Dock Ward|None|None|None found.|A trapdoor opens into the sewers. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|DW-100|Lightning Targe|Dock Ward|None|None|None found.|A newer adventuring club that had a rather mildewy tunnel connection to the sewers. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+|CD-1|City of the Dead Entrance|City of the Dead & Surrounding Areas|None|None|None found.||
+|HG-70|Heroes' Garden|City of the Dead & Surrounding Areas|49.998|-0.982|Adjacent to northern Sea Ward||
+|YI-115|Catacombs of Yintros Entrance|City of the Dead & Surrounding Areas|None|None|Beneath statue of Lhestyn in Heroes' Garden / in the sewers, through a secret door halfway down passage SF5|Accessible from sewer shaft SF5 in Heroes' Garden. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))|
+
+### Handling of Ambiguous or Missing Location Details
+
+The primary location data exhibits considerable variability in the granularity of its details, particularly within the `Street(s)/Precise Location Details` column.1 Some entries, such as "Olmhazan's Jewels" (CW-11), provide highly specific street information, detailing its location on "High Road (west side), just across from the mouth of Spendthrift Alley".1 In contrast, many other entries are marked "None found" or offer only general ward-level descriptions, such as "Located in the Castle Ward of Waterdeep" for "The Red-Eyed Owl" (CW-5).1
+
+This variability necessitates an adaptive response generation logic for the RPM bot. When precise street details are available, the bot should prioritize and present this granular information. However, when such details are absent, the bot must gracefully fall back to providing broader contextual information, such as the ward name. For instance, for a query about "The Sailors' Own" (CW-3), the bot would state its location in "Castle Ward".1 Furthermore, to manage user expectations, the bot could indicate the level of detail provided, for example, by stating, "Specific street details are not available in this index for this location." This approach ensures that the bot consistently provides the most accurate information available while transparently communicating any limitations in data granularity.
+
+A critical aspect of maintaining data integrity and accuracy within the index is the presence of unique identifiers. Several location names, such as "The Blue Jack" (CW-21 and CW-36) and "Olmhazan's Jewels" (CW-11 and CW-38), appear multiple times in the index.1 While their names are identical, each instance is associated with a distinct `ID` and unique fictional coordinates. For example, "The Blue Jack" (CW-21) is located at Latitude 49.980, Longitude -0.985, whereas "The Blue Jack" (CW-36) is at Latitude 49.988, Longitude -0.973.1 Relying solely on the name for lookups would introduce ambiguity, potentially leading to incorrect information being provided. Therefore, the `ID` field is paramount and must serve as the primary key for all internal data referencing and retrieval within the RPM bot. Should a user query a location by name alone and multiple entries match, the bot should be designed to recognize this ambiguity. It would then present all matching options to the user, perhaps by listing their unique IDs and coordinates, and prompt for clarification to ensure the correct location is identified. This mechanism prevents the bot from delivering erroneous information due to name collisions.
+
+Additionally, certain entries in the index, such as "Shrines of Nature" (SW-67), "Alleys of Southern Ward" (SD-163), and "Dock Ward Shops/Inns/Festhalls/Alleys" (DW-199), explicitly lack specific `Fictional Latitude` and `Fictional Longitude` values, being marked "None" in these fields.1 These entries often represent broader conceptual areas rather than precise, single points on a map. This absence of precise spatial coordinates has direct implications for the bot's functionality. Any bot feature that relies on exact geographical positioning, such as displaying a location on a map, calculating precise distances, or performing proximity searches ("What's nearby?"), would be unable to process these entries accurately. The RPM bot must be designed to differentiate between precisely locatable points and these broader, less defined areas. For locations without coordinate data, the bot should avoid attempting spatial calculations and instead rely solely on the textual `Street(s)/Precise Location Details` and Ward information. It would also be beneficial for the bot to explicitly inform the user if a spatial query cannot be fulfilled due to missing coordinate data. Future enhancements could involve assigning an internal "type" attribute (e.g., "Precise Location," "Area," "Conceptual Point") to each index entry to guide the bot's behavior and response generation, ensuring that its capabilities align with the available data.
+
+<!-- ... existing content ... -->
+
+## V. Waterdeep Sewers: Access Points and Network Overview
+
+The sewers of Waterdeep form a vast subterranean network beneath the entire city, with exceptions for the harbor islands and the heart of Mount Waterdeep. They serve as a labyrinthine "dungeon" connecting the surface to the depths of Undermountain. The Cellarers' and Plumbers' Guild maintain the actively used upper portions.
+
+### Sewer Properties (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))
+
+*   **Construction:** Masonry ceilings, walls, and floors.
+*   **Floors:** Considered light rubble due to debris, adding +2 to the DC of Balance and Tumble checks.
+*   **Air:** Reasonably good supply due to feeder pipes bringing air from the surface, though it is stench-ridden.
+*   **Ambient Noise:** Echoing water flow creates a -4 circumstance penalty on all Listen checks.
+*   **Disease:**
+    *   **Tainted Water:** Any activity resulting in nostrils, mouth, eyes, or ears getting wet requires a DC 16 Fortitude save to avoid contracting blinding sickness.
+    *   **Injuries:** Anyone injured by a slashing or piercing attack must make a DC 12 Fortitude save or contract filth fever. Creatures surviving in the sewers for extended periods are assumed immune to both.
+*   **Gratings:** Iron gratings are 2 inches thick, hardness 10 (8 if rusty), 60 hp (30 if rusty), break DC 15 (23 if rusty).
+*   **Illumination:** Generally no light, except filtered sunlight equivalent to an immovable torch directly beneath a sewer grate.
+*   **Scent:** A terrible stench provides a -4 circumstance penalty on Survival checks for tracking by scent.
+*   **Tracking:** Walkway ledges are typically coated in slime, considered "firm ground" for tracking purposes.
+
+### Key Sewer Access Points and Subterranean Locations
+
+The following table details the known surface access points to the Waterdeep sewers and significant subterranean locations within the sewer network or directly connected to it. *Note: Fictional Latitude/Longitude are typically "None" for subterranean locations unless explicitly tied to a precise surface point.*
+
+|ID|Name|Ward/Region|Fictional Latitude|Fictional Longitude|Surface Access Point Description|Depth (Z-Axis)|Connected Sewer Features/Dungeons|Source|
+|---|---|---|---|---|---|---|---|---|
+|SF1|Surface Shaft|Sea Ward|None|None|Underneath trees in the interior of the block west (and slightly north) of the Seatrees Shrine in the Shrines of Nature (SW-67).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF2|Surface Shaft|North Ward|50.005|-0.975|In the northernmost corner of Sabbar's Alley.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF3|Surface Shaft|North Ward|49.997|-0.980|In the center of Shank Alley, just southwest of the warehouse that stands in the interior of the block.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF4|Surface Shaft|North Ward|49.990|-0.985|Just south of the tree in Sniff Alley, south off the Street of Glances.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF5|Surface Shaft|Sea Ward|49.998|-0.982|In the central stand of trees in the southern end of Heroes' Garden (SW-70).|-1|Secret entrance to the Catacombs of Yintros.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF6|Surface Shaft|Sea Ward|49.988|-0.990|Under a lone tree in the alleyway west of the Eltorchul Villa, south of Ivory Street and north of Pharra's Alley.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF7|Surface Shaft|Sea Ward|49.990|-0.970|In the mouth of the alleyway that opens north off Chasso’s Trot, just west of Sul Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF8|Junction Room with Surface Shaft|Sea Ward|49.995|-0.985|In a cul-de-sac due south of the Jhansczil Villa.|-1|Junction room, leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF9|Surface Shaft|North Ward|50.000|-0.975|Underneath a tree, in an alleyway just south of the Brossfeather Villa (N2).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF10|Surface Shaft|North Ward|50.000|-0.980|At the northern end of a dead alley that opens off Grimwald’s Way, just south of the Ilitul Villa.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF11|Surface Shaft|North Ward|50.000|-0.985|In the easternmost cul-de-sac opening off the alleyway that bounds the Nesher Villa, just west off Mendever Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF12|Junction Room with Surface Shaft|North Ward|49.990|-0.973|In the alleyway just west of the gates of the Manthar Villa, off Delzorin Street between Sul Street and Shield Street.|-1|Junction room, leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF13|Surface Shaft|North Ward|49.995|-0.970|In the large clump of trees in the interior alleyway of the block bound by Vordil Street, the High Road, Delzorin Street, and Copper Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF14|Surface Shaft|North Ward|49.990|-0.985|In the southeastern corner of Trollskull Alley, closest to the intersection of Whael-gund Way and Delzorind Street.|-1|Leads to sewer network. (20ft descent).|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF15|Surface Shaft|North Ward|49.992|-0.986|In a cul-de-sac opening north off Horn Street, between Tower March and Whaelgund Way.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF16|Surface Shaft|Sea Ward|49.988|-0.975|In the mouth of Sharra's Flight, where it joins the Street of Whispers.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF17|Surface Shaft|Sea Ward|49.988|-0.975|In the mouth of Sharra's Flight, where it joins the Street of Whispers.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF18|Surface Shaft|Sea Ward|49.990|-0.970|In a cul-de-sac opening northeast of Toalar's Lane.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF19|Junction Room with Surface Shaft|Sea Ward|49.992|-0.972|Located where Gothal Street meets Calamastyr Lane.|-1|Junction room, leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF20|Surface Shaft|Sea Ward|49.990|-0.978|In the southwestern corner of Runer's Alley.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF21|Junction Room (no surface connection)|Sea Ward|None|None|Under the southern mouth of Cloaksweep Alley.|-1|Collapsed section of sewer floor leads to the Drain of Madness/Savants of the Dark Tide lair.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF22|Surface Shaft|North Ward|49.998|-0.985|In the trees at the center of the block bounded by Hassantyr's Street, the High Road, Julthoon Street, and Copper Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF23|Surface Shaft|Trades Ward|49.975|-0.975|At the western end of Marlar's Lane (by the alleyway parallel to Tharleon Street).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF24|Surface Shaft|Castle Ward|49.988|-0.985|Behind (due south of) Blackstaff Tower (CW-32) at the base of the rocky cliff-face.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF25|Surface Shaft|Castle Ward|49.965|-0.995|Locked entrance opens onto the surface near the top of the rocky slope of Mount Waterdeep, at a point due southwest of Turnback Court.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF26|Junction Room with Surface Shaft|Castle Ward|49.968|-0.990|Located in Turnback Court.|-1|Junction room, leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF27|Surface Shaft|Castle Ward|49.975|-0.980|In the southwest corner of an alleyway opening south of Cymbril's Walk, between the Street of Silver and Warriors' Way.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF28|Junction Room with Surface Shaft|Castle Ward|49.980|-0.980|In the southwest corner of a dead-end alley in the block bounded by Lamp Street, the Street of Bells, Cymbril's Walk, and the Street of the Sword.|-1|Junction room, leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF29|Surface Shaft|Castle Ward|49.985|-0.975|In the northwesternmost junction of alleyways in the block bounded by Lamp Street, the High Road, Selduth Street, and the Street of Bells.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF30|Surface Shaft|Castle Ward|49.985|-0.970|In the southeasternmost corner of an alley opening off of the High Road (the first north of Lamp Street, just to the west of Andamaar's Street).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF31|Junction Room (no surface connection)|Castle Ward|None|None|Under the Grinning Lion tavern (N56).|-1|Secret door leads to the secret stair connecting to the Fireplace Level (a dungeon).|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF32|Surface Shaft|Castle Ward|49.970|-0.980|In the northwest corner of an alleyway that opens off Golden Serpent Street and Nindabar street, just east of Mhalsymber's Way.|-1|Leads to sewer network; also connects to Dungeon of the Crypt via SF71.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF33|Surface Shaft|Castle Ward|49.972|-0.980|Halfway down Belzound Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF34|Surface Shaft|Castle Ward|49.973|-0.978|In the northern mouth of an alleyway opening south off Sevenlamps Cut.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF35|Surface Shaft|Castle Ward|49.970|-0.975|At the intersection of Shadows Alley and Lemontree Alley.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF36|Surface Shaft|Castle Ward|49.988|-0.988|In the alleyway just north of the Pampered Traveler Inn (CW-31).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF37|Surface Shaft|Castle Ward|49.980|-0.980|In the wide alleyway between the High Road and the Street of Bells, north of Buckle Alley.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF38|Junction Room with Surface Shaft|Castle Ward|49.983|-0.970|Under the House of the Fine Carvers (CW-39).|-1|Junction room, leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF39|Surface Shaft|Trades Ward|49.970|-0.970|Located on Spindle Street, just south of Selduuth Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF40|Surface Shaft|Trades Ward|49.968|-0.970|Located on the lane that parallels Irimar's Walk on the north, west of Theln Lane.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF41|Surface Shaft|Trades Ward|49.965|-0.970|In an alleyway of the three trees that opens west off Wall Way, just south of Andamaar's Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF42|Surface Shaft|Trades Ward|49.960|-0.970|In the alleyway just north of Ironpost Street, that opens west off Wall Way, at the point where it joins another alley branching to the north.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF43|Surface Shaft|Trades Ward|49.970|-0.975|Within a copse of trees, in a dead-end alley just north of the Costumers' Hall (T11).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF44|Surface Shaft|Trades Ward|49.968|-0.980|At the mouth of a dead-end alleyway that opened east off of the Street of the Tusks, just south of Burnt Wagon Way.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF45|Junction Room (no surface connection)|Trades Ward|None|None|Beneath an alleyway that opened south off of Spendthrift Alley, just behind (east of) Thentavva's Boots (T12).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF46|Surface Shaft|Trades Ward|49.970|-0.978|Located within the cellar of the Unicorn's Horn inn (T15).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF47|Surface Shaft|Trades Ward|49.980|-0.970|In the alley just behind (west) of Olmhazan's Jewels (C29) between the High Road and the Street of Bells.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF48|Surface Shaft|Trades Ward|49.960|-0.980|Located at the end of a dead-end alley opening south off Nelhuk's walk (just north of the intersection of Adder Lane and Gut Alley).|-1|Leads to sewer network; also connected to Southern Citadel Entrance.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF49|Surface Shaft|Trades Ward|49.955|-0.985|In the southwestern corner of a dead-end alley that opens off Shesstra's' Street (just north of Blackstar Lane).|-1|Leads to sewer network; also connects to Xanathar's Lair.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF50|Junction Room (no surface connection)|Trades Ward|None|None|Under the westernmost intersection of alleyways off Snail Street, north of Shesstra's Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF51|Surface Shaft|Trades Ward|49.958|-0.980|In a cul-de-sac that opened off of Belnimbra's Street, in the block bounded by Soothsayer's Way, Snail Street, and Rainrun Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF52|Junction Room with Surface Shaft|Trades Ward|49.960|-0.975|Located in the westernmost dead-end of Quaff Alley (off the High Road).|-1|Junction room, leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF53|Surface Shaft|Southern Ward|49.955|-0.980|Located on Soldier's Street, just east of the Bell Tower (C46), just southeast of Watchmen's Way.|-1|Leads to sewer network; also connected to Northern Citadel Entrance.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF54|Surface Shaft|**Dock Ward**|49.945|-0.999|Located at the intersection of alleyways just north of the Three Pearls Nightclub (D18).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF55|Junction Room (no surface connection)|Southern Ward|None|None|Under the wide part of Candle Lane, west off the Way of the Dragon.|-1|Leads to sewer network; also connects to Xanathar's Lair.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF56|Junction Room with Surface Shaft|Southern Ward|49.950|-0.980|At the westernmost end of a dead-end alley that opened south off Simples Street.|-1|Junction room, leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF57|Surface Shaft|Southern Ward|49.952|-0.985|At the intersection of Burdag Lane and Tsarnen Alley.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF58|Surface Shaft|Southern Ward|49.950|-0.990|At the mouth of a dead-end alley, where it joined Quill Alley between the Wide Way and Nethpranter's Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF59|Surface Shaft|Southern Ward|49.955|-0.988|At the western end of a dead-end forked alley, which opened east off of Rivon Street, north of Spendthrift Alley.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF60|Surface Shaft|Southern Ward|49.948|-0.992|In a cul-de-sac opening east off the northern end of Drovers' Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF61|Surface Shaft|Southern Ward|49.946|-0.995|At the halfway point of Beacon Street.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF62|Junction Room (no surface connection)|Southern Ward|None|None|Under Grocer's Lane where it meets Snake Alley.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF63|Surface Shaft|Southern Ward|49.950|-0.978|In Rednose Alley, just east of Saddlers' & Harness-Makers' Hall (S6).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF64|Surface Shaft|Southern Ward|49.945|-0.980|In a cul-de-sac opening off the Rising Ride, between Caravan Court and Juth Alley.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF65|Surface Shaft|Southern Ward|49.942|-0.985|In the widest part of the alley that opens south off Olaim's Cut.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF66|Surface Shaft|Southern Ward|49.940|-0.988|In the wide alley north of Coach Street and just west of the High Road.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF67|Surface Shaft|Southern Ward|49.940|-0.990|East of the former Prestar's Furniture (S54), east of Carter's Way and immediately south of Coachlamp Lane.|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF68|Surface Shaft|Southern Ward|49.948|-0.988|Located in the cellar of the Spouting Fish (SD-159).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF69|Surface Shaft|Dock Ward|49.950|-0.990|On the second alleyway north of Bellister's House (S25).|-1|Leads to sewer network.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF70|Surface Shaft|Castle Ward|49.970|-0.985|Locked entrance located under Piergeiron's Palace (CW-70).|-1|Leads to cellar guarded by City Guard and armar.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF71|Secret Door|Unknown|None|None|Connects secondary passage south from SF32 to Dungeon of the Crypt. |Variable|Dungeon of the Crypt.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF72|The Lair of the Xanathar|Castle Ward|49.970|-0.975|Directly beneath the Philosopher's Court, just east of Snail Street and north of the Street of Curtains.|-2|Two secret doors to sewers, passages to basements above, tunnels to Cavern of Eyes (Undermountain Level 1).|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF73|Northern Citadel Entrance|Castle Ward|None|None|Connects secondary passage west of SF53 to the Citadel of the Bloody Hand.|-2|Citadel of the Bloody Hand.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF74|Southern Citadel Entrance|Castle Ward|None|None|Connects secondary passages north and west of SF48 to the Citadel of the Bloody Hand.|-2|Citadel of the Bloody Hand.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SF75|Drain of Madness|Sea Ward (near SF21)|None|None|Collapsed section of sewer floor in the dark, flooded depths of SF21.|-2|Flooded chambers, former storage vault, now home to the Savants of the Dark Tide.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SUB-01|Sewers - Primary Passage|All Wards|None|None|Beneath the city; 20 feet across with 3-foot-wide ledges on both sides.|-1|More common in the northern parts of the city.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SUB-02|Sewers - Secondary Passage|All Wards|None|None|Beneath the city; 12 feet across with a single 3-foot-wide ledge.|-1|Prevalent beneath the Dock Ward.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SUB-03|Undermountain|Castle Ward|None|None|Vast dungeon complex beneath Waterdeep.|-2 to -X|Numerous connections to the sewers, e.g., a hidden door in a sewer passage beneath Slide Alley leads to the Dungeon Level.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SUB-04|Dungeon of the Crypt|Unknown|None|None|Connected to the sewers via SF71.|-2|Accessed via SF71 secret door.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SUB-05|Citadel of the Bloody Hand|Unknown|None|None|Temple-fortress originally used for defending Castle Waterdeep from below.|-2|Has a northern (SF73) and southern (SF74) entrance connected to the sewers.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+|SUB-06|Savants of the Dark Tide Lair|Sea Ward (near SF21)|None|None|A hidden cult lair.|-2|Located in a collapsed section of the sewer floor and a flooded merchant's vault, accessible via SF21.|\<https://realmshelps.net/faerun/cities/w_sewers.shtml>|
+
+### Sewer Encounters (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))
+
+The sewers are home to small animals (bats, rats), slimes (brown mold, green slime, yellow mold), and various monsters often arriving via dungeon connections. Notable inhabitants include members of the Cellarers' and Plumbers' Guild, merfolk, rogues, and Agents of the Eye. Unique creatures mentioned are a deathshrieker, the Eye (Xanathar), Xliilqil (doomsphere), a missing Cellarers' and Plumbers' Guild contingent (cursts), and the Savants of the Dark Tide.
+
+
+#### Encounter Chance
+
+As a party travels, every 30 minutes there is a chance for an encounter. Cautious travel is half speed or slower. "Hiding" is for parties cloaking both sound and light. "Sewer Feature" refers to junction rooms, immediate vicinity of sewer shafts, or other secret chambers. If a party remains in a sewer feature for 30 minutes or more, roll once every 30 minutes for each connecting passage.
+
+| Passage | Normal Travel | Cautious Travel | Hiding |
+| :------------ | :------------ | :-------------- | :----- |
+| Primary | 20% | 10% | 5% |
+| Secondary | 15% | 8% | 4% |
+| Tertiary | 12% | 8% | 4% |
+| Sewer Feature | 25% | 20% | 10% |
+
+
+
+| Origin Location (ID, Name, Ward/Region)                    | Destination Location (ID, Name, Ward/Region)          | Direction                                               | Estimated Distance                        | Estimated Time                  | Primary Means                                                                                   | Connection Status/Characteristics                                                                                                                                                       |
+| ---------------------------------------------------------- | ----------------------------------------------------- | ------------------------------------------------------- | ----------------------------------------- | ------------------------------- | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Bazaar Street (Southern Ward)                              | Way of the Dragon (Southern Ward)                     | Depends on specific points (e.g., North, East)          | Short to Moderate (within a ward)         | 5-15 minutes (walking)          | Walking                                                                                         | Bazaar Street busy with market activity; Way of the Dragon is a major thoroughfare 1                                                                                                    |
+| The Yawning Portal (CW-4, Castle Ward)                     | Undermountain                                         | Downwards                                               | 140 feet (vertical descent) 1             | Minutes (via rope hoist)        | Rope hoist                                                                                      | Extremely dangerous; entrance to a vast dungeon 1                                                                                                                                       |
+| The Thirsty Sailor (DW-187, Dock Ward)                     | The Ship's Prow (DW-190, Dock Ward)                   | Across the street                                       | Very short                                | Seconds (walking)               | Walking                                                                                         | Located at a "cramped intersection" of Fish Street and Ship Street 1                                                                                                                    |
+| The Bowels of the Earth (TW-108, Trades Ward)              | Virgin's Square (TW-108a, Trades Ward)                | East                                                    | Very short (adjacent)                     | Minutes (walking)               | Walking                                                                                         | Proximity to "ill-lit rough-and-tumble dive" 1                                                                                                                                          |
+| Mystra's House of Wonder (SW-66, Sea Ward)                 | Diamond Street (Sea Ward)                             | At intersection                                         | Immediate                                 | Seconds                         | Walking                                                                                         | Major intersection, likely well-maintained 1                                                                                                                                            |
+| The Honorable Knight (Southern Ward)                       | Trades Ward / Dock Ward / Castle Ward / Southern Ward | Acts as a central landmark for determining current ward | Immediate proximity to ward intersections | Instantaneous (for orientation) | Observation                                                                                     | Prominent and reliable landmark 1                                                                                                                                                       |
+| Sleeping Dragon Inn (ENV-26, Amphail, Lower Dessarin Vale) | Mirt's Mansion (CW-1, Castle Ward)                    | Portal                                                  | Instantaneous                             | Instantaneous                   | Keyed two-way portal                                                                            | Unbeknownst to most, a sealed archway in the cellar wall. 1                                                                                                                             |
+| Circle of the Deepening Moon (ENV-34, Northern Coast)      | Wyllowwood (Undermountain Level 4)                    | Portal                                                  | Instantaneous                             | Instantaneous                   | Keyed, one-way, variable portal. Activated by stepping inside circle when clouds cast shadow. 1 |                                                                                                                                                                                         |
+| Dolblunde (ENV-28, Lower Dessarin Vale)                    | Maiden's Tomb Tor (ENV-30, Lower Dessarin Vale)       | Tunnels                                                 | Variable                                  | Variable                        | Walking                                                                                         | Tunnels link the lost city with the "Bandit Tunnels" beneath Maiden's Tomb Tor. 1                                                                                                       |
+| Dolblunde (ENV-28, Lower Dessarin Vale)                    | Undermountain                                         | Tunnels                                                 | Variable                                  | Variable                        | Walking                                                                                         | Tunnels link the lost city with certain passages in the vast dungeon complex of Undermountain. 1                                                                                        |
+| Dolblunde (ENV-28, Lower Dessarin Vale)                    | River Dessarin (Lower Dessarin Vale)                  | Flooded Tunnel                                          | Variable                                  | Variable                        | Swimming/Boating                                                                                | A flooded tunnel leads from the muddy bottom of the River Dessarin. 1                                                                                                                   |
+| Catacombs of Yintros Entrance (YI-115, City of the Dead)   | Sewer Shaft SF5 (Sea Ward)                            | Upwards                                                 | Variable                                  | Minutes                         | Climbing/Walking                                                                                | Accessed from sewer shaft SF5 in Heroes' Garden. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))                                |
+| Sewer Shaft SF32 (Castle Ward)                             | Dungeon of the Crypt (SUB-04)                         | Downwards                                               | Variable                                  | Variable                        | Walking/Climbing                                                                                | Via Secret Door SF71 from secondary passage leading south from SF32. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))            |
+| Sewer Shaft SF49 (Trades Ward)                             | The Lair of the Xanathar (SF72)                       | Variable                                                | Variable                                  | Variable                        | Walking/Crawling                                                                                | One secret door from secondary passage leading southeast from SF49. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))             |
+| Sewer Shaft SF55 (Southern Ward)                           | The Lair of the Xanathar (SF72)                       | Variable                                                | Variable                                  | Variable                        | Walking/Crawling                                                                                | One secret door from primary passage running north-south between SF55 and SF56. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml)) |
+| Sewer Shaft SF53 (Southern Ward)                           | Northern Citadel Entrance (SF73)                      | Variable                                                | Variable                                  | Variable                        | Walking/Climbing                                                                                | Via secondary passage west of SF53. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))                                             |
+| Sewer Shaft SF48 (Trades Ward)                             | Southern Citadel Entrance (SF74)                      | Variable                                                | Variable                                  | Variable                        | Walking/Climbing                                                                                | Via secondary passages north and west of SF48. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))                                  |
+| Junction Room SF21 (Sea Ward)                              | Drain of Madness (SF75)                               | Downwards                                               | Very short                                | Minutes                         | Walking/Swimming                                                                                | Collapsed section of sewer floor. (Source: [Realmshelps.net - Sewers of Waterdeep](https://realmshelps.net/faerun/cities/w_sewers.shtml))                                               |

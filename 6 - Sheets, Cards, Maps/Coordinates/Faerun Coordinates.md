@@ -1,4 +1,4 @@
-{
+use this to fill in {
     "mapImage": "Map - Faerun - 3E.jpg",
     "pageCategories": [
         "Maps",

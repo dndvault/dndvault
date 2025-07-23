@@ -1,0 +1,5 @@
+# Yugoloths
+
+Halaster recently sent **Fazrian** a host of yugoloths to command. They include a pair of arcanaloths named Aximus and Exekarus; the nycaloth, Raxxus; and the ultroloth, Xindulus. Why **Fazrian** spared these yugoloths and destroyed the others is uncertain, but one could speculate that the planetar didn't want to seem entirely ungrateful. The survivors wormed their way into **Fazrian**'s evil graces, coming to believe that the fallen angel is destined for glory. In **Fazrian** they see the potential for great rewards—or, at least, compensation beyond the modest sum the Mad Mage promised them.
+
+The yugoloths place their own welfare above all others. If more profitable prospects come along, they don't hesitate to abandon **Fazrian** in favor of whatever lucrative offer catches their attention.

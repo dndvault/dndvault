@@ -2,6 +2,8 @@
 
 Dungeons & Dragons is a fantasy role-playing game that takes place in the mind of its players. Tarot is an ancient form of divination that accesses the magical dimension of our world. Together they create an adventure of the imagination—a treasure hunt to help you unravel the mysteries of life and discover the secrets of yourself.
 
+For the Spellcasting Ability, consult [[EN5ider 106 - Cardcaster]].
+
 ---
 
 #### How to Read Tarot

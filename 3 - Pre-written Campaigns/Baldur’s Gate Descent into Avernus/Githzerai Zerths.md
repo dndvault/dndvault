@@ -1,0 +1,5 @@
+# Githzerai Zerths
+
+Four githzerai zerths have taken refuge in the Obstacle Course. They use their psychic abilities and natural stealth to hide from Halaster's magical gaze and the death tyrant's watchful eyes.
+
+The githzerai are aware that githyanki have conquered the Crystal Labyrinth (*level 16*) and are waging war against a mind flayer colony in Seadeeps (*level 17*). The githzerai wait patiently to see the outcome of the Seadeeps conflict but stand ready to assist should the githyanki need help. The leader of this githzerai band, Yrlakka, is a member of the Sha'sal Khou, a faction of renegade githyanki and githzerai who seek to reunify the gith races. By helping the githyanki defeat a common foe, Yrlakka hopes to demonstrate the merits of a single unified gith race—not only to the evil githyanki, but also to the younger githzerai zerths who follow him. Yrlakka is concerned because his most headstrong pupil, a githzerai named Ezria, has disappeared. He fears (correctly) that Ezria was captured by the githyanki on *level 16* while trying to find weak spots in their defenses.
