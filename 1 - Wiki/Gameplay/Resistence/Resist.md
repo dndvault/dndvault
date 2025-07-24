@@ -1,1 +1,0 @@
-See [[5eOSRD/Gameplay/Combat/Resistence/Resistance|Resistance]].

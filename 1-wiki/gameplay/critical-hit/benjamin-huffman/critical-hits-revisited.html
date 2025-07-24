@@ -1,0 +1,826 @@
+<!DOCTYPE html> <html><head>
+		<title>Critical Hits Revisited</title>
+		<base href="../../../../">
+		<meta id="root-path" root-path="../../../../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="dndvault - Critical Hits Revisited">
+		<meta property="og:title" content="Critical Hits Revisited">
+		<meta property="og:description" content="dndvault - Critical Hits Revisited">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://dndvault.github.io/dndvault/1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="dndvault">
+		<meta name="author" content="Elias"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://dndvault.github.io/dndvault/lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark native-scrollbars show-inline-title show-ribbon mk-readable-line mk-folder-lines mk-inline-context-enabled mk-flow-minimal basic-pathfinder-2e-layout-theme-default pathfinder-2e-action-layout-theme-default pathfinder-2e-hazard-layout-theme-default pathfinder-2e-influence-layout-theme-default pathfinder-2e-item-layout-theme-default pathfinder-2e-misc-layout-theme-default pathfinder-2e-plane-layout-theme-default pathfinder-2e-quest-layout-theme-default pathfinder-2e-settlement-layout-theme-default check-color check-bg rpgm-toggle-full-width-styles"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles">mjx-container[jax=CHTML]{line-height:0}mjx-container [space="1"]{margin-left:.111em}mjx-container [space="2"]{margin-left:.167em}mjx-container [space="3"]{margin-left:.222em}mjx-container [space="4"]{margin-left:.278em}mjx-container [space="5"]{margin-left:.333em}mjx-container [rspace="1"]{margin-right:.111em}mjx-container [rspace="2"]{margin-right:.167em}mjx-container [rspace="3"]{margin-right:.222em}mjx-container [rspace="4"]{margin-right:.278em}mjx-container [rspace="5"]{margin-right:.333em}mjx-container [size="s"]{font-size:70.7%}mjx-container [size=ss]{font-size:50%}mjx-container [size=Tn]{font-size:60%}mjx-container [size=sm]{font-size:85%}mjx-container [size=lg]{font-size:120%}mjx-container [size=Lg]{font-size:144%}mjx-container [size=LG]{font-size:173%}mjx-container [size=hg]{font-size:207%}mjx-container [size=HG]{font-size:249%}mjx-container [width=full]{width:100%}mjx-box{display:inline-block}mjx-block{display:block}mjx-itable{display:inline-table}mjx-row{display:table-row}mjx-row>*{display:table-cell}mjx-mtext{display:inline-block}mjx-mstyle{display:inline-block}mjx-merror{display:inline-block;color:red;background-color:#ff0}mjx-mphantom{visibility:hidden}mjx-assistive-mml{top:0;left:0;clip:rect(1px,1px,1px,1px);user-select:none;position:absolute!important;padding:1px 0 0!important;border:0!important;display:block!important;width:auto!important;overflow:hidden!important}mjx-assistive-mml[display=block]{width:100%!important}mjx-math{display:inline-block;text-align:left;line-height:0;text-indent:0;font-style:normal;font-weight:400;font-size:100%;font-size-adjust:none;letter-spacing:normal;border-collapse:collapse;overflow-wrap:normal;word-spacing:normal;white-space:nowrap;direction:ltr;padding:1px 0}mjx-container[jax=CHTML][display=true]{display:block;text-align:center;margin:1em 0}mjx-container[jax=CHTML][display=true][width=full]{display:flex}mjx-container[jax=CHTML][display=true] mjx-math{padding:0}mjx-container[jax=CHTML][justify=left]{text-align:left}mjx-container[jax=CHTML][justify=right]{text-align:right}mjx-msup{display:inline-block;text-align:left}mjx-mn{display:inline-block;text-align:left}mjx-c{display:inline-block}mjx-utext{display:inline-block;padding:.75em 0 .2em}mjx-texatom{display:inline-block;text-align:left}mjx-mi{display:inline-block;text-align:left}mjx-c::before{display:block;width:0}.MJX-TEX{font-family:MJXZERO,MJXTEX}.TEX-B{font-family:MJXZERO,MJXTEX-B}.TEX-I{font-family:MJXZERO,MJXTEX-I}.TEX-MI{font-family:MJXZERO,MJXTEX-MI}.TEX-BI{font-family:MJXZERO,MJXTEX-BI}.TEX-S1{font-family:MJXZERO,MJXTEX-S1}.TEX-S2{font-family:MJXZERO,MJXTEX-S2}.TEX-S3{font-family:MJXZERO,MJXTEX-S3}.TEX-S4{font-family:MJXZERO,MJXTEX-S4}.TEX-A{font-family:MJXZERO,MJXTEX-A}.TEX-C{font-family:MJXZERO,MJXTEX-C}.TEX-CB{font-family:MJXZERO,MJXTEX-CB}.TEX-FR{font-family:MJXZERO,MJXTEX-FR}.TEX-FRB{font-family:MJXZERO,MJXTEX-FRB}.TEX-SS{font-family:MJXZERO,MJXTEX-SS}.TEX-SSB{font-family:MJXZERO,MJXTEX-SSB}.TEX-SSI{font-family:MJXZERO,MJXTEX-SSI}.TEX-SC{font-family:MJXZERO,MJXTEX-SC}.TEX-T{font-family:MJXZERO,MJXTEX-T}.TEX-V{font-family:MJXZERO,MJXTEX-V}.TEX-VB{font-family:MJXZERO,MJXTEX-VB}mjx-stretchy-h mjx-c,mjx-stretchy-v mjx-c{font-family:MJXZERO,MJXTEX-S1,MJXTEX-S4,MJXTEX,MJXTEX-A!important}@font-face{font-family:MJXZERO;src:url("lib/fonts/mathjax_zero.woff") format("woff")}@font-face{font-family:MJXTEX;src:url("lib/fonts/mathjax_main-regular.woff") format("woff")}@font-face{font-family:MJXTEX-B;src:url("lib/fonts/mathjax_main-bold.woff") format("woff")}@font-face{font-family:MJXTEX-I;src:url("lib/fonts/mathjax_math-italic.woff") format("woff")}@font-face{font-family:MJXTEX-MI;src:url("lib/fonts/mathjax_main-italic.woff") format("woff")}@font-face{font-family:MJXTEX-BI;src:url("lib/fonts/mathjax_math-bolditalic.woff") format("woff")}@font-face{font-family:MJXTEX-S1;src:url("lib/fonts/mathjax_size1-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S2;src:url("lib/fonts/mathjax_size2-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S3;src:url("lib/fonts/mathjax_size3-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S4;src:url("lib/fonts/mathjax_size4-regular.woff") format("woff")}@font-face{font-family:MJXTEX-A;src:url("lib/fonts/mathjax_ams-regular.woff") format("woff")}@font-face{font-family:MJXTEX-C;src:url("lib/fonts/mathjax_calligraphic-regular.woff") format("woff")}@font-face{font-family:MJXTEX-CB;src:url("lib/fonts/mathjax_calligraphic-bold.woff") format("woff")}@font-face{font-family:MJXTEX-FR;src:url("lib/fonts/mathjax_fraktur-regular.woff") format("woff")}@font-face{font-family:MJXTEX-FRB;src:url("lib/fonts/mathjax_fraktur-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SS;src:url("lib/fonts/mathjax_sansserif-regular.woff") format("woff")}@font-face{font-family:MJXTEX-SSB;src:url("lib/fonts/mathjax_sansserif-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SSI;src:url("lib/fonts/mathjax_sansserif-italic.woff") format("woff")}@font-face{font-family:MJXTEX-SC;src:url("lib/fonts/mathjax_script-regular.woff") format("woff")}@font-face{font-family:MJXTEX-T;src:url("lib/fonts/mathjax_typewriter-regular.woff") format("woff")}@font-face{font-family:MJXTEX-V;src:url("lib/fonts/mathjax_vector-regular.woff") format("woff")}@font-face{font-family:MJXTEX-VB;src:url("lib/fonts/mathjax_vector-bold.woff") format("woff")}mjx-c.mjx-c31::before{padding:.666em .5em 0 0;content:"1"}mjx-c.mjx-c1D461.TEX-I::before{padding:.626em .361em .011em 0;content:"t"}mjx-c.mjx-c1D452.TEX-I::before{padding:.442em .466em .011em 0;content:"e"}mjx-c.mjx-c1D465.TEX-I::before{padding:.442em .572em .011em 0;content:"x"}mjx-c.mjx-c1D446.TEX-I::before{padding:.705em .645em .022em 0;content:"S"}mjx-c.mjx-c1D447.TEX-I::before{padding:.677em .704em 0 0;content:"T"}</style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Critical Hits Revisited"><p dir="auto">Critical Hits Revisited</p></h1><div class="el-h1 heading-wrapper"><div class="heading-children"><div class="el-p"><p dir="auto">Critical Hits Revisited Presented here are optional rules that expand the scope of critical hits in D&amp;D 5e. Introducing a series of critical hit charts that vary based on the damage type of the attack, Critical Hits Revisited can be included in a campaign to add an additional element of uncertainty, suspense, and surprise to combat. DMs and players may also be interested in utilizing Critical Hits Revisited to increase the consequence of engaging in combat, including the potential for death or dismemberment. </p></div><div class="el-h2 heading-wrapper"><h2 data-heading="Revisions to Critical Hits" dir="auto" class="heading" id="Revisions_to_Critical_Hits"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Revisions to Critical Hits</h2><div class="heading-children"><div class="el-p"><p dir="auto">Except when noted otherwise below, use the normal rules for critical hits. </p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">When you land a critical hit on a creature, instead of rolling the attack’s damage dice twice and adding them together, roll a d20 and use the corresponding result on the critical hit chart determined by the damage type of your attack. </li>
+<li data-line="1" dir="auto">When you score a critical hit with an attack that does two or more types of damage, choose one of those damage types and roll on that critical chart. </li>
+<li data-line="2" dir="auto">The Half-Orc Savage Attacks trait and the Barbarian Brutal Critical feature continue to work as written.</li>
+</ul></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Alternate Option: Selective Use of Critical Hits" dir="auto" class="heading" id="Alternate_Option:_Selective_Use_of_Critical_Hits"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Alternate Option: Selective Use of Critical Hits</h2><div class="heading-children"><div class="el-p"><p dir="auto">When you implement the rules presented in Critical Hits Revisited the lives of the player characters gets a lot harder. Some players will love it, some will hate it, and some will be perfectly fine with it until the day they get one-shot by a kobold. If you and your players prefer, the normal critical hit rules can be used for monsters of low significance to the story or who are not meant to be a life threatening combat for the player characters. Using this alternative rules player characters continue to use the critical hit charts when they deal damage but creatures only roll on the critical hit charts when they have dramatic importance to the story and / or are meant to a potentially lethal encounter for the characters</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Injuries &amp; Insanity" dir="auto" class="heading" id="Injuries_&amp;_Insanity"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Injuries &amp; Insanity</h2><div class="heading-children"><div class="el-p"><p dir="auto">Critical hits can cause minor and major injuries. When a creature suffers a minor injury it can be healed by the spell <a data-href="Lesser Restoration" href="1-wiki/spells/lesser-restoration.html" class="internal-link" target="_self" rel="noopener nofollow">Lesser Restoration</a> or by using the recuperating downtime activity (Player’s Handbook, pg. 187). Major injuries will not heal on their own and require the powerful healing spell, <a data-href="Greater Restoration" href="1-wiki/spells/greater-restoration.html" class="internal-link" target="_self" rel="noopener nofollow">Greater Restoration</a>. Insanities, caused by critical hits that deal psychic damage, must be healed the same way. The text of certain injuries will specify other ways this injuries might resolve. For example, the <em>Blow to the Head!</em> minor injury resolves after the 2d12 hours time period has elapsed while the <em>Decapitated!</em> major injury cannot be healed through the use of the <a data-href="Greater Restoration" href="1-wiki/spells/greater-restoration.html" class="internal-link" target="_self" rel="noopener nofollow">Greater Restoration</a> spell.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Weapon Damage Charts" dir="auto" class="heading" id="Weapon_Damage_Charts"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Weapon Damage Charts</h2><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Bludgeoning" dir="auto" class="heading" id="Bludgeoning"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Bludgeoning</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Bludgeoning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Smashed off balance!</strong> Roll damage as normal and the next attack against the creature has advantage.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Sent reeling!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice and push the creature up to 15 feet in any direction.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll your damage dice twice and add them together.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Take a seat!</strong> Roll damage dice twice and add them together and the creature is knocked <a data-href="prone" href="prone" class="internal-link" target="_self" rel="noopener nofollow">prone</a>.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Rocked and rolled!</strong> Roll damage dice twice and add them together, push the creature up to 15 feet away, and the creature is knocked <a data-href="prone" href="prone" class="internal-link" target="_self" rel="noopener nofollow">prone</a>.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Grievous injury!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add the result. Then roll on the Minor Injury chart. If the creature is wearing heavy armor roll on the Major Injury chart instead.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Crushed!</strong> Deal the twice maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Splat!</strong> Deal the maximum result of your damage dice twice, the creature is <a data-href="stunned" href="stunned" class="internal-link" target="_self" rel="noopener nofollow">stunned</a> until the end of your next turn, and roll on the major injury chart.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Piercing" dir="auto" class="heading" id="Piercing"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Piercing</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Piercing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Lunge and thrust!</strong> Roll damage dice twice and use the higher result.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Stabbed!</strong> Roll your damage dice twice and add them together.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll your damage dice twice and add them together.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Swiss cheese!</strong> Roll twice as many damage dice as normal. Then roll twice on the minor injury chart and use the lower result.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Punctured!</strong> Roll your damage dice twice and add them together and roll on the minor injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Cruel prick!</strong> Roll your damage dice twice and add them together and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Run through!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Pierce!</strong> Deal the maximum result of your damage dice twice, roll on the minor injury chart, and roll on the major injury chart.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Slashing" dir="auto" class="heading" id="Slashing"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Slashing</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Slashing</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Sliced and diced!</strong> Roll damage as normal and the creature loses 1d6 hit points at the start of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Open gash!</strong> Roll your damage dice as normal and the creature is bleeding. For the next minute the creature loses 1d4 damage at the start of each of its turns until it uses an action to staunch this wound.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll your damage dice twice and add them together.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Deep slice!</strong> Roll your damage dice twice and add them together and the creature is bleeding. For the next minute the creature loses 1d8 hit points at the start of each of its turns until it uses an action to staunch this wound.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Lacerated!</strong> Roll your damage dice twice and add them together and the creature is bleeding. For the next minute the creature loses 1d12 hit points at the start of each of its turns until it uses an action to staunch this wound.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Severed!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add the result. Then roll on the Minor Injury chart. If the creature is wearing light or no armor roll on the Major Injury chart instead.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Dissected!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Slash</strong>! Deal the maximum result of your damage dice twice, roll on the major injury chart, and the creature is bleeding. For the next minute the creature loses 2d8 hit points at the start of each of its turns until it uses an action to staunch this wound.</td>
+</tr>
+</tbody>
+</table></div></div></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Magic Damage Charts" dir="auto" class="heading" id="Magic_Damage_Charts"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Magic Damage Charts</h2><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Acid" dir="auto" class="heading" id="Acid"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Acid</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Acid</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal. 2-3 Scalding bile! Roll damage as normal and the creature is scarred. While scarred the creature has disadvantage on all Charisma <a data-href="ability checks" href="ability checks" class="internal-link" target="_self" rel="noopener nofollow">ability checks</a> except Charisma (<a data-href="Intimidation" href="Intimidation" class="internal-link" target="_self" rel="noopener nofollow">Intimidation</a>). Being scarred can be healed in the same way as a minor injury.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Melted flesh!</strong> Roll your damage as normal and the creature is disfigured. While disfigured the creature has disadvantage on all Charisma <a data-href="ability checks" href="ability checks" class="internal-link" target="_self" rel="noopener nofollow">ability checks</a> except Charisma (<a data-href="Intimidation" href="Intimidation" class="internal-link" target="_self" rel="noopener nofollow">Intimidation</a>). Being disfigured can be removed with the spell <a data-href="Greater Restoration" href="1-wiki/spells/greater-restoration.html" class="internal-link" target="_self" rel="noopener nofollow">Greater Restoration</a>.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll your damage dice twice and add them together.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Boiling flesh</strong>! Roll twice as many damage dice as normal and if the creature is wearing armor its AC modifier is reduced by 1 until it can be repaired (for 1/4th the price of new armor of the same type) or cleaned (if the armor is magical). If the creature is not wearing armor, roll on the minor injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Horrific mutilation!</strong> Roll twice as many damage dice as normal and roll on the minor injury chart. Additionally, the creature is disfigured. While disfigured the creature has disadvantage on all Charisma <a data-href="ability checks" href="ability checks" class="internal-link" target="_self" rel="noopener nofollow">ability checks</a> except Charisma (<a data-href="Intimidation" href="Intimidation" class="internal-link" target="_self" rel="noopener nofollow">Intimidation</a>). Being disfigured can be removed with the spell greater restoration.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Caustic trauma!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add that result. If the creature is wearing armor, roll on the minor injury chart and its AC modifier is reduced by 2 until it can be repaired (for half the price of new armor of the same type) or cleaned (if the armor is magical). If the creature is not wearing armor, roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Vitriolic!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Acid bath!</strong> Deal twice the maximum result of your damage dice. If the creature is wearing armor, the armor is destroyed (if non-magical) or rendered useless until cleaned during a <a data-href="Long Rest" href="Long Rest" class="internal-link" target="_self" rel="noopener nofollow">Long Rest</a> (if magical) and roll on the major injury chart. If the creature is not wearing armor, roll on the major injury chart and the creature is disfigured. While disfigured the creature has disadvantage on all Charisma <a data-href="ability checks" href="ability checks" class="internal-link" target="_self" rel="noopener nofollow">ability checks</a> except Charisma (Intimidation). Being disfigured can be removed with the spell <a data-href="Greater Restoration" href="1-wiki/spells/greater-restoration.html" class="internal-link" target="_self" rel="noopener nofollow">Greater Restoration</a>.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Cold" dir="auto" class="heading" id="Cold"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Cold</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Cold</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Chills!</strong> Roll damage as normal and the creature may only move half its movement speed on its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Frosty!</strong> Roll your damage as normal and the creature’s movement speed is 0 until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll twice as many damage dice as normal.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Freezing!</strong> Roll twice as many damage dice as normal and the creature is <a data-href="paralyzed" href="paralyzed" class="internal-link" target="_self" rel="noopener nofollow">paralyzed</a> until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Frozen!</strong> Roll twice as many damage dice as normal and the creature is <a data-href="paralyzed" href="paralyzed" class="internal-link" target="_self" rel="noopener nofollow">paralyzed</a> until the end of its next turn. If the creature takes damage before the end of its next turn, roll on the minor injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Ice block!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add that result. The creature is <a data-href="paralyzed" href="paralyzed" class="internal-link" target="_self" rel="noopener nofollow">paralyzed</a> until the end of its next turn and rolls on the minor injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Glacial!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Subzero!</strong> Deal twice the maximum result of your damage dice, roll on the major injury chart, and the creature is <a data-href="paralyzed" href="paralyzed" class="internal-link" target="_self" rel="noopener nofollow">paralyzed</a> for the next minute. The creature may attempt a saving throw at the end of each of its turns (DC 16) to end this effect. If it fails this saving throw three times it is frozen solid and becomes a <a data-href="petrified" href="petrified" class="internal-link" target="_self" rel="noopener nofollow">petrified</a> but frozen solid in a block of ice rather than turned to stone.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Fire" dir="auto" class="heading" id="Fire"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Fire</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Fire</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal. 2-3 Heat wave! Roll damage as normal and attack rolls for attacks that deal fire damage have advantage when made against the creature until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Hot flash!</strong> Roll your damage as normal and the creature is on fire. While the creature is on fire it takes 2d4 fire damage at the start of each of its turns. The creature can end this condition by dropping <a data-href="prone" href="prone" class="internal-link" target="_self" rel="noopener nofollow">prone</a> and using 5 feet of movement to roll on the ground.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll twice as many damage dice as normal.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Ablaze!</strong> Roll twice as many damage dice as normal and the creature is on fire. While the creature is on fire it takes 2d6 fire damage at the start of each of its turns. The creature can end this condition by dropping <a data-href="prone" href="prone" class="internal-link" target="_self" rel="noopener nofollow">prone</a> and using 5 feet of movement to roll on the ground.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Burnt to a crisp!</strong> Roll twice as many damage  dice as normal and the creature is charred. If the creature has resistance to fire, it loses that resistance. If the creature does not have resistance to fire, it gains vulnerability to fire. Both of these effects can be ended the same as a minor injury.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Hellfire!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add that result then roll on the minor injury chart. Additionally, the creature is on fire. While the creature is on fire it takes 2d6 fire damage at the start of each of its turns. The creature can end this condition by dropping prone and using 5 feet of movement to roll on the ground.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Combustion!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Inferno!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart. Additionally, the creature is on fire. While the creature is on fire it takes 2d8 fire damage at the start of each of its turns. The creature can end this condition by dropping prone and using 5 feet of movement to roll on the ground.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Force" dir="auto" class="heading" id="Force"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Force</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Force</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Spellstruck!</strong> Roll damage as normal and the creature has disadvantage on saving throws against spells until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Eldritch incandescence!</strong> Roll your damage as normal and spell attack rolls against the creature have advantage until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll twice as many damage dice as normal.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Bewitching blow!</strong> Roll twice as many damage dice as normal and the creature is spellbound until the end of its next turn. While spellbound it makes saving throws against spells with disadvantage and spell attack rolls against it have advantage.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Mystic magnet!</strong> Roll twice as many damage dice as normal and the creature is spellbound for the next minute. While spellbound it makes saving throws against spells with disadvantage and spell attack rolls against it have advantage. At the end of each of the creature’s turns it can make an Intelligence saving throw (DC 14) to end this effect.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Ensorcelled!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add that result then roll on the minor injury chart. Additionally, the creature is spellbound for the next minute. While spellbound it makes saving throws against spells with disadvantage and spell attack rolls against it have advantage. At the end of each of the creature’s turns it can make an Intelligence saving throw (DC 16) to end this effect.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Arcane injury!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Magically mauled!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart. Additionally, the creature is spellbound for the next minute. While spellbound it makes saving throws against spells with disadvantage and spell attack rolls against it have advantage. At the end of each of the creature’s turns it can make an Intelligence saving throw (DC 18) to end this effect.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Lightning" dir="auto" class="heading" id="Lightning"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Lightning</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Lightning</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Shocking!</strong> Roll damage as normal and the creature cannot use reactions until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Sparks fly!</strong> Roll your damage as normal and you may choose one other creature within 15 ft. of the victim. That creature must succeed on a Dexterity saving throw (DC 14) or take half as much damage.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll twice as many damage dice as normal.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Electric arc!</strong> Roll twice as many damage dice as normal and you may choose one other creature within 15 ft. of the victim. That creature must succeed on a Dexterity saving throw (DC 18) or take half as much damage.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Fulminate!</strong> Roll twice as many damage dice as normal and roll on the minor injury chart. If the creature is wearing metal armor roll on the major injury chart instead.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Lit up!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add that result. The creature and each creature you choose within 15 ft. of it cannot take reactions until the end of their next turn. Then roll on the minor injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Electrocuted!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Lightning rod!</strong> Deal twice the maximum result of your damage dice and you may choose one other creature within 15 ft. of the victim. That creature must succeed on a Dexterity saving throw (DC 20) or take half as much damage. Then roll on the major injury chart.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Necrotic" dir="auto" class="heading" id="Necrotic"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Necrotic</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Necrotic</th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Spoil!</strong> Roll damage as normal and the creature cannot regain hit points until the end of its next turn.</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Fester!</strong> Roll your damage as normal and the creature’s maximum hit points are reduced by the same amount.</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll twice as many damage dice as normal.</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Decay!</strong> Roll twice as many damage dice as normal and the creature’s maximum hit points are reduced by the same amount.</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Rot!</strong> Roll twice as many damage dice as normal and the creature cannot regain hit points for the next minute. It may make a saving throw (DC 16) at the end of each of its turns to end this effect.</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Blight!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add that result. The creature’s maximum hit points are reduced by the same amount. Then roll on the minor injury chart.</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Atrophy!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Putrefy!</strong> Deal twice the maximum result of your damage dice, the creature’s maximum hit points are reduced by the same amount, and the creature cannot regain hit points until the end of its next turn. Then roll on the major injury chart.</td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Poison" dir="auto" class="heading" id="Poison"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Poison</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Poison</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Nauseous!</strong> Roll damage as normal and the creature has disadvantage on its next ability check, attack roll, or saving throw.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Sickened!</strong> Roll your damage as normal and the creature has disadvantage on all <a data-href="ability checks" href="ability checks" class="internal-link" target="_self" rel="noopener nofollow">ability checks</a>, attack rolls, and saving throws until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll twice as many damage dice as normal.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Poisoned!</strong> Roll twice as many damage dice as normal and the creature is <a data-href="poisoned" href="poisoned" class="internal-link" target="_self" rel="noopener nofollow">poisoned</a> for the next minute. The creature may attempt a saving throw at the end of each of its turns (DC 12) to end this effect.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Contaminated!</strong> Roll twice as many damage dice as normal and the creature is <a data-href="poisoned" href="poisoned" class="internal-link" target="_self" rel="noopener nofollow">poisoned</a> for the next minute. The creature may attempt a saving throw at the end of each of its turns (DC 16) to end this effect.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Toxic shock!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add that result. Then roll on the minor injury chart and the creature is <a data-href="poisoned" href="poisoned" class="internal-link" target="_self" rel="noopener nofollow">poisoned</a> for the next minute. The creature may attempt a saving throw at the end of each of its turns (DC 12) to end this effect.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>System failure!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Biological breakdown!</strong> Deal twice the maximum result of your damage dice, roll on the major injury chart, and the creature is <a data-href="poisoned" href="poisoned" class="internal-link" target="_self" rel="noopener nofollow">poisoned</a> for the next minute. The creature may attempt a saving throw at the end of each of its turns (DC 16) to end this effect.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Psychic" dir="auto" class="heading" id="Psychic"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Psychic</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Psychic</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Disoriented!</strong> Roll your damage dice as normal and you control the creature’s movement on its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Confused!</strong> Roll your damage dice as normal and the creature cannot differentiate friend from foe until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll twice as many damage dice as normal.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Dominated!</strong> Roll twice as many damage dice as normal and you control the creature’s action on its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Psychological fracture!</strong> Roll twice as many damage dice as normal and roll on the Insanity chart with disadvantage.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Psychological break!</strong> Deal the maximum amount of damage from your normal damage dice then roll your damage dice and add that result. Then roll on the Insanity chart.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Madness!</strong> Deal twice the maximum result of your damage dice and roll on the Insanity chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Mind melt!</strong> Deal twice the maximum result of your damage dice and roll on the Insanity chart with advantage.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Radiant" dir="auto" class="heading" id="Radiant"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Radiant</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Radiant</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Dazzled!</strong> Roll damage as normal and the creature cannot willingly move closer to you until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Disheartening blast!</strong> Roll your damage as normal and the creature is <a data-href="frightened" href="frightened" class="internal-link" target="_self" rel="noopener nofollow">frightened</a> until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll twice as many damage dice as normal.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Awed!</strong> Roll twice as many damage dice as normal and the creature is <a data-href="frightened" href="frightened" class="internal-link" target="_self" rel="noopener nofollow">frightened</a> until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Holy terror!</strong> Roll twice as many damage dice  as normal and roll on the minor injury chart. Additionally, the creature is <a data-href="frightened" href="frightened" class="internal-link" target="_self" rel="noopener nofollow">frightened</a> for the next minute. It can make a Wisdom saving throw (DC 16) at the end of each of its turns to end this effect.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Righteous mark!</strong> Deal the maximum amount  of damage for your normal damage dice then  roll your damage dice and add that result, then roll on the minor injury chart. Additionally, the creature glows for the next minute. While glowing it produces bright light up 10 feet and dim light up to 30 feet and all successful attacks against the creature deal an additional 1d4 radiant damage.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Wrath of the gods!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Smote!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart. Additionally, the creature glows for the next minute. While glowing it produces bright light up 10 feet and dim light up to 30 feet and all successful attacks against the creature deal an additional 1d6 radiant damage.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Thunder" dir="auto" class="heading" id="Thunder"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Thunder</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Thunder</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr"><strong>You call that a crit?</strong> Roll damage as normal.</td>
+</tr>
+<tr>
+<td dir="auto">2-3</td>
+<td dir="ltr"><strong>Boom!</strong> Roll damage as normal and the creature is <a data-href="deafened" href="deafened" class="internal-link" target="_self" rel="noopener nofollow">deafened</a> until the end of its next turn.</td>
+</tr>
+<tr>
+<td dir="auto">4-6</td>
+<td dir="ltr"><strong>Good hit!</strong> Do not roll your damage dice, instead deal the maximum result possible with those dice.</td>
+</tr>
+<tr>
+<td dir="auto">7-8</td>
+<td dir="ltr"><strong>Ka-boom!</strong> Roll your damage as normal and the creature is <a data-href="deafened" href="deafened" class="internal-link" target="_self" rel="noopener nofollow">deafened</a> for one minute.</td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Great hit!</strong> Roll twice as many damage dice as normal.</td>
+</tr>
+<tr>
+<td dir="auto">12-13</td>
+<td dir="ltr"><strong>Thunder clap!</strong> Roll twice as many damage dice as normal and the creature is <a data-href="stunned" href="stunned" class="internal-link" target="_self" rel="noopener nofollow">stunned</a> until the start of its next turn and <a data-href="deafened" href="deafened" class="internal-link" target="_self" rel="noopener nofollow">deafened</a> for one minute.</td>
+</tr>
+<tr>
+<td dir="auto">14-16</td>
+<td dir="ltr"><strong>Burst ear drums!</strong> Roll twice as many damage dice as normal and the creature is <a data-href="deafened" href="deafened" class="internal-link" target="_self" rel="noopener nofollow">deafened</a> permanently. Then roll on the minor injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">17-18</td>
+<td dir="ltr"><strong>Concussive blast!</strong> Deal the maximum amount  of damage from your normal damage dice then roll your damage dice and add that result. The creature <a data-href="stunned" href="stunned" class="internal-link" target="_self" rel="noopener nofollow">stunned</a> until the end of its next turn and <a data-href="deafened" href="deafened" class="internal-link" target="_self" rel="noopener nofollow">deafened</a> permanently. Then roll on the minor injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr"><strong>Wall of sound!</strong> Deal twice the maximum result of your damage dice and roll on the major injury chart.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Sonic salvo!</strong> Deal twice the maximum result  of your damage dice, the creature is <a data-href="deafened" href="deafened" class="internal-link" target="_self" rel="noopener nofollow">deafened</a> permanently, and <a data-href="stunned" href="stunned" class="internal-link" target="_self" rel="noopener nofollow">stunned</a> until the end of its next round. Then roll on the major injury chart.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Minor &amp; Major Injury Charts" dir="auto" class="heading" id="Minor_&amp;_Major_Injury_Charts"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Minor &amp; Major Injury Charts</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Minor Injury</th>
+<th dir="ltr">Major Injury</th>
+<th dir="auto"></th>
+<th dir="auto"></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1-3</td>
+<td dir="ltr"><strong>Injured leg!</strong> The creature’s movement speed is reduced by 10 ft.</td>
+<td dir="ltr"><strong>Crippled leg!</strong> The creature’s movement speed is reduced by 10 feet and it has disadvantage on Dexterity saving throws.</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">4-8</td>
+<td dir="ltr"><strong>Injured arm!</strong> Randomly determine one of the creature’s arms. That arm cannot be used to hold a shield and the creature has disadvantage on any rolls involving the use of that arm.</td>
+<td dir="ltr">Crippled arm! Randomly determine one of  the creature’s arms. That arm cannot be used to hold an item and any ability check requiring that arm automatically fails or has disadvantage (DM’s choice).</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">9-11</td>
+<td dir="ltr"><strong>Multiple injuries!</strong> The creature’s maximum hit points are reduced by an amount equivalent to half of the damage dealt by the attack.</td>
+<td dir="ltr"><strong>Severely wounded!</strong> The creature’s maximum hit points are reduced by an amount equivalent to the damage dealt by the attack.</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">12-16</td>
+<td dir="ltr"><strong>Badly beaten!</strong> The creature has disadvantage on Constitution saving throws.</td>
+<td dir="ltr"><strong>Edge of death!</strong> The creature has disadvantage on Constitution and death saving throws.</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">17-19</td>
+<td dir="ltr"><strong>Ringing blow!</strong> The creature is <a data-href="stunned" href="stunned" class="internal-link" target="_self" rel="noopener nofollow">stunned</a> until the end of its next turn and <a data-href="deafened" href="deafened" class="internal-link" target="_self" rel="noopener nofollow">deafened</a> until it completes a the recuperate downtime activity.</td>
+<td dir="ltr"><strong>My eyes!</strong> The creature is <a data-href="blinded" href="blinded" class="internal-link" target="_self" rel="noopener nofollow">blinded</a>.</td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr"><strong>Blow to the head!</strong></td>
+<td dir="ltr">The creature is <a data-href="unconscious" href="unconscious" class="internal-link" target="_self" rel="noopener nofollow">unconscious</a> for 2d12 hours.</td>
+<td dir="ltr"><strong>Edge of death!</strong> The creature has disadvantage on Constitution and death saving throws.</td>
+<td dir="ltr"><strong>Decapitated!</strong> The creature is dead.</td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Insanity Chart" dir="auto" class="heading" id="Insanity_Chart"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Insanity Chart</h3><div class="heading-children"><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">d20</th>
+<th dir="ltr">Condition</th>
+<th dir="ltr">Effect</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="auto">1</td>
+<td dir="ltr">Synesthesia</td>
+<td dir="ltr">You can hear colors, smell sounds, or taste textures. Regardless of the specific manifestation, you have disadvantage on all <a data-href="Perception" href="Perception" class="internal-link" target="_self" rel="noopener nofollow">Perception</a> and <a data-href="Investigation" href="Investigation" class="internal-link" target="_self" rel="noopener nofollow">Investigation</a> <a data-href="skill checks" href="skill checks" class="internal-link" target="_self" rel="noopener nofollow">skill checks</a>.</td>
+</tr>
+<tr>
+<td dir="auto">2</td>
+<td dir="ltr">Kleptomania</td>
+<td dir="ltr">Once per day when you are in a personal residence or marketplace, the DM can call on you to succeed on a Wisdom saving throw (DC 12) or attempt to steal an item of insignificant practical and monetary value.</td>
+</tr>
+<tr>
+<td dir="auto">3</td>
+<td dir="ltr">Paranoia</td>
+<td dir="ltr">Once per day following an interaction with another creature (including other PCs) the DM can call on you to succeed on a Wisdom saving throw (DC 12) or you suspect that creature is secretly plotting against you.</td>
+</tr>
+<tr>
+<td dir="auto">4</td>
+<td dir="ltr">Obsession</td>
+<td dir="ltr">Choose a person or personal interest you are obsessed with. Once per day, when you are presented with an opportunity to interact with or learn more about the subject of your obsession the DM can call on you to succeed on a Wisdom saving throw (DC 14) or ignore everything else to obsess over the object of your fascination.</td>
+</tr>
+<tr>
+<td dir="auto">5</td>
+<td dir="ltr">Addiction</td>
+<td dir="ltr">Choose a behavior or substance you have used. Once per day, when you are presented with an opportunity to do the behavior or use the substance the DM can call on you to succeed on a Wisdom saving throw (DC 14) or ignore everything else to indulge in your vice.</td>
+</tr>
+<tr>
+<td dir="auto">6</td>
+<td dir="ltr">Odd Thinking</td>
+<td dir="ltr">Once per day when you hear a rational explanation for an event or occurrence, your DM may call on you to succeed on a Wisdom saving throw (DC 12) or you reject the rational explanation for a conspiratorial or fantastical explanation.</td>
+</tr>
+<tr>
+<td dir="auto">7</td>
+<td dir="ltr">Narcissism</td>
+<td dir="ltr">When you take an action or series of action that doesn’t directly benefit you, you must pass a Wisdom saving throw (DC 11) or you can’t take that action / series of actions. If any self-sacrifice on your part would be required the DC of the saving throw is increased to 16.</td>
+</tr>
+<tr>
+<td dir="auto">8</td>
+<td dir="ltr">Delusional</td>
+<td dir="ltr">When you gain this insanity the DM will tell you a belief that you have. No matter what evidence is presented to the contrary so long as you have this insanity you cannot be persuaded that this belief is not true.</td>
+</tr>
+<tr>
+<td dir="auto">9</td>
+<td dir="ltr">Pica</td>
+<td dir="ltr">Once per day the DM can call on you to pass a Wisdom saving throw (DC 14) or immediately eat one non-food object (such as dirt, napkins, or a small piece of jewelry) of the DM’s choice.</td>
+</tr>
+<tr>
+<td dir="auto">10</td>
+<td dir="ltr">Retrograde amnesia</td>
+<td dir="ltr">You forget everything about your personal life prior to the moment you received this insanity.</td>
+</tr>
+<tr>
+<td dir="auto">11</td>
+<td dir="ltr">Overwhelmed</td>
+<td dir="ltr">If you do not have immunity or resistance to psychic damage, you gain vulnerability to psychic damage. If you have resistance to psychic damage, you lose it. If you have immunity to psychic damage, you lose it but gain resistance to psychic damage.</td>
+</tr>
+<tr>
+<td dir="auto">12</td>
+<td dir="ltr">Anterograde amnesia</td>
+<td dir="ltr">Whenever you try to recall a fact you learned since you received this insanity, make a Wisdom saving throw (DC 12). If you fail you cannot recall the fact.</td>
+</tr>
+<tr>
+<td dir="auto">13</td>
+<td dir="ltr">Dependence</td>
+<td dir="ltr">You must pass a Wisdom saving throw (DC 14) to take an action that one or more of your allies disapprove of.</td>
+</tr>
+<tr>
+<td dir="auto">14</td>
+<td dir="ltr">Anxious</td>
+<td dir="ltr">You have disadvantage on saving throws against being <a data-href="frightened" href="frightened" class="internal-link" target="_self" rel="noopener nofollow">frightened</a>. Additionally, once per day the DM can call on you to succeed a Wisdom saving throw (DC 14) or be <a data-href="frightened" href="frightened" class="internal-link" target="_self" rel="noopener nofollow">frightened</a> by a creature of the DM’s choosing for the next minute.</td>
+</tr>
+<tr>
+<td dir="auto">15</td>
+<td dir="ltr">Mute</td>
+<td dir="ltr">Whenever you wish to speak allowed (including casting a spell that has verbal components) you must succeed on a Wisdom saving throw (DC 13) to do so.</td>
+</tr>
+<tr>
+<td dir="auto">16</td>
+<td dir="ltr">Narcolepsy</td>
+<td dir="ltr">You have disadvantage on saving throws against sleeping or unconsciousness. Once per day the DM may call on you to succeed on a Constitution saving throw (DC 12) or fall <a data-href="unconscious" href="unconscious" class="internal-link" target="_self" rel="noopener nofollow">unconscious</a> for one minute or until you take damage or another creature spends their action trying to rouse you.</td>
+</tr>
+<tr>
+<td dir="auto">17</td>
+<td dir="ltr">Insomnia</td>
+<td dir="ltr">You cannot take long rests and your short rests take 8 hours to complete.</td>
+</tr>
+<tr>
+<td dir="auto">18</td>
+<td dir="ltr">Homicidal</td>
+<td dir="ltr">After each <a data-href="Long Rest" href="Long Rest" class="internal-link" target="_self" rel="noopener nofollow">Long Rest</a> you must pass a Wisdom saving throw (DC 14) or be overcome with the urge to end the life of a humanoid creature and you cannot benefit from another <a data-href="Long Rest" href="Long Rest" class="internal-link" target="_self" rel="noopener nofollow">Long Rest</a> until you do so.</td>
+</tr>
+<tr>
+<td dir="auto">19</td>
+<td dir="ltr">Suicidal</td>
+<td dir="ltr">After each <a data-href="Long Rest" href="Long Rest" class="internal-link" target="_self" rel="noopener nofollow">Long Rest</a> you must pass a Wisdom saving throw (DC 12) or make an attempt to end your own life.</td>
+</tr>
+<tr>
+<td dir="auto">20</td>
+<td dir="ltr">Catatonia</td>
+<td dir="ltr">You are <a data-href="unconscious" href="unconscious" class="internal-link" target="_self" rel="noopener nofollow">unconscious</a> for 10d10 years.</td>
+</tr>
+</tbody>
+</table></div><div class="el-hr"><hr></div><div class="el-p"><p dir="auto">Source:
+<a data-href="critical-hits-revisited.pdf" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.pdf" class="internal-link" target="_self" rel="noopener nofollow">critical-hits-revisited.pdf</a>
+"Critical Hits Revisited"
+Benjamin Huffman
+<a rel="noopener nofollow" class="external-link" href="http://sterlingvermin.com/" target="_blank">http://sterlingvermin.com/</a></p></div><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button is-collapsed" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Critical Hits Revisited"><div class="tree-item-contents heading-link" heading-name="Critical Hits Revisited"><span class="tree-item-title">Critical Hits Revisited</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="2"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Revisions_to_Critical_Hits"><div class="tree-item-contents heading-link" heading-name="Revisions to Critical Hits"><span class="tree-item-title">Revisions to Critical Hits</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Alternate_Option:_Selective_Use_of_Critical_Hits"><div class="tree-item-contents heading-link" heading-name="Alternate Option: Selective Use of Critical Hits"><span class="tree-item-title">Alternate Option: Selective Use of Critical Hits</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="2"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Injuries_&amp;_Insanity"><div class="tree-item-contents heading-link" heading-name="Injuries &amp; Insanity"><span class="tree-item-title">Injuries &amp; Insanity</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Weapon_Damage_Charts"><div class="tree-item-contents heading-link" heading-name="Weapon Damage Charts"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Weapon Damage Charts</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Bludgeoning"><div class="tree-item-contents heading-link" heading-name="Bludgeoning"><span class="tree-item-title">Bludgeoning</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Piercing"><div class="tree-item-contents heading-link" heading-name="Piercing"><span class="tree-item-title">Piercing</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Slashing"><div class="tree-item-contents heading-link" heading-name="Slashing"><span class="tree-item-title">Slashing</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Magic_Damage_Charts"><div class="tree-item-contents heading-link" heading-name="Magic Damage Charts"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Magic Damage Charts</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Acid"><div class="tree-item-contents heading-link" heading-name="Acid"><span class="tree-item-title">Acid</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Cold"><div class="tree-item-contents heading-link" heading-name="Cold"><span class="tree-item-title">Cold</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Fire"><div class="tree-item-contents heading-link" heading-name="Fire"><span class="tree-item-title">Fire</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Force"><div class="tree-item-contents heading-link" heading-name="Force"><span class="tree-item-title">Force</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Lightning"><div class="tree-item-contents heading-link" heading-name="Lightning"><span class="tree-item-title">Lightning</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Necrotic"><div class="tree-item-contents heading-link" heading-name="Necrotic"><span class="tree-item-title">Necrotic</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Poison"><div class="tree-item-contents heading-link" heading-name="Poison"><span class="tree-item-title">Poison</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Psychic"><div class="tree-item-contents heading-link" heading-name="Psychic"><span class="tree-item-title">Psychic</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Radiant"><div class="tree-item-contents heading-link" heading-name="Radiant"><span class="tree-item-title">Radiant</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Thunder"><div class="tree-item-contents heading-link" heading-name="Thunder"><span class="tree-item-title">Thunder</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Minor_&amp;_Major_Injury_Charts"><div class="tree-item-contents heading-link" heading-name="Minor &amp; Major Injury Charts"><span class="tree-item-title">Minor &amp; Major Injury Charts</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/gameplay/critical-hit/benjamin-huffman/critical-hits-revisited.html#Insanity_Chart"><div class="tree-item-contents heading-link" heading-name="Insanity Chart"><span class="tree-item-title">Insanity Chart</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

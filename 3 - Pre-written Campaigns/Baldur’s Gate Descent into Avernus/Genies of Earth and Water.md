@@ -1,3 +1,0 @@
-# Genies of Earth and Water
-
-A dao and a marid live here, having struck bargains with Halaster to rid *level 20* of the lich **Ezzat**. The genies compete with one another. Whichever one obtains the lich's phylactery wins its freedom, damning the other to spend the remainder of its existence in Undermountain. By the rules of Halaster's game, the genies can use adventurers to get the job done, but they can't cause bodily harm to one another, either directly or indirectly. A disgruntled mud mephit named Urm has been forced to act as the genies' go-between.

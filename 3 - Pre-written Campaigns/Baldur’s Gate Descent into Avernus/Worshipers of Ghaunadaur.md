@@ -1,5 +1,0 @@
-# Worshipers of Ghaunadaur
-
-The Caverns of Ooze have, at various times, served as a temple and sanctuary for worshipers of Ghaunadaur, the evil god of oozes, slimes, and other subterranean horrors. Halaster rewards these mad zealots by transforming them into oozes that retain most of their memories and intelligence. These servants of Ghaunadaur believe the god himself has blessed them. The Mad Mage does nothing to discourage this impression.
-
-Followers of Ghaunadaur whom Halaster lures to Undermountain invariably visit a floating orb that weeps primordial ooze in area 4. The orb is thought to be part of Ghaunadaur himself. His worshipers sometimes refer to the object as the Weeping Eye. In truth, Halaster found the oozing orb and brought it here solely to flood the caverns and mislead Ghaunadaur's vile devotees.

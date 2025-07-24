@@ -1,0 +1,604 @@
+<!DOCTYPE html> <html><head>
+		<title>Druid</title>
+		<base href="../../">
+		<meta id="root-path" root-path="../../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="dndvault - Druid">
+		<meta property="og:title" content="Druid">
+		<meta property="og:description" content="dndvault - Druid">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://dndvault.github.io/dndvault/1-wiki/classes/druid.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="dndvault">
+		<meta name="author" content="Elias"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://dndvault.github.io/dndvault/lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark native-scrollbars show-inline-title show-ribbon mk-readable-line mk-folder-lines mk-inline-context-enabled mk-flow-minimal basic-pathfinder-2e-layout-theme-default pathfinder-2e-action-layout-theme-default pathfinder-2e-hazard-layout-theme-default pathfinder-2e-influence-layout-theme-default pathfinder-2e-item-layout-theme-default pathfinder-2e-misc-layout-theme-default pathfinder-2e-plane-layout-theme-default pathfinder-2e-quest-layout-theme-default pathfinder-2e-settlement-layout-theme-default check-color check-bg rpgm-toggle-full-width-styles"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles">mjx-container[jax=CHTML]{line-height:0}mjx-container [space="1"]{margin-left:.111em}mjx-container [space="2"]{margin-left:.167em}mjx-container [space="3"]{margin-left:.222em}mjx-container [space="4"]{margin-left:.278em}mjx-container [space="5"]{margin-left:.333em}mjx-container [rspace="1"]{margin-right:.111em}mjx-container [rspace="2"]{margin-right:.167em}mjx-container [rspace="3"]{margin-right:.222em}mjx-container [rspace="4"]{margin-right:.278em}mjx-container [rspace="5"]{margin-right:.333em}mjx-container [size="s"]{font-size:70.7%}mjx-container [size=ss]{font-size:50%}mjx-container [size=Tn]{font-size:60%}mjx-container [size=sm]{font-size:85%}mjx-container [size=lg]{font-size:120%}mjx-container [size=Lg]{font-size:144%}mjx-container [size=LG]{font-size:173%}mjx-container [size=hg]{font-size:207%}mjx-container [size=HG]{font-size:249%}mjx-container [width=full]{width:100%}mjx-box{display:inline-block}mjx-block{display:block}mjx-itable{display:inline-table}mjx-row{display:table-row}mjx-row>*{display:table-cell}mjx-mtext{display:inline-block}mjx-mstyle{display:inline-block}mjx-merror{display:inline-block;color:red;background-color:#ff0}mjx-mphantom{visibility:hidden}mjx-assistive-mml{top:0;left:0;clip:rect(1px,1px,1px,1px);user-select:none;position:absolute!important;padding:1px 0 0!important;border:0!important;display:block!important;width:auto!important;overflow:hidden!important}mjx-assistive-mml[display=block]{width:100%!important}mjx-math{display:inline-block;text-align:left;line-height:0;text-indent:0;font-style:normal;font-weight:400;font-size:100%;font-size-adjust:none;letter-spacing:normal;border-collapse:collapse;overflow-wrap:normal;word-spacing:normal;white-space:nowrap;direction:ltr;padding:1px 0}mjx-container[jax=CHTML][display=true]{display:block;text-align:center;margin:1em 0}mjx-container[jax=CHTML][display=true][width=full]{display:flex}mjx-container[jax=CHTML][display=true] mjx-math{padding:0}mjx-container[jax=CHTML][justify=left]{text-align:left}mjx-container[jax=CHTML][justify=right]{text-align:right}mjx-msup{display:inline-block;text-align:left}mjx-mn{display:inline-block;text-align:left}mjx-c{display:inline-block}mjx-utext{display:inline-block;padding:.75em 0 .2em}mjx-texatom{display:inline-block;text-align:left}mjx-mi{display:inline-block;text-align:left}mjx-c::before{display:block;width:0}.MJX-TEX{font-family:MJXZERO,MJXTEX}.TEX-B{font-family:MJXZERO,MJXTEX-B}.TEX-I{font-family:MJXZERO,MJXTEX-I}.TEX-MI{font-family:MJXZERO,MJXTEX-MI}.TEX-BI{font-family:MJXZERO,MJXTEX-BI}.TEX-S1{font-family:MJXZERO,MJXTEX-S1}.TEX-S2{font-family:MJXZERO,MJXTEX-S2}.TEX-S3{font-family:MJXZERO,MJXTEX-S3}.TEX-S4{font-family:MJXZERO,MJXTEX-S4}.TEX-A{font-family:MJXZERO,MJXTEX-A}.TEX-C{font-family:MJXZERO,MJXTEX-C}.TEX-CB{font-family:MJXZERO,MJXTEX-CB}.TEX-FR{font-family:MJXZERO,MJXTEX-FR}.TEX-FRB{font-family:MJXZERO,MJXTEX-FRB}.TEX-SS{font-family:MJXZERO,MJXTEX-SS}.TEX-SSB{font-family:MJXZERO,MJXTEX-SSB}.TEX-SSI{font-family:MJXZERO,MJXTEX-SSI}.TEX-SC{font-family:MJXZERO,MJXTEX-SC}.TEX-T{font-family:MJXZERO,MJXTEX-T}.TEX-V{font-family:MJXZERO,MJXTEX-V}.TEX-VB{font-family:MJXZERO,MJXTEX-VB}mjx-stretchy-h mjx-c,mjx-stretchy-v mjx-c{font-family:MJXZERO,MJXTEX-S1,MJXTEX-S4,MJXTEX,MJXTEX-A!important}@font-face{font-family:MJXZERO;src:url("lib/fonts/mathjax_zero.woff") format("woff")}@font-face{font-family:MJXTEX;src:url("lib/fonts/mathjax_main-regular.woff") format("woff")}@font-face{font-family:MJXTEX-B;src:url("lib/fonts/mathjax_main-bold.woff") format("woff")}@font-face{font-family:MJXTEX-I;src:url("lib/fonts/mathjax_math-italic.woff") format("woff")}@font-face{font-family:MJXTEX-MI;src:url("lib/fonts/mathjax_main-italic.woff") format("woff")}@font-face{font-family:MJXTEX-BI;src:url("lib/fonts/mathjax_math-bolditalic.woff") format("woff")}@font-face{font-family:MJXTEX-S1;src:url("lib/fonts/mathjax_size1-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S2;src:url("lib/fonts/mathjax_size2-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S3;src:url("lib/fonts/mathjax_size3-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S4;src:url("lib/fonts/mathjax_size4-regular.woff") format("woff")}@font-face{font-family:MJXTEX-A;src:url("lib/fonts/mathjax_ams-regular.woff") format("woff")}@font-face{font-family:MJXTEX-C;src:url("lib/fonts/mathjax_calligraphic-regular.woff") format("woff")}@font-face{font-family:MJXTEX-CB;src:url("lib/fonts/mathjax_calligraphic-bold.woff") format("woff")}@font-face{font-family:MJXTEX-FR;src:url("lib/fonts/mathjax_fraktur-regular.woff") format("woff")}@font-face{font-family:MJXTEX-FRB;src:url("lib/fonts/mathjax_fraktur-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SS;src:url("lib/fonts/mathjax_sansserif-regular.woff") format("woff")}@font-face{font-family:MJXTEX-SSB;src:url("lib/fonts/mathjax_sansserif-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SSI;src:url("lib/fonts/mathjax_sansserif-italic.woff") format("woff")}@font-face{font-family:MJXTEX-SC;src:url("lib/fonts/mathjax_script-regular.woff") format("woff")}@font-face{font-family:MJXTEX-T;src:url("lib/fonts/mathjax_typewriter-regular.woff") format("woff")}@font-face{font-family:MJXTEX-V;src:url("lib/fonts/mathjax_vector-regular.woff") format("woff")}@font-face{font-family:MJXTEX-VB;src:url("lib/fonts/mathjax_vector-bold.woff") format("woff")}mjx-c.mjx-c31::before{padding:.666em .5em 0 0;content:"1"}mjx-c.mjx-c1D461.TEX-I::before{padding:.626em .361em .011em 0;content:"t"}mjx-c.mjx-c1D452.TEX-I::before{padding:.442em .466em .011em 0;content:"e"}mjx-c.mjx-c1D465.TEX-I::before{padding:.442em .572em .011em 0;content:"x"}mjx-c.mjx-c1D446.TEX-I::before{padding:.705em .645em .022em 0;content:"S"}mjx-c.mjx-c1D447.TEX-I::before{padding:.677em .704em 0 0;content:"T"}</style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Druid"><p dir="auto">Druid</p></h1><div class="el-h1 heading-wrapper"><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Class Features" dir="auto" class="heading" id="Class_Features"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Class Features</h3><div class="heading-children"><div class="el-p"><p dir="auto">As a druid, you gain the following class features.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Hit Points" dir="auto" class="heading" id="Hit_Points"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Hit Points</h4><div class="heading-children"><div class="el-p"><p dir="auto"><strong>Hit Dice:</strong> 1d8 per druid level</p></div><div class="el-p"><p dir="auto"><strong>Hit Points at 1st Level:</strong> 8 + your <a data-tooltip-position="top" aria-label="7 - Other/reference/Abilities > Constitution" data-href="7 - Other/reference/Abilities#Constitution" href="7 - Other/reference/Abilities#Constitution" class="internal-link" target="_self" rel="noopener nofollow">Constitution</a> modifier</p></div><div class="el-p"><p dir="auto"><strong>Hit Points at Higher Levels:</strong> 1d8 (or 5) + your Constitution modifier per druid level after 1st</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Proficiencies" dir="auto" class="heading" id="Proficiencies"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Proficiencies</h4><div class="heading-children"><div class="el-p"><p dir="auto"><strong><a data-tooltip-position="top" aria-label="7 - Other/reference/Armor > Armor" data-href="7 - Other/reference/Armor#Armor" href="7 - Other/reference/Armor#Armor" class="internal-link" target="_self" rel="noopener nofollow">Armor</a>:</strong> Light armor, medium armor, shields (druids will not wear armor or use shields made of metal)</p></div><div class="el-p"><p dir="auto"><strong><a data-tooltip-position="top" aria-label="7 - Other/reference/Weapons > Weapons" data-href="7 - Other/reference/Weapons#Weapons" href="7 - Other/reference/Weapons#Weapons" class="internal-link" target="_self" rel="noopener nofollow">Weapons</a>:</strong> Clubs, daggers, darts, javelins, maces, quarterstaffs, scimitars, sickles, slings, spears</p></div><div class="el-p"><p dir="auto"><strong><a data-tooltip-position="top" aria-label="7 - Other/reference/Tools > Tools" data-href="7 - Other/reference/Tools#Tools" href="7 - Other/reference/Tools#Tools" class="internal-link" target="_self" rel="noopener nofollow">Tools</a>:</strong> Herbalism kit</p></div><div class="el-p"><p dir="auto"><strong><a data-tooltip-position="top" aria-label="7 - Other/reference/Abilities > Saving Throws" data-href="7 - Other/reference/Abilities#Saving Throws" href="7 - Other/reference/Abilities#Saving Throws" class="internal-link" target="_self" rel="noopener nofollow">Saving Throws</a>:</strong> <a data-tooltip-position="top" aria-label="7 - Other/reference/Abilities > Intelligence" data-href="7 - Other/reference/Abilities#Intelligence" href="7 - Other/reference/Abilities#Intelligence" class="internal-link" target="_self" rel="noopener nofollow">Intelligence</a>, <a data-tooltip-position="top" aria-label="7 - Other/reference/Abilities > Wisdom" data-href="7 - Other/reference/Abilities#Wisdom" href="7 - Other/reference/Abilities#Wisdom" class="internal-link" target="_self" rel="noopener nofollow">Wisdom</a></p></div><div class="el-p"><p dir="auto"><strong><a data-tooltip-position="top" aria-label="7 - Other/reference/Abilities > Skills" data-href="7 - Other/reference/Abilities#Skills" href="7 - Other/reference/Abilities#Skills" class="internal-link" target="_self" rel="noopener nofollow">Skills</a>:</strong> Choose two from Arcana, Animal Handling, Insight, Medicine, Nature, Perception, Religion, and Survival</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Equipment" dir="auto" class="heading" id="Equipment"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Equipment</h4><div class="heading-children"><div class="el-p"><p dir="auto">You start with the following equipment, in addition to the equipment granted by your background:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">(<em>a</em>) a wooden shield or (<em>b</em>) any simple weapon</li>
+<li data-line="1" dir="auto">(<em>a</em>) a scimitar or (<em>b</em>) any simple melee weapon</li>
+<li data-line="2" dir="auto">Leather armor, an explorer's pack, and a druidic focus</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Table- The Druid</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Level</th>
+<th dir="ltr">Proficiency Bonus</th>
+<th dir="ltr">Features</th>
+<th dir="ltr">Cantrips Known</th>
+<th dir="ltr">1st</th>
+<th dir="ltr">2nd</th>
+<th dir="ltr">3rd</th>
+<th dir="ltr">4th</th>
+<th dir="ltr">5th</th>
+<th dir="ltr">6th</th>
+<th dir="ltr">7th</th>
+<th dir="ltr">8th</th>
+<th dir="ltr">9th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">1st</td>
+<td dir="auto">+2</td>
+<td dir="ltr">Druidic, Spellcasting</td>
+<td dir="auto">2</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">2nd</td>
+<td dir="auto">+2</td>
+<td dir="ltr">Wild Shape, Druid Circle</td>
+<td dir="auto">2</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="auto">+2</td>
+<td dir="auto">-</td>
+<td dir="auto">2</td>
+<td dir="auto">4</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">4th</td>
+<td dir="auto">+2</td>
+<td dir="ltr">Wild Shape Improvement, Ability Score Improvement</td>
+<td dir="auto">3</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="auto">+3</td>
+<td dir="auto">-</td>
+<td dir="auto">3</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">6th</td>
+<td dir="auto">+3</td>
+<td dir="ltr">Druid Circle feature</td>
+<td dir="auto">3</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="auto">+3</td>
+<td dir="auto">-</td>
+<td dir="auto">3</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">8th</td>
+<td dir="auto">+3</td>
+<td dir="ltr">Wild Shape Improvement, Ability Score Improvement</td>
+<td dir="auto">3</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="auto">+4</td>
+<td dir="auto">-</td>
+<td dir="auto">3</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">10th</td>
+<td dir="auto">+4</td>
+<td dir="ltr">Druid Circle feature</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">11th</td>
+<td dir="auto">+4</td>
+<td dir="auto">-</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">12th</td>
+<td dir="auto">+4</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">13th</td>
+<td dir="auto">+5</td>
+<td dir="auto">-</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">14th</td>
+<td dir="auto">+5</td>
+<td dir="ltr">Druid Circle feature</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">15th</td>
+<td dir="auto">+5</td>
+<td dir="auto">-</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">16th</td>
+<td dir="auto">+5</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">17th</td>
+<td dir="auto">+6</td>
+<td dir="auto">-</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr">18th</td>
+<td dir="auto">+6</td>
+<td dir="ltr">Timeless Body, Beast Spells</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr">19th</td>
+<td dir="auto">+6</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr">20th</td>
+<td dir="auto">+6</td>
+<td dir="ltr">Archdruid</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Druidic" dir="auto" class="heading" id="Druidic"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Druidic</h3><div class="heading-children"><div class="el-p"><p dir="auto">You know Druidic, the secret language of druids. You can speak the language and use it to leave hidden messages. You and others who know this language automatically spot such a message. Others spot the message's presence with a successful DC 15 Wisdom (Perception) check but can't decipher it without magic.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Spellcasting" dir="auto" class="heading" id="Spellcasting"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Spellcasting</h3><div class="heading-children"><div class="el-p"><p dir="auto">Drawing on the divine essence of nature itself, you can cast spells to shape that essence to your will.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Cantrips" dir="auto" class="heading" id="Cantrips"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Cantrips</h4><div class="heading-children"><div class="el-p"><p dir="auto">At 1st level, you know two cantrips of your choice from the druid spell list. You learn additional druid cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Druid table.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Preparing and Casting Spells" dir="auto" class="heading" id="Preparing_and_Casting_Spells"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Preparing and Casting Spells</h4><div class="heading-children"><div class="el-p"><p dir="auto">The Druid table shows how many spell slots you have to cast your druid spells of 1st level and higher. To cast one of these druid spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p></div><div class="el-p"><p dir="auto">You prepare the list of druid spells that are available for you to cast, choosing from the druid spell list. When you do so, choose a number of druid spells equal to your Wisdom modifier + your druid level (minimum of one spell). The spells must be of a level for which you have spell slots.</p></div><div class="el-p"><p dir="auto">For example, if you are a 3rd-level druid, you have four 1st-level and two 2nd-level spell slots. With a Wisdom of 16, your list of prepared spells can include six spells of 1st or 2nd level, in any combination. If you prepare the 1st-level spell <em>cure wounds</em>, you can cast it using a 1st-level or 2nd-level slot. Casting the spell doesn't remove it from your list of prepared spells.</p></div><div class="el-p"><p dir="auto">You can also change your list of prepared spells when you finish a long rest. Preparing a new list of druid spells requires time spent in prayer and meditation: at least 1 minute per spell level for each spell on your list.</p></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Spellcasting Ability" dir="auto" class="heading" id="Spellcasting_Ability"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Spellcasting Ability</h3><div class="heading-children"><div class="el-p"><p dir="auto">Wisdom is your spellcasting ability for your druid spells, since your magic draws upon your devotion and attunement to nature. You use your Wisdom whenever a spell refers to your spellcasting ability. In addition, you use your Wisdom modifier when setting the saving throw DC for a druid spell you cast and when making an attack roll with one.</p></div><div class="el-p"><p dir="auto"><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Wisdom modifier</p></div><div class="el-p"><p dir="auto"><strong>Spell attack modifier</strong> = your proficiency bonus + your Wisdom modifier</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Ritual Casting" dir="auto" class="heading" id="Ritual_Casting"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Ritual Casting</h3><div class="heading-children"><div class="el-p"><p dir="auto">You can cast a druid spell as a ritual if that spell has the ritual tag and you have the spell prepared.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Spellcasting Focus" dir="auto" class="heading" id="Spellcasting_Focus"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Spellcasting Focus</h4><div class="heading-children"><div class="el-p"><p dir="auto">You can use a druidic focus as a spellcasting focus for your druid spells.</p></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Wild Shape" dir="auto" class="heading" id="Wild_Shape"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Wild Shape</h3><div class="heading-children"><div class="el-p"><p dir="auto">Starting at 2nd level, you can use your action to magically assume the shape of a beast that you have seen before. You can use this feature twice. You regain expended uses when you finish a short or long rest.</p></div><div class="el-p"><p dir="auto">Your druid level determines the beasts you can transform into, as shown in the Beast Shapes table. At 2nd level, for example, you can transform into any beast that has a challenge rating of 1/4 or lower that doesn't have a flying or swimming speed.</p></div><div class="el-p"><p dir="auto"><strong>Table- Beast Shapes</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Level</th>
+<th dir="ltr">Max. CR</th>
+<th dir="ltr">Limitations</th>
+<th dir="ltr">Example</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">2nd</td>
+<td dir="auto">1/4</td>
+<td dir="ltr">No flying or swimming speed</td>
+<td dir="ltr">Wolf</td>
+</tr>
+<tr>
+<td dir="ltr">4th</td>
+<td dir="auto">1/2</td>
+<td dir="ltr">No flying speed</td>
+<td dir="ltr">Crocodile</td>
+</tr>
+<tr>
+<td dir="ltr">8th</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="ltr">Giant eagle</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">You can stay in a beast shape for a number of hours equal to half your druid level (rounded down). You then revert to your normal form unless you expend another use of this feature. You can revert to your normal form earlier by using a bonus action on your turn. You automatically revert if you fall unconscious, drop to 0 hit points, or die.</p></div><div class="el-p"><p dir="auto">While you are transformed, the following rules apply:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">Your game statistics are replaced by the statistics of the beast, but you retain your alignment, personality, and Intelligence, Wisdom, and Charisma scores. You also retain all of your skill and saving throw proficiencies, in addition to gaining those of the creature. If the creature has the same proficiency as you and the bonus in its stat block is higher than yours, use the creature's bonus instead of yours. If the creature has any legendary or lair actions, you can't use them.</li>
+<li data-line="1" dir="auto">When you transform, you assume the beast's hit points and Hit Dice. When you revert to your normal form, you return to the number of hit points you had before you transformed. However, if you revert as a result of dropping to 0 hit points, any excess damage carries over to your normal form. For example, if you take 10 damage in animal form and have only 1 hit point left, you revert and take 9 damage. As long as the excess damage doesn't reduce your normal form to 0 hit points, you aren't knocked unconscious.</li>
+<li data-line="2" dir="auto">You can't cast spells, and your ability to speak or take any action that requires hands is limited to the capabilities of your beast form. Transforming doesn't break your concentration on a spell you've already cast, however, or prevent you from taking actions that are part of a spell, such as call lightning, that you've already cast.</li>
+<li data-line="3" dir="auto">You retain the benefit of any features from your class, race, or other source and can use them if the new form is physically capable of doing so. However, you can't use any of your special senses, such as darkvision, unless your new form also has that sense.</li>
+<li data-line="4" dir="auto">You choose whether your equipment falls to the ground in your space, merges into your new form, or is worn by it. Worn equipment functions as normal, but the GM decides whether it is practical for the new form to wear a piece of equipment, based on the creature's shape and size. Your equipment doesn't change size or shape to match the new form, and any equipment that the new form can't wear must either fall to the ground or merge with it. Equipment that merges with the form has no effect until you leave the form.</li>
+</ul></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Druid Circle" dir="auto" class="heading" id="Druid_Circle"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Druid Circle</h3><div class="heading-children"><div class="el-p"><p dir="auto">At 2nd level, you choose to identify with a circle of druids: the Circle of the Land or the Circle of the Moon, both detailed at the end of the class description. Your choice grants you features at 2nd level and again at 6th, 10th, and 14th level.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Ability Score Improvement" dir="auto" class="heading" id="Ability_Score_Improvement"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Ability Score Improvement</h3><div class="heading-children"><div class="el-p"><p dir="auto">When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Timeless Body" dir="auto" class="heading" id="Timeless_Body"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Timeless Body</h3><div class="heading-children"><div class="el-p"><p dir="auto">Starting at 18th level, the primal magic that you wield causes you to age more slowly. For every 10 years that pass, your body ages only 1 year.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Beast Spells" dir="auto" class="heading" id="Beast_Spells"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Beast Spells</h3><div class="heading-children"><div class="el-p"><p dir="auto">Beginning at 18th level, you can cast many of your druid spells in any shape you assume using Wild Shape. You can perform the somatic and verbal components of a druid spell while in a beast shape, but you aren't able to provide material components.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Archdruid" dir="auto" class="heading" id="Archdruid"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Archdruid</h3><div class="heading-children"><div class="el-p"><p dir="auto">At 20th level, you can use your Wild Shape an unlimited number of times.</p></div><div class="el-p"><p dir="auto">Additionally, you can ignore the verbal and somatic components of your druid spells, as well as any material components that lack a cost and aren't consumed by a spell. You gain this benefit in both your normal shape and your beast shape from Wild Shape.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Druid Circles" dir="auto" class="heading" id="Druid_Circles"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Druid Circles</h2><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Circle of the Land" dir="auto" class="heading" id="Circle_of_the_Land"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Circle of the Land</h3><div class="heading-children"><div class="el-p"><p dir="auto">The Circle of the Land is made up of mystics and sages who safeguard ancient knowledge and rites through a vast oral tradition. These druids meet within sacred circles of trees or standing stones to whisper primal secrets in Druidic. The circle's wisest members preside as the chief priests of communities that hold to the Old Faith and serve as advisors to the rulers of those folk. As a member of this circle, your magic is influenced by the land where you were initiated into the circle's mysterious rites.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Bonus Cantrip" dir="auto" class="heading" id="Bonus_Cantrip"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Bonus Cantrip</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you choose this circle at 2nd level, you learn one additional druid cantrip of your choice.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Natural Recovery" dir="auto" class="heading" id="Natural_Recovery"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Natural Recovery</h4><div class="heading-children"><div class="el-p"><p dir="auto">Starting at 2nd level, you can regain some of your magical energy by sitting in meditation and communing with nature. During a short rest, you choose expended spell slots to recover. The spell slots can have a combined level that is equal to or less than half your druid level (rounded up), and none of the slots can be 6th level or higher. You can't use this feature again until you finish a long rest.</p></div><div class="el-p"><p dir="auto">For example, when you are a 4th-level druid, you can recover up to two levels worth of spell slots. You can recover either a 2nd-level slot or two 1st-level slots.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Circle Spells" dir="auto" class="heading" id="Circle_Spells"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Circle Spells</h4><div class="heading-children"><div class="el-p"><p dir="auto">Your mystical connection to the land infuses you with the ability to cast certain spells. At 3rd, 5th, 7th, and 9th level you gain access to circle spells connected to the land where you became a druid. Choose that land-arctic, coast, desert, forest, grassland, mountain, or swamp-and consult the associated list of spells.</p></div><div class="el-p"><p dir="auto">Once you gain access to a circle spell, you always have it prepared, and it doesn't count against the number of spells you can prepare each day. If you gain access to a spell that doesn't appear on the druid spell list, the spell is nonetheless a druid spell for you.</p></div><div class="el-p"><p dir="auto"><strong>Table- Arctic Circle Spells</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Druid Level</th>
+<th dir="ltr">Circle Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="ltr">hold person, spike growth</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="ltr">sleet storm, slow</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="ltr">freedom of movement, ice storm</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="ltr">commune with nature, cone of cold</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Table- Coast Circle Spells</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Druid Level</th>
+<th dir="ltr">Circle Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="ltr">mirror image, misty step</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="ltr">water breathing, water walk</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="ltr">control water, freedom of movement</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="ltr">conjure elemental, scrying</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Table- Desert Circle Spells</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Druid Level</th>
+<th dir="ltr">Circle Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="ltr">blur, silence</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="ltr">create food and water, protection from energy</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="ltr">blight, hallucinatory terrain</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="ltr">insect plague, wall of stone</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Table- Forest Circle Spells</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Druid Level</th>
+<th dir="ltr">Circle Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="ltr">barkskin, spider climb</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="ltr">call lightning, plant growth</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="ltr">divination, freedom of movement</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="ltr">commune with nature, tree stride</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Table- Grassland Circle Spells</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Druid Level</th>
+<th dir="ltr">Circle Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="ltr">invisibility, pass without trace</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="ltr">daylight, haste</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="ltr">divination, freedom of movement</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="ltr">dream, insect plague</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Table- Mountain Circle Spells</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Druid Level</th>
+<th dir="ltr">Circle Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="ltr">spider climb, spike growth</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="ltr">lightning bolt, meld into stone</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="ltr">stone shape, stoneskin</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="ltr">passwall, wall of stone</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong>Table- Swamp Circle Spells</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Druid Level</th>
+<th dir="ltr">Circle Spells</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="ltr">acid arrow, darkness</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="ltr">water walk, stinking cloud</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="ltr">freedom of movement, locate creature</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="ltr">insect plague, scrying</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Land's Stride" dir="auto" class="heading" id="Land's_Stride"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Land's Stride</h4><div class="heading-children"><div class="el-p"><p dir="auto">Starting at 6th level, moving through nonmagical difficult terrain costs you no extra movement. You can also pass through nonmagical plants without being slowed by them and without taking damage from them if they have thorns, spines, or a similar hazard.</p></div><div class="el-p"><p dir="auto">In addition, you have advantage on saving throws against plants that are magically created or manipulated to impede movement, such those created by the <em>entangle</em> spell.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Nature's Ward" dir="auto" class="heading" id="Nature's_Ward"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Nature's Ward</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you reach 10th level, you can't be charmed or frightened by elementals or fey, and you are immune to poison and disease.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Nature's Sanctuary" dir="auto" class="heading" id="Nature's_Sanctuary"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Nature's Sanctuary</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you reach 14th level, creatures of the natural world sense your connection to nature and become hesitant to attack you. When a beast or plant creature attacks you, that creature must make a Wisdom saving throw against your druid spell save DC. On a failed save, the creature must choose a different target, or the attack automatically misses. On a successful save, the creature is immune to this effect for 24 hours.</p></div><div class="el-p"><p dir="auto">The creature is aware of this effect before it makes its attack against you.</p></div><div class="el-blockquote"><blockquote dir="auto">
+<p><strong>Sacred Plants and Wood</strong></p>
+<p>A druid holds certain plants to be sacred, particularly alder, ash, birch, elder, hazel, holly, juniper, mistletoe, oak, rowan, willow, and yew. Druids often use such plants as part of a spellcasting focus, incorporating lengths of oak or yew or sprigs of mistletoe.</p>
+<p>Similarly, a druid uses such woods to make other objects, such as weapons and shields. Yew is associated with death and rebirth, so weapon handles for scimitars or sickles might be fashioned from it. Ash is associated with life and oak with strength. These woods make excellent hafts or whole weapons, such as clubs or quarterstaffs, as well as shields. Alder is associated with air, and it might be used for thrown weapons, such as darts or javelins.</p>
+<p>Druids from regions that lack the plants described here have chosen other plants to take on similar uses. For instance, a druid of a desert region might value the yucca tree and cactus plants.</p>
+<p><strong>Druids and the Gods</strong></p>
+<p>Some druids venerate the forces of nature themselves, but most druids are devoted to one of the many nature deities worshiped in the multiverse (the lists of gods in appendix B include many such deities). The worship of these deities is often considered a more ancient tradition than the faiths of clerics and urbanized peoples.</p>
+</blockquote></div><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button is-collapsed" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="1-wiki/classes/druid.html#Druid"><div class="tree-item-contents heading-link" heading-name="Druid"><span class="tree-item-title">Druid</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Class_Features"><div class="tree-item-contents heading-link" heading-name="Class Features"><span class="tree-item-title">Class Features</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Hit_Points"><div class="tree-item-contents heading-link" heading-name="Hit Points"><span class="tree-item-title">Hit Points</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Proficiencies"><div class="tree-item-contents heading-link" heading-name="Proficiencies"><span class="tree-item-title">Proficiencies</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Equipment"><div class="tree-item-contents heading-link" heading-name="Equipment"><span class="tree-item-title">Equipment</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Druidic"><div class="tree-item-contents heading-link" heading-name="Druidic"><span class="tree-item-title">Druidic</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Spellcasting"><div class="tree-item-contents heading-link" heading-name="Spellcasting"><span class="tree-item-title">Spellcasting</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Cantrips"><div class="tree-item-contents heading-link" heading-name="Cantrips"><span class="tree-item-title">Cantrips</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Preparing_and_Casting_Spells"><div class="tree-item-contents heading-link" heading-name="Preparing and Casting Spells"><span class="tree-item-title">Preparing and Casting Spells</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Spellcasting_Ability"><div class="tree-item-contents heading-link" heading-name="Spellcasting Ability"><span class="tree-item-title">Spellcasting Ability</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Ritual_Casting"><div class="tree-item-contents heading-link" heading-name="Ritual Casting"><span class="tree-item-title">Ritual Casting</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Spellcasting_Focus"><div class="tree-item-contents heading-link" heading-name="Spellcasting Focus"><span class="tree-item-title">Spellcasting Focus</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Wild_Shape"><div class="tree-item-contents heading-link" heading-name="Wild Shape"><span class="tree-item-title">Wild Shape</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Druid_Circle"><div class="tree-item-contents heading-link" heading-name="Druid Circle"><span class="tree-item-title">Druid Circle</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Ability_Score_Improvement"><div class="tree-item-contents heading-link" heading-name="Ability Score Improvement"><span class="tree-item-title">Ability Score Improvement</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Timeless_Body"><div class="tree-item-contents heading-link" heading-name="Timeless Body"><span class="tree-item-title">Timeless Body</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Beast_Spells"><div class="tree-item-contents heading-link" heading-name="Beast Spells"><span class="tree-item-title">Beast Spells</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Archdruid"><div class="tree-item-contents heading-link" heading-name="Archdruid"><span class="tree-item-title">Archdruid</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="1-wiki/classes/druid.html#Druid_Circles"><div class="tree-item-contents heading-link" heading-name="Druid Circles"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Druid Circles</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item mod-collapsible is-collapsed" data-depth="3"><a class="tree-link" href="1-wiki/classes/druid.html#Circle_of_the_Land"><div class="tree-item-contents heading-link" heading-name="Circle of the Land"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Circle of the Land</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Bonus_Cantrip"><div class="tree-item-contents heading-link" heading-name="Bonus Cantrip"><span class="tree-item-title">Bonus Cantrip</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Natural_Recovery"><div class="tree-item-contents heading-link" heading-name="Natural Recovery"><span class="tree-item-title">Natural Recovery</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Circle_Spells"><div class="tree-item-contents heading-link" heading-name="Circle Spells"><span class="tree-item-title">Circle Spells</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Land's_Stride"><div class="tree-item-contents heading-link" heading-name="Land's Stride"><span class="tree-item-title">Land's Stride</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Nature's_Ward"><div class="tree-item-contents heading-link" heading-name="Nature's Ward"><span class="tree-item-title">Nature's Ward</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/druid.html#Nature's_Sanctuary"><div class="tree-item-contents heading-link" heading-name="Nature's Sanctuary"><span class="tree-item-title">Nature's Sanctuary</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>

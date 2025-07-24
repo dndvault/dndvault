@@ -1,3 +1,0 @@
-# Lava Children and Friends
-
-Several lava children (see *appendix A*) brought to Undermountain by Halaster's apprentice **Trobriand** have migrated from *level 13* to the Obstacle Course and taken residence around a lava-filled chasm in the heart of the level, joining the magma mephits that dwell there. Netherskull terrorizes the lava children and magma mephits from time to time, but not enough to force them to leave the warmth of the chasm. The evil mephits trick or goad the lava children into attacking all other creatures that blunder into their territory.

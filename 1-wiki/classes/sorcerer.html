@@ -1,0 +1,484 @@
+<!DOCTYPE html> <html><head>
+		<title>Sorcerer</title>
+		<base href="../../">
+		<meta id="root-path" root-path="../../">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes, minimum-scale=1.0, maximum-scale=5.0">
+		<meta charset="UTF-8">
+		<meta name="description" content="dndvault - Sorcerer">
+		<meta property="og:title" content="Sorcerer">
+		<meta property="og:description" content="dndvault - Sorcerer">
+		<meta property="og:type" content="website">
+		<meta property="og:url" content="https://dndvault.github.io/dndvault/1-wiki/classes/sorcerer.html">
+		<meta property="og:image" content="undefined">
+		<meta property="og:site_name" content="dndvault">
+		<meta name="author" content="Elias"><link rel="alternate" type="application/rss+xml" title="RSS Feed" href="https://dndvault.github.io/dndvault/lib/rss.xml"><script async="" id="webpage-script" src="lib/scripts/webpage.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><script async="" id="minisearch-script" src="lib/scripts/minisearch.js" onload="this.onload=null;this.setAttribute(&quot;loaded&quot;, &quot;true&quot;)"></script><link rel="icon" href="lib/media/favicon.png"><style>body{--line-width:40em;--line-width-adaptive:40em;--file-line-width:40em;--sidebar-width:min(20em, 80vw);--collapse-arrow-size:11px;--tree-horizontal-spacing:0.6em;--tree-vertical-spacing:0.6em;--sidebar-margin:12px}.sidebar{height:100%;min-width:calc(var(--sidebar-width) + var(--divider-width-hover));max-width:calc(var(--sidebar-width) + var(--divider-width-hover));font-size:14px;z-index:10;position:relative;overflow:hidden;transition:min-width ease-in-out,max-width ease-in-out;transition-duration:.2s;contain:size}.sidebar-left{left:0}.sidebar-right{right:0}.sidebar.is-collapsed{min-width:0;max-width:0}body.floating-sidebars .sidebar{position:absolute}.sidebar-content{height:100%;min-width:calc(var(--sidebar-width) - var(--divider-width-hover));top:0;padding:var(--sidebar-margin);padding-top:4em;line-height:var(--line-height-tight);background-color:var(--background-secondary);transition:background-color,border-right,border-left,box-shadow;transition-duration:var(--color-fade-speed);transition-timing-function:ease-in-out;position:absolute;display:flex;flex-direction:column}.sidebar:not(.is-collapsed) .sidebar-content{min-width:calc(max(100%,var(--sidebar-width)) - 3px);max-width:calc(max(100%,var(--sidebar-width)) - 3px)}.sidebar-left .sidebar-content{left:0;border-top-right-radius:var(--radius-l);border-bottom-right-radius:var(--radius-l)}.sidebar-right .sidebar-content{right:0;border-top-left-radius:var(--radius-l);border-bottom-left-radius:var(--radius-l)}.sidebar:has(.sidebar-content:empty):has(.topbar-content:empty){display:none}.sidebar-topbar{height:2em;width:var(--sidebar-width);top:var(--sidebar-margin);padding-inline:var(--sidebar-margin);z-index:1;position:fixed;display:flex;align-items:center;transition:width ease-in-out;transition-duration:inherit}.sidebar.is-collapsed .sidebar-topbar{width:calc(2.3em + var(--sidebar-margin) * 2)}.sidebar .sidebar-topbar.is-collapsed{width:0}.sidebar-left .sidebar-topbar{left:0}.sidebar-right .sidebar-topbar{right:0}.topbar-content{overflow:hidden;overflow:clip;width:100%;height:100%;display:flex;align-items:center;transition:inherit}.sidebar.is-collapsed .topbar-content{width:0;transition:inherit}.clickable-icon.sidebar-collapse-icon{background-color:transparent;color:var(--icon-color-focused);padding:0!important;margin:0!important;height:100%!important;width:2.3em!important;margin-inline:0.14em!important;position:absolute}.sidebar-left .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);right:var(--sidebar-margin)}.sidebar-right .clickable-icon.sidebar-collapse-icon{transform:rotateY(180deg);left:var(--sidebar-margin)}.clickable-icon.sidebar-collapse-icon svg.svg-icon{width:100%;height:100%}.sidebar-section-header{margin:0 0 1em 0;text-transform:uppercase;letter-spacing:.06em;font-weight:600}body{transition:background-color var(--color-fade-speed) ease-in-out}.webpage-container{display:flex;flex-direction:row;height:100%;width:100%;align-items:stretch;justify-content:center}.document-container{opacity:1;flex-basis:100%;max-width:100%;width:100%;height:100%;display:flex;flex-direction:column;align-items:center;transition:opacity .2s ease-in-out;contain:inline-size}.hide{opacity:0;transition:opacity .2s ease-in-out}.document-container>.markdown-preview-view{margin:var(--sidebar-margin);margin-bottom:0;width:100%;width:-webkit-fill-available;width:-moz-available;width:fill-available;background-color:var(--background-primary);transition:background-color var(--color-fade-speed) ease-in-out;border-top-right-radius:var(--window-radius,var(--radius-m));border-top-left-radius:var(--window-radius,var(--radius-m));overflow-x:hidden!important;overflow-y:auto!important;display:flex!important;flex-direction:column!important;align-items:center!important;contain:inline-size}.document-container>.markdown-preview-view>.markdown-preview-sizer{padding-bottom:80vh!important;width:100%!important;max-width:var(--line-width)!important;flex-basis:var(--line-width)!important;transition:background-color var(--color-fade-speed) ease-in-out;contain:inline-size}.markdown-rendered img:not([width]),.view-content img:not([width]){max-width:100%;outline:0}.document-container>.view-content.embed{display:flex;padding:1em;height:100%;width:100%;align-items:center;justify-content:center}.document-container>.view-content.embed>*{max-width:100%;max-height:100%;object-fit:contain}:has(> :is(.math,table)){overflow-x:auto!important}.document-container>.view-content{overflow-x:auto;contain:content;padding:0;margin:0;height:100%}.scroll-highlight{position:absolute;width:100%;height:100%;pointer-events:none;z-index:1000;background-color:hsla(var(--color-accent-hsl),.25);opacity:0;padding:1em;inset:50%;translate:-50% -50%;border-radius:var(--radius-s)}</style><script defer="">async function loadIncludes(){if("file:"!=location.protocol){let e=document.querySelectorAll("include");for(let t=0;t<e.length;t++){let o=e[t],l=o.getAttribute("src");try{const e=await fetch(l);if(!e.ok){console.log("Could not include file: "+l),o?.remove();continue}let t=await e.text(),n=document.createRange().createContextualFragment(t),i=Array.from(n.children);for(let e of i)e.classList.add("hide"),e.style.transition="opacity 0.5s ease-in-out",setTimeout((()=>{e.classList.remove("hide")}),10);o.before(n),o.remove(),console.log("Included file: "+l)}catch(e){o?.remove(),console.log("Could not include file: "+l,e);continue}}}else{if(document.querySelectorAll("include").length>0){var e=document.createElement("div");e.id="error",e.textContent="Web server exports must be hosted on an http / web server to be viewed correctly.",e.style.position="fixed",e.style.top="50%",e.style.left="50%",e.style.transform="translate(-50%, -50%)",e.style.fontSize="1.5em",e.style.fontWeight="bold",e.style.textAlign="center",document.body.appendChild(e),document.querySelector(".document-container")?.classList.remove("hide")}}}document.addEventListener("DOMContentLoaded",(()=>{loadIncludes()}));let isFileProtocol="file:"==location.protocol;function waitLoadScripts(e,t){let o=e.map((e=>document.getElementById(e+"-script"))),l=0;!function e(){let n=o[l];l++,n&&"true"!=n.getAttribute("loaded")||l<o.length&&e(),l<o.length?n.addEventListener("load",e):t()}()}</script><link rel="stylesheet" href="lib/styles/obsidian.css"><link rel="preload" href="lib/styles/other-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/other-plugins.css"></noscript><link rel="stylesheet" href="lib/styles/theme.css"><link rel="preload" href="lib/styles/global-variable-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/global-variable-styles.css"></noscript><link rel="preload" href="lib/styles/supported-plugins.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/supported-plugins.css"></noscript><link rel="preload" href="lib/styles/main-styles.css" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="lib/styles/main-styles.css"></noscript></head><body class="publish css-settings-manager theme-dark native-scrollbars show-inline-title show-ribbon mk-readable-line mk-folder-lines mk-inline-context-enabled mk-flow-minimal basic-pathfinder-2e-layout-theme-default pathfinder-2e-action-layout-theme-default pathfinder-2e-hazard-layout-theme-default pathfinder-2e-influence-layout-theme-default pathfinder-2e-item-layout-theme-default pathfinder-2e-misc-layout-theme-default pathfinder-2e-plane-layout-theme-default pathfinder-2e-quest-layout-theme-default pathfinder-2e-settlement-layout-theme-default check-color check-bg rpgm-toggle-full-width-styles"><script defer="">let theme=localStorage.getItem("theme")||(window.matchMedia("(prefers-color-scheme: dark)").matches?"dark":"light");"dark"==theme?(document.body.classList.add("theme-dark"),document.body.classList.remove("theme-light")):(document.body.classList.add("theme-light"),document.body.classList.remove("theme-dark")),window.innerWidth<480?document.body.classList.add("is-phone"):window.innerWidth<768?document.body.classList.add("is-tablet"):window.innerWidth<1024?document.body.classList.add("is-small-screen"):document.body.classList.add("is-large-screen")</script><div class="webpage-container workspace"><div class="sidebar-left sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"><label class="theme-toggle-container" for="theme_toggle"><input class="theme-toggle-input" type="checkbox" id="theme_toggle"><div class="toggle-background"></div></label></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="search-input-container"><input enterkeyhint="search" type="search" spellcheck="false" placeholder="Search..."><div class="search-input-clear-button" aria-label="Clear search"></div></div><include src="lib/html/file-tree.html"></include></div><script defer="">let ls = document.querySelector(".sidebar-left"); ls.classList.add("is-collapsed"); if (window.innerWidth > 768) ls.classList.remove("is-collapsed"); ls.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-left-width"));</script></div><div class="document-container markdown-reading-view hide"><div class="markdown-preview-view markdown-rendered allow-fold-headings allow-fold-lists is-readable-line-width"><style id="MJX-CHTML-styles">mjx-container[jax=CHTML]{line-height:0}mjx-container [space="1"]{margin-left:.111em}mjx-container [space="2"]{margin-left:.167em}mjx-container [space="3"]{margin-left:.222em}mjx-container [space="4"]{margin-left:.278em}mjx-container [space="5"]{margin-left:.333em}mjx-container [rspace="1"]{margin-right:.111em}mjx-container [rspace="2"]{margin-right:.167em}mjx-container [rspace="3"]{margin-right:.222em}mjx-container [rspace="4"]{margin-right:.278em}mjx-container [rspace="5"]{margin-right:.333em}mjx-container [size="s"]{font-size:70.7%}mjx-container [size=ss]{font-size:50%}mjx-container [size=Tn]{font-size:60%}mjx-container [size=sm]{font-size:85%}mjx-container [size=lg]{font-size:120%}mjx-container [size=Lg]{font-size:144%}mjx-container [size=LG]{font-size:173%}mjx-container [size=hg]{font-size:207%}mjx-container [size=HG]{font-size:249%}mjx-container [width=full]{width:100%}mjx-box{display:inline-block}mjx-block{display:block}mjx-itable{display:inline-table}mjx-row{display:table-row}mjx-row>*{display:table-cell}mjx-mtext{display:inline-block}mjx-mstyle{display:inline-block}mjx-merror{display:inline-block;color:red;background-color:#ff0}mjx-mphantom{visibility:hidden}mjx-assistive-mml{top:0;left:0;clip:rect(1px,1px,1px,1px);user-select:none;position:absolute!important;padding:1px 0 0!important;border:0!important;display:block!important;width:auto!important;overflow:hidden!important}mjx-assistive-mml[display=block]{width:100%!important}mjx-math{display:inline-block;text-align:left;line-height:0;text-indent:0;font-style:normal;font-weight:400;font-size:100%;font-size-adjust:none;letter-spacing:normal;border-collapse:collapse;overflow-wrap:normal;word-spacing:normal;white-space:nowrap;direction:ltr;padding:1px 0}mjx-container[jax=CHTML][display=true]{display:block;text-align:center;margin:1em 0}mjx-container[jax=CHTML][display=true][width=full]{display:flex}mjx-container[jax=CHTML][display=true] mjx-math{padding:0}mjx-container[jax=CHTML][justify=left]{text-align:left}mjx-container[jax=CHTML][justify=right]{text-align:right}mjx-msup{display:inline-block;text-align:left}mjx-mn{display:inline-block;text-align:left}mjx-c{display:inline-block}mjx-utext{display:inline-block;padding:.75em 0 .2em}mjx-texatom{display:inline-block;text-align:left}mjx-mi{display:inline-block;text-align:left}mjx-c::before{display:block;width:0}.MJX-TEX{font-family:MJXZERO,MJXTEX}.TEX-B{font-family:MJXZERO,MJXTEX-B}.TEX-I{font-family:MJXZERO,MJXTEX-I}.TEX-MI{font-family:MJXZERO,MJXTEX-MI}.TEX-BI{font-family:MJXZERO,MJXTEX-BI}.TEX-S1{font-family:MJXZERO,MJXTEX-S1}.TEX-S2{font-family:MJXZERO,MJXTEX-S2}.TEX-S3{font-family:MJXZERO,MJXTEX-S3}.TEX-S4{font-family:MJXZERO,MJXTEX-S4}.TEX-A{font-family:MJXZERO,MJXTEX-A}.TEX-C{font-family:MJXZERO,MJXTEX-C}.TEX-CB{font-family:MJXZERO,MJXTEX-CB}.TEX-FR{font-family:MJXZERO,MJXTEX-FR}.TEX-FRB{font-family:MJXZERO,MJXTEX-FRB}.TEX-SS{font-family:MJXZERO,MJXTEX-SS}.TEX-SSB{font-family:MJXZERO,MJXTEX-SSB}.TEX-SSI{font-family:MJXZERO,MJXTEX-SSI}.TEX-SC{font-family:MJXZERO,MJXTEX-SC}.TEX-T{font-family:MJXZERO,MJXTEX-T}.TEX-V{font-family:MJXZERO,MJXTEX-V}.TEX-VB{font-family:MJXZERO,MJXTEX-VB}mjx-stretchy-h mjx-c,mjx-stretchy-v mjx-c{font-family:MJXZERO,MJXTEX-S1,MJXTEX-S4,MJXTEX,MJXTEX-A!important}@font-face{font-family:MJXZERO;src:url("lib/fonts/mathjax_zero.woff") format("woff")}@font-face{font-family:MJXTEX;src:url("lib/fonts/mathjax_main-regular.woff") format("woff")}@font-face{font-family:MJXTEX-B;src:url("lib/fonts/mathjax_main-bold.woff") format("woff")}@font-face{font-family:MJXTEX-I;src:url("lib/fonts/mathjax_math-italic.woff") format("woff")}@font-face{font-family:MJXTEX-MI;src:url("lib/fonts/mathjax_main-italic.woff") format("woff")}@font-face{font-family:MJXTEX-BI;src:url("lib/fonts/mathjax_math-bolditalic.woff") format("woff")}@font-face{font-family:MJXTEX-S1;src:url("lib/fonts/mathjax_size1-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S2;src:url("lib/fonts/mathjax_size2-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S3;src:url("lib/fonts/mathjax_size3-regular.woff") format("woff")}@font-face{font-family:MJXTEX-S4;src:url("lib/fonts/mathjax_size4-regular.woff") format("woff")}@font-face{font-family:MJXTEX-A;src:url("lib/fonts/mathjax_ams-regular.woff") format("woff")}@font-face{font-family:MJXTEX-C;src:url("lib/fonts/mathjax_calligraphic-regular.woff") format("woff")}@font-face{font-family:MJXTEX-CB;src:url("lib/fonts/mathjax_calligraphic-bold.woff") format("woff")}@font-face{font-family:MJXTEX-FR;src:url("lib/fonts/mathjax_fraktur-regular.woff") format("woff")}@font-face{font-family:MJXTEX-FRB;src:url("lib/fonts/mathjax_fraktur-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SS;src:url("lib/fonts/mathjax_sansserif-regular.woff") format("woff")}@font-face{font-family:MJXTEX-SSB;src:url("lib/fonts/mathjax_sansserif-bold.woff") format("woff")}@font-face{font-family:MJXTEX-SSI;src:url("lib/fonts/mathjax_sansserif-italic.woff") format("woff")}@font-face{font-family:MJXTEX-SC;src:url("lib/fonts/mathjax_script-regular.woff") format("woff")}@font-face{font-family:MJXTEX-T;src:url("lib/fonts/mathjax_typewriter-regular.woff") format("woff")}@font-face{font-family:MJXTEX-V;src:url("lib/fonts/mathjax_vector-regular.woff") format("woff")}@font-face{font-family:MJXTEX-VB;src:url("lib/fonts/mathjax_vector-bold.woff") format("woff")}mjx-c.mjx-c31::before{padding:.666em .5em 0 0;content:"1"}mjx-c.mjx-c1D461.TEX-I::before{padding:.626em .361em .011em 0;content:"t"}mjx-c.mjx-c1D452.TEX-I::before{padding:.442em .466em .011em 0;content:"e"}mjx-c.mjx-c1D465.TEX-I::before{padding:.442em .572em .011em 0;content:"x"}mjx-c.mjx-c1D446.TEX-I::before{padding:.705em .645em .022em 0;content:"S"}mjx-c.mjx-c1D447.TEX-I::before{padding:.677em .704em 0 0;content:"T"}</style><div class="markdown-preview-sizer markdown-preview-section"><h1 class="page-title heading inline-title" id="Sorcerer"><p dir="auto">Sorcerer</p></h1><div class="el-h1 heading-wrapper"><div class="heading-children"><div class="el-h3 heading-wrapper"><h3 data-heading="Class Features" dir="auto" class="heading" id="Class_Features"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Class Features</h3><div class="heading-children"><div class="el-p"><p dir="auto">As a sorcerer, you gain the following class features.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Hit Points" dir="auto" class="heading" id="Hit_Points"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Hit Points</h4><div class="heading-children"><div class="el-p"><p dir="auto"><strong>Hit Dice:</strong> 1d6 per sorcerer level</p></div><div class="el-p"><p dir="auto"><strong>Hit Points at 1st Level:</strong> 6 + your <a data-tooltip-position="top" aria-label="7 - Other/reference/Abilities > Constitution" data-href="7 - Other/reference/Abilities#Constitution" href="7 - Other/reference/Abilities#Constitution" class="internal-link" target="_self" rel="noopener nofollow">Constitution</a> modifier</p></div><div class="el-p"><p dir="auto"><strong>Hit Points at Higher Levels:</strong> 1d6 (or 4) + your Constitution modifier per sorcerer level after 1st</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Proficiencies" dir="auto" class="heading" id="Proficiencies"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Proficiencies</h4><div class="heading-children"><div class="el-p"><p dir="auto"><strong><a data-href="7 - Other/reference/Armor" href="7 - Other/reference/Armor" class="internal-link" target="_self" rel="noopener nofollow">Armor</a>:</strong> None</p></div><div class="el-p"><p dir="auto"><strong><a data-href="7 - Other/reference/Weapons" href="7 - Other/reference/Weapons" class="internal-link" target="_self" rel="noopener nofollow">Weapons</a>:</strong> Daggers, darts, slings, quarterstaffs, light crossbows</p></div><div class="el-p"><p dir="auto"><strong><a data-href="7 - Other/reference/Tools" href="7 - Other/reference/Tools" class="internal-link" target="_self" rel="noopener nofollow">Tools</a>:</strong> None</p></div><div class="el-p"><p dir="auto"><strong><a data-href="7 - Other/reference/Abilities#Saving Throws" href="7 - Other/reference/Abilities#Saving Throws" class="internal-link" target="_self" rel="noopener nofollow">Saving Throws</a>:</strong> <a data-href="7 - Other/reference/Abilities#Constitution" href="7 - Other/reference/Abilities#Constitution" class="internal-link" target="_self" rel="noopener nofollow">Constitution</a>, <a data-href="7 - Other/reference/Abilities#Charisma" href="7 - Other/reference/Abilities#Charisma" class="internal-link" target="_self" rel="noopener nofollow">Charisma</a></p></div><div class="el-p"><p dir="auto">**<a data-tooltip-position="top" aria-label="7 - Other/reference/Abilities > Skills" data-href="7 - Other/reference/Abilities#Skills" href="7 - Other/reference/Abilities#Skills" class="internal-link" target="_self" rel="noopener nofollow">Skills</a>: Choose two from Arcana, Deception, Insight, Intimidation, Persuasion, and Religion</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Equipment" dir="auto" class="heading" id="Equipment"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Equipment</h4><div class="heading-children"><div class="el-p"><p dir="auto">You start with the following equipment, in addition to the equipment granted by your background:</p></div><div class="el-ul"><ul>
+<li data-line="0" dir="auto">(<em>a</em>) a light crossbow and 20 bolts or (<em>b</em>) any simple weapon</li>
+<li data-line="1" dir="auto">(<em>a</em>) a component pouch or (<em>b</em>) an arcane focus</li>
+<li data-line="2" dir="auto">(<em>a</em>) a dungeoneer's pack or (<em>b</em>) an explorer's pack</li>
+<li data-line="3" dir="auto">Two daggers</li>
+</ul></div><div class="el-p"><p dir="auto"><strong>Table- The Sorcerer</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Level</th>
+<th dir="ltr">Proficiency Bonus</th>
+<th dir="ltr">Sorcery Points</th>
+<th dir="ltr">Features</th>
+<th dir="ltr">Cantrips Known</th>
+<th dir="ltr">Spells Known</th>
+<th dir="ltr">1st</th>
+<th dir="ltr">2nd</th>
+<th dir="ltr">3rd</th>
+<th dir="ltr">4th</th>
+<th dir="ltr">5th</th>
+<th dir="ltr">6th</th>
+<th dir="ltr">7th</th>
+<th dir="ltr">8th</th>
+<th dir="ltr">9th</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">1st</td>
+<td dir="auto">+2</td>
+<td dir="auto">-</td>
+<td dir="ltr">Spellcasting, Sorcerous Origin</td>
+<td dir="auto">4</td>
+<td dir="auto">2</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">2nd</td>
+<td dir="auto">+2</td>
+<td dir="auto">2</td>
+<td dir="ltr">Font of Magic</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="auto">+2</td>
+<td dir="auto">3</td>
+<td dir="ltr">Metamagic</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">4</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">4th</td>
+<td dir="auto">+2</td>
+<td dir="auto">4</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">5</td>
+<td dir="auto">5</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="auto">+3</td>
+<td dir="auto">5</td>
+<td dir="auto">-</td>
+<td dir="auto">5</td>
+<td dir="auto">6</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">6th</td>
+<td dir="auto">+3</td>
+<td dir="auto">6</td>
+<td dir="ltr">Sorcerous Origin Feature</td>
+<td dir="auto">5</td>
+<td dir="auto">7</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">7th</td>
+<td dir="auto">+3</td>
+<td dir="auto">7</td>
+<td dir="auto">-</td>
+<td dir="auto">5</td>
+<td dir="auto">8</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">8th</td>
+<td dir="auto">+3</td>
+<td dir="auto">8</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">5</td>
+<td dir="auto">9</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">9th</td>
+<td dir="auto">+4</td>
+<td dir="auto">9</td>
+<td dir="auto">-</td>
+<td dir="auto">5</td>
+<td dir="auto">10</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">10th</td>
+<td dir="auto">+4</td>
+<td dir="auto">10</td>
+<td dir="ltr">Metamagic</td>
+<td dir="auto">6</td>
+<td dir="auto">11</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">11th</td>
+<td dir="auto">+4</td>
+<td dir="auto">11</td>
+<td dir="auto">-</td>
+<td dir="auto">6</td>
+<td dir="auto">12</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">12th</td>
+<td dir="auto">+4</td>
+<td dir="auto">12</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">6</td>
+<td dir="auto">12</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">13th</td>
+<td dir="auto">+5</td>
+<td dir="auto">13</td>
+<td dir="auto">-</td>
+<td dir="auto">6</td>
+<td dir="auto">13</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">14th</td>
+<td dir="auto">+5</td>
+<td dir="auto">14</td>
+<td dir="ltr">Sorcerous Origin Feature</td>
+<td dir="auto">6</td>
+<td dir="auto">13</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">15th</td>
+<td dir="auto">+5</td>
+<td dir="auto">15</td>
+<td dir="auto">-</td>
+<td dir="auto">6</td>
+<td dir="auto">14</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">16th</td>
+<td dir="auto">+5</td>
+<td dir="auto">16</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">6</td>
+<td dir="auto">14</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">-</td>
+</tr>
+<tr>
+<td dir="ltr">17th</td>
+<td dir="auto">+6</td>
+<td dir="auto">17</td>
+<td dir="ltr">Metamagic</td>
+<td dir="auto">6</td>
+<td dir="auto">15</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr">18th</td>
+<td dir="auto">+6</td>
+<td dir="auto">18</td>
+<td dir="ltr">Sorcerous Origin Feature</td>
+<td dir="auto">6</td>
+<td dir="auto">15</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr">19th</td>
+<td dir="auto">+6</td>
+<td dir="auto">19</td>
+<td dir="ltr">Ability Score Improvement</td>
+<td dir="auto">6</td>
+<td dir="auto">15</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="ltr">20th</td>
+<td dir="auto">+6</td>
+<td dir="auto">20</td>
+<td dir="ltr">Sorcerous Restoration</td>
+<td dir="auto">6</td>
+<td dir="auto">15</td>
+<td dir="auto">4</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">3</td>
+<td dir="auto">2</td>
+<td dir="auto">2</td>
+<td dir="auto">1</td>
+<td dir="auto">1</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Spellcasting" dir="auto" class="heading" id="Spellcasting"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Spellcasting</h3><div class="heading-children"><div class="el-p"><p dir="auto">An event in your past, or in the life of a parent or ancestor, left an indelible mark on you, infusing you with arcane magic. This font of magic, whatever its origin, fuels your spells.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Cantrips" dir="auto" class="heading" id="Cantrips"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Cantrips</h4><div class="heading-children"><div class="el-p"><p dir="auto">At 1st level, you know four cantrips of your choice from the sorcerer spell list. You learn additional sorcerer cantrips of your choice at higher levels, as shown in the Cantrips Known column of the Sorcerer table.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Spell Slots" dir="auto" class="heading" id="Spell_Slots"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Spell Slots</h4><div class="heading-children"><div class="el-p"><p dir="auto">The Sorcerer table shows how many spell slots you have to cast your sorcerer spells of 1st level and higher. To cast one of these sorcerer spells, you must expend a slot of the spell's level or higher. You regain all expended spell slots when you finish a long rest.</p></div><div class="el-p"><p dir="auto">For example, if you know the 1st-level spell <a data-href="1 - Wiki/Spells/Burning Hands" href="1-wiki/spells/burning-hands.html" class="internal-link" target="_self" rel="noopener nofollow">Burning Hands</a> and have a 1st-level and a 2nd-level spell slot available, you can cast <em>burning hands</em> using either slot.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Spells Known of 1st Level and Higher" dir="auto" class="heading" id="Spells_Known_of_1st_Level_and_Higher"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Spells Known of 1st Level and Higher</h4><div class="heading-children"><div class="el-p"><p dir="auto">You know two 1st-level spells of your choice from the sorcerer spell list.</p></div><div class="el-p"><p dir="auto">The Spells Known column of the Sorcerer table shows when you learn more sorcerer spells of your choice. Each of these spells must be of a level for which you have spell slots. For instance, when you reach 3rd level in this class, you can learn one new spell of 1st or 2nd level.</p></div><div class="el-p"><p dir="auto">Additionally, when you gain a level in this class, you can choose one of the sorcerer spells you know and replace it with another spell from the sorcerer spell list, which also must be of a level for which you have spell slots.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Spellcasting Ability" dir="auto" class="heading" id="Spellcasting_Ability"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Spellcasting Ability</h4><div class="heading-children"><div class="el-p"><p dir="auto">Charisma is your spellcasting ability for your sorcerer spells, since the power of your magic relies on your ability to project your will into the world. You use your Charisma whenever a spell refers to your spellcasting ability. In addition, you use your Charisma modifier when setting the saving throw DC for a sorcerer spell you cast and when making an attack roll with one.</p></div><div class="el-p"><p dir="auto"><strong>Spell save DC</strong> = 8 + your proficiency bonus + your Charisma modifier</p></div><div class="el-p"><p dir="auto"><strong>Spell attack modifier</strong> = your proficiency bonus + your Charisma modifier</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Spellcasting Focus" dir="auto" class="heading" id="Spellcasting_Focus"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Spellcasting Focus</h4><div class="heading-children"><div class="el-p"><p dir="auto">You can use an arcane focus as a spellcasting focus for your sorcerer spells.</p></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Sorcerous Origin" dir="auto" class="heading" id="Sorcerous_Origin"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Sorcerous Origin</h3><div class="heading-children"><div class="el-p"><p dir="auto">Choose a sorcerous origin, which describes the source of your innate magical power: Draconic Bloodline or Wild Magic, both detailed at the end of the class description.</p></div><div class="el-p"><p dir="auto">Your choice grants you features when you choose it at 1st level and again at 6th, 14th, and 18th level.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Font of Magic" dir="auto" class="heading" id="Font_of_Magic"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Font of Magic</h3><div class="heading-children"><div class="el-p"><p dir="auto">At 2nd level, you tap into a deep wellspring of magic within yourself. This wellspring is represented by sorcery points, which allow you to create a variety of magical effects.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Sorcery Points" dir="auto" class="heading" id="Sorcery_Points"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Sorcery Points</h4><div class="heading-children"><div class="el-p"><p dir="auto">You have 2 sorcery points, and you gain more as you reach higher levels, as shown in the Sorcery Points column of the Sorcerer table. You can never have more sorcery points than shown on the table for your level. You regain all spent sorcery points when you finish a long rest.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Flexible Casting" dir="auto" class="heading" id="Flexible_Casting"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Flexible Casting</h4><div class="heading-children"><div class="el-p"><p dir="auto">You can use your sorcery points to gain additional spell slots, or sacrifice spell slots to gain additional sorcery points. You learn other ways to use your sorcery points as you reach higher levels. Any spell slot you create with this feature vanishes when you finish a long rest.</p></div><div class="el-p"><p dir="auto"><strong><em>Creating Spell Slots</em></strong>. You can transform unexpended sorcery points into one spell slot as a bonus action on your turn. The Creating Spell Slots table shows the cost of creating a spell slot of a given level. You can create spell slots no higher in level than 5th.</p></div><div class="el-p"><p dir="auto">Any spell slot you create with this feature vanishes when you finish a long rest.</p></div><div class="el-p"><p dir="auto"><strong>Table- Creating Spell Slots</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Spell Slot Level</th>
+<th dir="ltr">Sorcery Point Cost</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">1st</td>
+<td dir="auto">2</td>
+</tr>
+<tr>
+<td dir="ltr">2nd</td>
+<td dir="auto">3</td>
+</tr>
+<tr>
+<td dir="ltr">3rd</td>
+<td dir="auto">5</td>
+</tr>
+<tr>
+<td dir="ltr">4th</td>
+<td dir="auto">6</td>
+</tr>
+<tr>
+<td dir="ltr">5th</td>
+<td dir="auto">7</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto"><strong><em>Converting a Spell Slot to Sorcery Points</em></strong>. As a bonus action on your turn, you can expend one spell slot and gain a number of sorcery points equal to the slot's level.</p></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Metamagic" dir="auto" class="heading" id="Metamagic"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Metamagic</h3><div class="heading-children"><div class="el-p"><p dir="auto">At 3rd level, you gain the ability to twist your spells to suit your needs. You gain two of the following Metamagic options of your choice. You gain another one at 10th and 17th level.</p></div><div class="el-p"><p dir="auto">You can use only one Metamagic option on a spell when you cast it, unless otherwise noted.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Careful Spell" dir="auto" class="heading" id="Careful_Spell"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Careful Spell</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you cast a spell that forces other creatures to make a saving throw, you can protect some of those creatures from the spell's full force. To do so, you spend 1 sorcery point and choose a number of those creatures up to your Charisma modifier (minimum of one creature). A chosen creature automatically succeeds on its saving throw against the spell.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Distant Spell" dir="auto" class="heading" id="Distant_Spell"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Distant Spell</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you cast a spell that has a range of 5 feet or greater, you can spend 1 sorcery point to double the range of the spell.</p></div><div class="el-p"><p dir="auto">When you cast a spell that has a range of touch, you can spend 1 sorcery point to make the range of the spell 30 feet.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Empowered Spell" dir="auto" class="heading" id="Empowered_Spell"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Empowered Spell</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you roll damage for a spell, you can spend 1 sorcery point to reroll a number of the damage dice up to your Charisma modifier (minimum of one). You must use the new rolls.</p></div><div class="el-p"><p dir="auto">You can use Empowered Spell even if you have already used a different Metamagic option during the casting of the spell.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Extended Spell" dir="auto" class="heading" id="Extended_Spell"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Extended Spell</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you cast a spell that has a duration of 1 minute or longer, you can spend 1 sorcery point to double its duration, to a maximum duration of 24 hours.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Heightened Spell" dir="auto" class="heading" id="Heightened_Spell"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Heightened Spell</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you cast a spell that forces a creature to make a saving throw to resist its effects, you can spend 3 sorcery points to give one target of the spell disadvantage on its first saving throw made against the spell.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Quickened Spell" dir="auto" class="heading" id="Quickened_Spell"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Quickened Spell</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you cast a spell that has a casting time of 1 action, you can spend 2 sorcery points to change the casting time to 1 bonus action for this casting.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Subtle Spell" dir="auto" class="heading" id="Subtle_Spell"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Subtle Spell</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you cast a spell, you can spend 1 sorcery point to cast it without any somatic or verbal components.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Twinned Spell" dir="auto" class="heading" id="Twinned_Spell"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Twinned Spell</h4><div class="heading-children"><div class="el-p"><p dir="auto">When you cast a spell that targets only one creature and doesn't have a range of self, you can spend a number of sorcery points equal to the spell's level to target a second creature in range with the same spell (1 sorcery point if the spell is a cantrip).</p></div><div class="el-p"><p dir="auto">To be eligible, a spell must be incapable of targeting more than one creature at the spell's current level. For example, <em>magic missile</em> and <em>scorching ray</em> aren't eligible, but <em>ray of frost</em> and <em>chromatic orb</em> are.</p></div></div></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Ability Score Improvement" dir="auto" class="heading" id="Ability_Score_Improvement"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Ability Score Improvement</h3><div class="heading-children"><div class="el-p"><p dir="auto">When you reach 4th level, and again at 8th, 12th, 16th, and 19th level, you can increase one ability score of your choice by 2, or you can increase two ability scores of your choice by 1. As normal, you can't increase an ability score above 20 using this feature.</p></div></div></div><div class="el-h3 heading-wrapper"><h3 data-heading="Sorcerous Restoration" dir="auto" class="heading" id="Sorcerous_Restoration"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Sorcerous Restoration</h3><div class="heading-children"><div class="el-p"><p dir="auto">At 20th level, you regain 4 expended sorcery points whenever you finish a short rest.</p></div></div></div><div class="el-h2 heading-wrapper"><h2 data-heading="Sorcerous Origins" dir="auto" class="heading" id="Sorcerous_Origins"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Sorcerous Origins</h2><div class="heading-children"><div class="el-p"><p dir="auto">Different sorcerers claim different origins for their innate magic. Although many variations exist, most of these origins fall into two categories: a draconic bloodline and wild magic.</p></div><div class="el-h3 heading-wrapper"><h3 data-heading="Draconic Bloodline" dir="auto" class="heading" id="Draconic_Bloodline"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Draconic Bloodline</h3><div class="heading-children"><div class="el-p"><p dir="auto">Your innate magic comes from draconic magic that was mingled with your blood or that of your ancestors. Most often, sorcerers with this origin trace their descent back to a mighty sorcerer of ancient times who made a bargain with a dragon or who might even have claimed a dragon parent. Some of these bloodlines are well established in the world, but most are obscure. Any given sorcerer could be the first of a new bloodline, as a result of a pact or some other exceptional circumstance.</p></div><div class="el-h4 heading-wrapper"><h4 data-heading="Dragon Ancestor" dir="auto" class="heading" id="Dragon_Ancestor"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Dragon Ancestor</h4><div class="heading-children"><div class="el-p"><p dir="auto">At 1st level, you choose one type of dragon as your ancestor. The damage type associated with each dragon is used by features you gain later.</p></div><div class="el-p"><p dir="auto"><strong>Table- Draconic Ancestry</strong></p></div><div class="el-table" dir="ltr" style="overflow-x: auto;"><table>
+<thead>
+<tr>
+<th dir="ltr">Dragon</th>
+<th dir="ltr">Damage Type</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td dir="ltr">Black</td>
+<td dir="ltr">Acid</td>
+</tr>
+<tr>
+<td dir="ltr">Blue</td>
+<td dir="ltr">Lightning</td>
+</tr>
+<tr>
+<td dir="ltr">Brass</td>
+<td dir="ltr">Fire</td>
+</tr>
+<tr>
+<td dir="ltr">Bronze</td>
+<td dir="ltr">Lightning</td>
+</tr>
+<tr>
+<td dir="ltr">Copper</td>
+<td dir="ltr">Acid</td>
+</tr>
+<tr>
+<td dir="ltr">Gold</td>
+<td dir="ltr">Fire</td>
+</tr>
+<tr>
+<td dir="ltr">Green</td>
+<td dir="ltr">Poison</td>
+</tr>
+<tr>
+<td dir="ltr">Red</td>
+<td dir="ltr">Fire</td>
+</tr>
+<tr>
+<td dir="ltr">Silver</td>
+<td dir="ltr">Cold</td>
+</tr>
+<tr>
+<td dir="ltr">White</td>
+<td dir="ltr">Cold</td>
+</tr>
+<tr>
+<td dir="auto"></td>
+<td dir="auto"></td>
+</tr>
+</tbody>
+</table></div><div class="el-p"><p dir="auto">You can speak, read, and write Draconic. Additionally, whenever you make a Charisma check when interacting with dragons, your proficiency bonus is doubled if it applies to the check.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Draconic Resilience" dir="auto" class="heading" id="Draconic_Resilience"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Draconic Resilience</h4><div class="heading-children"><div class="el-p"><p dir="auto">As magic flows through your body, it causes physical traits of your dragon ancestors to emerge. At 1st level, your hit point maximum increases by 1 and increases by 1 again whenever you gain a level in this class.</p></div><div class="el-p"><p dir="auto">Additionally, parts of your skin are covered by a thin sheen of dragon-like scales. When you aren't wearing armor, your AC equals 13 + your Dexterity modifier.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Elemental Affinity" dir="auto" class="heading" id="Elemental_Affinity"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Elemental Affinity</h4><div class="heading-children"><div class="el-p"><p dir="auto">Starting at 6th level, when you cast a spell that deals damage of the type associated with your draconic ancestry, you can add your Charisma modifier to one damage roll of that spell. At the same time, you can spend 1 sorcery point to gain resistance to that damage type for 1 hour.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Dragon Wings" dir="auto" class="heading" id="Dragon_Wings"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Dragon Wings</h4><div class="heading-children"><div class="el-p"><p dir="auto">At 14th level, you gain the ability to sprout a pair of dragon wings from your back, gaining a flying speed equal to your current speed. You can create these wings as a bonus action on your turn. They last until you dismiss them as a bonus action on your turn.</p></div><div class="el-p"><p dir="auto">You can't manifest your wings while wearing armor unless the armor is made to accommodate them, and clothing not made to accommodate your wings might be destroyed when you manifest them.</p></div></div></div><div class="el-h4 heading-wrapper"><h4 data-heading="Draconic Presence" dir="auto" class="heading" id="Draconic_Presence"><div class="heading-collapse-indicator collapse-indicator collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div>Draconic Presence</h4><div class="heading-children"><div class="el-p"><p dir="auto">Beginning at 18th level, you can channel the dread presence of your dragon ancestor, causing those around you to become awestruck or frightened. As an action, you can spend 5 sorcery points to draw on this power and exude an aura of awe or fear (your choice) to a distance of 60 feet. For 1 minute or until you lose your concentration (as if you were casting a concentration spell), each hostile creature that starts its turn in this aura must succeed on a Wisdom saving throw or be charmed (if you chose awe) or frightened (if you chose fear) until the aura ends. A creature that succeeds on this saving throw is immune to your aura for 24 hours.</p></div><div class="mod-footer mod-ui"></div></div></div></div></div></div></div></div></div></div></div></div><div class="sidebar-right sidebar"><div class="sidebar-handle"></div><div class="sidebar-topbar"><div class="topbar-content"></div><div class="clickable-icon sidebar-collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="100%" height="100%" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-linejoin="round" class="svg-icon"><path d="M21 3H3C1.89543 3 1 3.89543 1 5V19C1 20.1046 1.89543 21 3 21H21C22.1046 21 23 20.1046 23 19V5C23 3.89543 22.1046 3 21 3Z"></path><path d="M10 4V20"></path><path d="M4 7H7"></path><path d="M4 10H7"></path><path d="M4 13H7"></path></svg></div></div><div class="sidebar-content"><div class="tree-container mod-root nav-folder tree-item outline-tree" data-depth="0"><div class="tree-header"><span class="sidebar-section-header">Table Of Contents</span><button class="clickable-icon collapse-tree-button is-collapsed" aria-label="Collapse All"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"></svg></button></div><div class="tree-scroll-area tree-item-children nav-folder-children"><div class="tree-item mod-tree-folder nav-folder mod-collapsible is-collapsed" style="display: none;"></div><div class="tree-item" data-depth="1"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Sorcerer"><div class="tree-item-contents heading-link" heading-name="Sorcerer"><span class="tree-item-title">Sorcerer</span></div></a><div class="tree-item-children nav-folder-children"><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Class_Features"><div class="tree-item-contents heading-link" heading-name="Class Features"><span class="tree-item-title">Class Features</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Hit_Points"><div class="tree-item-contents heading-link" heading-name="Hit Points"><span class="tree-item-title">Hit Points</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Proficiencies"><div class="tree-item-contents heading-link" heading-name="Proficiencies"><span class="tree-item-title">Proficiencies</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Equipment"><div class="tree-item-contents heading-link" heading-name="Equipment"><span class="tree-item-title">Equipment</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Spellcasting"><div class="tree-item-contents heading-link" heading-name="Spellcasting"><span class="tree-item-title">Spellcasting</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Cantrips"><div class="tree-item-contents heading-link" heading-name="Cantrips"><span class="tree-item-title">Cantrips</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Spell_Slots"><div class="tree-item-contents heading-link" heading-name="Spell Slots"><span class="tree-item-title">Spell Slots</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Spells_Known_of_1st_Level_and_Higher"><div class="tree-item-contents heading-link" heading-name="Spells Known of 1st Level and Higher"><span class="tree-item-title">Spells Known of 1st Level and Higher</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Spellcasting_Ability"><div class="tree-item-contents heading-link" heading-name="Spellcasting Ability"><span class="tree-item-title">Spellcasting Ability</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Spellcasting_Focus"><div class="tree-item-contents heading-link" heading-name="Spellcasting Focus"><span class="tree-item-title">Spellcasting Focus</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Sorcerous_Origin"><div class="tree-item-contents heading-link" heading-name="Sorcerous Origin"><span class="tree-item-title">Sorcerous Origin</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Font_of_Magic"><div class="tree-item-contents heading-link" heading-name="Font of Magic"><span class="tree-item-title">Font of Magic</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Sorcery_Points"><div class="tree-item-contents heading-link" heading-name="Sorcery Points"><span class="tree-item-title">Sorcery Points</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Flexible_Casting"><div class="tree-item-contents heading-link" heading-name="Flexible Casting"><span class="tree-item-title">Flexible Casting</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Metamagic"><div class="tree-item-contents heading-link" heading-name="Metamagic"><span class="tree-item-title">Metamagic</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Careful_Spell"><div class="tree-item-contents heading-link" heading-name="Careful Spell"><span class="tree-item-title">Careful Spell</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Distant_Spell"><div class="tree-item-contents heading-link" heading-name="Distant Spell"><span class="tree-item-title">Distant Spell</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Empowered_Spell"><div class="tree-item-contents heading-link" heading-name="Empowered Spell"><span class="tree-item-title">Empowered Spell</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Extended_Spell"><div class="tree-item-contents heading-link" heading-name="Extended Spell"><span class="tree-item-title">Extended Spell</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Heightened_Spell"><div class="tree-item-contents heading-link" heading-name="Heightened Spell"><span class="tree-item-title">Heightened Spell</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Quickened_Spell"><div class="tree-item-contents heading-link" heading-name="Quickened Spell"><span class="tree-item-title">Quickened Spell</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Subtle_Spell"><div class="tree-item-contents heading-link" heading-name="Subtle Spell"><span class="tree-item-title">Subtle Spell</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Twinned_Spell"><div class="tree-item-contents heading-link" heading-name="Twinned Spell"><span class="tree-item-title">Twinned Spell</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Ability_Score_Improvement"><div class="tree-item-contents heading-link" heading-name="Ability Score Improvement"><span class="tree-item-title">Ability Score Improvement</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="3"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Sorcerous_Restoration"><div class="tree-item-contents heading-link" heading-name="Sorcerous Restoration"><span class="tree-item-title">Sorcerous Restoration</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item mod-collapsible is-collapsed" data-depth="2"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Sorcerous_Origins"><div class="tree-item-contents heading-link" heading-name="Sorcerous Origins"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Sorcerous Origins</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item mod-collapsible is-collapsed" data-depth="3"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Draconic_Bloodline"><div class="tree-item-contents heading-link" heading-name="Draconic Bloodline"><div class="collapse-icon"><svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="svg-icon right-triangle"><path d="M3 8L12 17L21 8"></path></svg></div><span class="tree-item-title">Draconic Bloodline</span></div></a><div class="tree-item-children nav-folder-children" style="display: none;"><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Dragon_Ancestor"><div class="tree-item-contents heading-link" heading-name="Dragon Ancestor"><span class="tree-item-title">Dragon Ancestor</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Draconic_Resilience"><div class="tree-item-contents heading-link" heading-name="Draconic Resilience"><span class="tree-item-title">Draconic Resilience</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Elemental_Affinity"><div class="tree-item-contents heading-link" heading-name="Elemental Affinity"><span class="tree-item-title">Elemental Affinity</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Dragon_Wings"><div class="tree-item-contents heading-link" heading-name="Dragon Wings"><span class="tree-item-title">Dragon Wings</span></div></a><div class="tree-item-children nav-folder-children"></div></div><div class="tree-item" data-depth="4"><a class="tree-link" href="1-wiki/classes/sorcerer.html#Draconic_Presence"><div class="tree-item-contents heading-link" heading-name="Draconic Presence"><span class="tree-item-title">Draconic Presence</span></div></a><div class="tree-item-children nav-folder-children"></div></div></div></div></div></div></div></div></div></div></div><script defer="">let rs = document.querySelector(".sidebar-right"); rs.classList.add("is-collapsed"); if (window.innerWidth > 768) rs.classList.remove("is-collapsed"); rs.style.setProperty("--sidebar-width", localStorage.getItem("sidebar-right-width"));</script></div></div></body></html>
